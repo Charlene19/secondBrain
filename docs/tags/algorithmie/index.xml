@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithmie on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/algorithmie/</link>
+    <description>Recent content in algorithmie on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 06 Mar 2020 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/algorithmie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pseudo code</title>
+      <link>https://charlene19.github.io/secondBrain/posts/pseudocode/</link>
+      <pubDate>Fri, 06 Mar 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/pseudocode/</guid>
+      <description>Créer une chaîne de caractères de 50 &amp;lsquo;-&amp;rsquo;  DEBUT
+CHAR cara = &amp;ldquo;-&amp;rdquo; ENTIER cpt = 50 ENTIER i = 0
+POUR i à cpt -1 AFFICHE cara FINPOUR  FIN
+Inverser une chaîne de caractères (sans supprimer l&amp;rsquo;originale).  CHAINE a &amp;lt;- &amp;ldquo;Random&amp;rdquo; CHAINE b ENTIER i, j, longueur
+longueur &amp;lt;- a.longueur j &amp;lt;- 0
+TANTQUE i &amp;gt; 0 POUR i &amp;lt;- longueur à i &amp;gt; 0 b AJOUTE a(i) i &amp;lt;- i -1 FINPOUR FINTANTQUE  FIN</description>
+    </item>
+    
+    <item>
+      <title>Algorithmie cours</title>
+      <link>https://charlene19.github.io/secondBrain/posts/coursalgo/</link>
+      <pubDate>Fri, 01 Nov 2019 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/coursalgo/</guid>
+      <description>Quatre algorithme étudié :
+L&amp;rsquo;invariant de boucle : Invariant qui est vraie avant et après chaque répétition.
+Définition de la notation Θ (grand thêta) : étant donnée une fonction f(n), Θ(f(n)) est l&#39;ensemble des fonctions g(n) telles qu&#39;il existe une constante positive réelle c, une constante positive réelle d, et un entier non négatif N tel que pour tout n&amp;gt;N, c× f(n) ≤ g(n) ≤ d × f(n).
+En d&#39;autres mots : Θ(f(n))=Ω(f(n))∩O(f(n))</description>
+    </item>
+    
+  </channel>
+</rss>

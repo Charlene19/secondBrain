@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deployment on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/deployment/</link>
+    <description>Recent content in deployment on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 14 Dec 2020 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choix hébergeur</title>
+      <link>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</link>
+      <pubDate>Mon, 14 Dec 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</guid>
+      <description>Choisir un hébergeur  Vous avez besoin de 3 choses pour créer un site :
+ Un nom de domaine, comme par ex. : mon-site.com Un hébergement pour stocker vos pages, articles, etc. Un système de gestion de contenu comme WordPress ou Joomla. Cela vous permettra de créer votre site facilement sans aucune connaissance technique.   Unhébergeurmutualisé:
+Les ressources du serveur (processeur et la mémoire) sont partagés avec des centaines de sites internet.</description>
+    </item>
+    
+  </channel>
+</rss>

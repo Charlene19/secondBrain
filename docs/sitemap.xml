@@ -2,35 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://charlene19.github.io/secondBrain/posts/first-post/</loc>
+    <loc>https://charlene19.github.io/secondBrain/about-hugo/</loc>
     <lastmod>2021-03-07T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/</loc>
     <lastmod>2021-03-07T19:47:46+01:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/posts/</loc>
+    <loc>https://charlene19.github.io/secondBrain/tags/presentation/</loc>
     <lastmod>2021-03-07T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/tags/</loc>
     <lastmod>2021-03-07T19:47:46+01:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/tags/untagged/</loc>
-    <lastmod>2021-03-07T19:47:46+01:00</lastmod>
-  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/beziercurve/</loc>
+    <lastmod>2021-03-06T19:47:46+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/java/</loc>
+    <lastmod>2021-03-06T19:47:46+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/</loc>
+    <lastmod>2021-03-06T19:47:46+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/programming/</loc>
     <lastmod>2021-03-06T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/quesjava/</loc>
     <lastmod>2021-03-06T19:47:46+01:00</lastmod>
   </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/untagged/</loc>
+    <lastmod>2021-03-06T19:47:46+01:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</loc>
+    <lastmod>2020-12-14T19:47:46+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/deployment/</loc>
     <lastmod>2020-12-14T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/cahiercharges/</loc>
     <lastmod>2020-12-01T19:47:46+01:00</lastmod>
   </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/management/</loc>
+    <lastmod>2020-12-01T19:47:46+01:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/angular/</loc>
     <lastmod>2020-03-07T19:47:46+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/algorithmie/</loc>
+    <lastmod>2020-03-06T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/pseudocode/</loc>
     <lastmod>2020-03-06T19:47:46+01:00</lastmod>
@@ -44,16 +62,28 @@
     <loc>https://charlene19.github.io/secondBrain/posts/divisiontravail/</loc>
     <lastmod>2018-11-01T19:47:46+01:00</lastmod>
   </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/economie/</loc>
+    <lastmod>2018-11-01T19:47:46+01:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/chomagedemaz/</loc>
     <lastmod>2018-11-01T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/enquete/</loc>
     <lastmod>2018-11-01T19:47:46+01:00</lastmod>
   </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/norme-sociale/</loc>
+    <lastmod>2018-11-01T19:47:46+01:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/soutenancem2/</loc>
     <lastmod>2018-11-01T19:47:46+01:00</lastmod>
   </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/rdr/</loc>
+    <lastmod>2018-11-01T19:47:46+01:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/sallecons/</loc>
+    <lastmod>2018-11-01T19:47:46+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/sociologie/</loc>
     <lastmod>2018-11-01T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/buffle/</loc>

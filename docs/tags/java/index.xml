@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/java/</link>
+    <description>Recent content in java on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 06 Mar 2021 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Questions débutant Java</title>
+      <link>https://charlene19.github.io/secondBrain/posts/quesjava/</link>
+      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/quesjava/</guid>
+      <description>[Quelle est la différence entre : « Double » et « double » pour un attribut ? Quand mettre l&amp;rsquo;un ou l&amp;rsquo;autre ?] Le constructeur Double permet de définir un objet Double à partir d&amp;rsquo;une variable double :
+public Double(double value);
+[Qu&amp;rsquo;est-ce qu&amp;rsquo;un constructeur ?] Pour instancier une classe, c&#39;est-à-dire créer un objet à partir d&#39;une classe, il s&#39;agit d&#39;utiliser l&#39;opérateur new.
+En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à une méthode spéciale de la classe: le constructeur.</description>
+    </item>
+    
+  </channel>
+</rss>

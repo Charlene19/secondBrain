@@ -6,19 +6,8 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sun, 07 Mar 2021 19:47:46 +0100</lastBuildDate>
+		<lastBuildDate>Sat, 06 Mar 2021 19:47:46 +0100</lastBuildDate>
 		<atom:link href="https://charlene19.github.io/secondBrain/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>First Post</title>
-			<link>https://charlene19.github.io/secondBrain/posts/first-post/</link>
-			<pubDate>Sun, 07 Mar 2021 19:47:46 +0100</pubDate>
-			
-			<guid>https://charlene19.github.io/secondBrain/posts/first-post/</guid>
-			<description>Premier post test</description>
-			<content type="html"><![CDATA[<p>Premier post test</p>
-]]></content>
-		</item>
 		
 		<item>
 			<title>Bézier Courbe en ReactJs</title>

@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags: 
-  - untagged
+  - norme sociale
 ---
 
 Ce mémoire s'inscrit dans le cadre d'un master sciences humaines et

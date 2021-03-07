@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags: 
-  - untagged
+  - sociologie
 ---
 **L'emploi et le travail vus depuis le chômage :**
 
