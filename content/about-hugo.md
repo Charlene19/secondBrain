@@ -9,7 +9,7 @@ tags:
 ---
 Je suis, quelque part par là : 
 
-![Terre](http://asciiart.wifeo.com/images/l/lat/La-Terre-AsciiArt.png)
+![Terre](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Earth_by_the_EPIC_Team_on_21_April_2018.png/600px-Earth_by_the_EPIC_Team_on_21_April_2018.png)
 
 Et à peu près comme ça : 
 
