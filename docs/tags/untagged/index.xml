@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/untagged/</link>
+    <description>Recent content in untagged on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 07 Mar 2021 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://charlene19.github.io/secondBrain/posts/first-post/</link>
+      <pubDate>Sun, 07 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/first-post/</guid>
+      <description>Premier post test</description>
+    </item>
+    
+    <item>
+      <title>Bézier Courbe en ReactJs</title>
+      <link>https://charlene19.github.io/secondBrain/posts/beziercurve/</link>
+      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/beziercurve/</guid>
+      <description>Un tracé est d&#39;abord initialisé par la méthode beginPath(). Le point de référence de début du tracé est désigné avec moveTo(x,y). Il s&#39;agit en quelque sorte de décider à partir de quel emplacement le pinceau va être posé. Puis vient le tracé de la ligne elle-même avec la méthode lineTo(x,y) qui va ajouter un segment au chemin qui fut débuté par beginPath(). On peut ajouter autant de segments que l&#39;on veut, puis éventuellement &amp;quot;fermer&amp;quot; la forme pour revenir automatiquement au point de départ avec closePath() .</description>
+    </item>
+    
+    <item>
+      <title>Questions débutant Java</title>
+      <link>https://charlene19.github.io/secondBrain/posts/quesjava/</link>
+      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/quesjava/</guid>
+      <description>[Quelle est la différence entre : « Double » et « double » pour un attribut ? Quand mettre l&amp;rsquo;un ou l&amp;rsquo;autre ?] Le constructeur Double permet de définir un objet Double à partir d&amp;rsquo;une variable double :
+public Double(double value);
+[Qu&amp;rsquo;est-ce qu&amp;rsquo;un constructeur ?] Pour instancier une classe, c&#39;est-à-dire créer un objet à partir d&#39;une classe, il s&#39;agit d&#39;utiliser l&#39;opérateur new.
+En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à une méthode spéciale de la classe: le constructeur.</description>
+    </item>
+    
+    <item>
+      <title>Choix hébergeur</title>
+      <link>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</link>
+      <pubDate>Mon, 14 Dec 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</guid>
+      <description>Choisir un hébergeur  Vous avez besoin de 3 choses pour créer un site :
+ Un nom de domaine, comme par ex. : mon-site.com Un hébergement pour stocker vos pages, articles, etc. Un système de gestion de contenu comme WordPress ou Joomla. Cela vous permettra de créer votre site facilement sans aucune connaissance technique.   Unhébergeurmutualisé:
+Les ressources du serveur (processeur et la mémoire) sont partagés avec des centaines de sites internet.</description>
+    </item>
+    
+    <item>
+      <title>Cahier des Charges Prjet Front et Back-end</title>
+      <link>https://charlene19.github.io/secondBrain/posts/cahiercharges/</link>
+      <pubDate>Tue, 01 Dec 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/cahiercharges/</guid>
+      <description>Projet Groupe Contenu Projet Groupe 1
+Modalités 2
+Objectif du site 2
+Définition en méthodologie Scrum : 2
+La conception du MCD : 4
+Base de données : 4
+Choix de l&amp;rsquo;architecture (nouveauté) : 6
+La modularité des fonctionnalités du site : 7
+Les technos 8
+Back-end (nouveauté): 8
+L&amp;rsquo;architecture du back (nouveauté) : 8
+Les fonctionnalités du Back-End 9
+Les API&amp;rsquo;s 11
+Front-end (nouveauté) : 11
+L&amp;rsquo;architecture du front (nouveauté) 12</description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>https://charlene19.github.io/secondBrain/posts/angular/</link>
+      <pubDate>Sat, 07 Mar 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/angular/</guid>
+      <description>&lt;h1 id=&#34;angular&#34;&gt;Angular&lt;/h1&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Permet d&amp;rsquo;installer le module de node.js dans le projet&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Node.js&#34; data-lang=&#34;Node.js&#34;&gt;&lt;span class=&#34;nx&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;npm&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;latest&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Puis, cela pour installer le CLI d&amp;rsquo;Angular&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g @angular/cli
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Si le projet est importé ou déjà créer, il faut juste lancer le server :&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ng serve
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sinon, on peut créer le projet au travers d&amp;rsquo;une ligne de code&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ng new mon-premier-projet
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;La commande&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;permet de télécharger des modules nécessaire. Exemple bootstrap.&lt;/p&gt;
+&lt;p&gt;Pour ajouter les modules télécharger il faut se rendre dans le fichier : angular.json puis mettre en lien la localisation des modules installés.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;styles&amp;quot;: [
+  &amp;quot;node_modules\\bootstrap\\dist\\css\\bootstrap.css&amp;quot;,
+  &amp;quot;src\\styles.css&amp;quot;
+]
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pseudo code</title>
+      <link>https://charlene19.github.io/secondBrain/posts/pseudocode/</link>
+      <pubDate>Fri, 06 Mar 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/pseudocode/</guid>
+      <description>Créer une chaîne de caractères de 50 &amp;lsquo;-&amp;rsquo;  DEBUT
+CHAR cara = &amp;ldquo;-&amp;rdquo; ENTIER cpt = 50 ENTIER i = 0
+POUR i à cpt -1 AFFICHE cara FINPOUR  FIN
+Inverser une chaîne de caractères (sans supprimer l&amp;rsquo;originale).  CHAINE a &amp;lt;- &amp;ldquo;Random&amp;rdquo; CHAINE b ENTIER i, j, longueur
+longueur &amp;lt;- a.longueur j &amp;lt;- 0
+TANTQUE i &amp;gt; 0 POUR i &amp;lt;- longueur à i &amp;gt; 0 b AJOUTE a(i) i &amp;lt;- i -1 FINPOUR FINTANTQUE  FIN</description>
+    </item>
+    
+    <item>
+      <title>Algorithmie cours</title>
+      <link>https://charlene19.github.io/secondBrain/posts/coursalgo/</link>
+      <pubDate>Fri, 01 Nov 2019 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/coursalgo/</guid>
+      <description>Quatre algorithme étudié :
+L&amp;rsquo;invariant de boucle : Invariant qui est vraie avant et après chaque répétition.
+Définition de la notation Θ (grand thêta) : étant donnée une fonction f(n), Θ(f(n)) est l&#39;ensemble des fonctions g(n) telles qu&#39;il existe une constante positive réelle c, une constante positive réelle d, et un entier non négatif N tel que pour tout n&amp;gt;N, c× f(n) ≤ g(n) ≤ d × f(n).
+En d&#39;autres mots : Θ(f(n))=Ω(f(n))∩O(f(n))</description>
+    </item>
+    
+    <item>
+      <title>Prise de notes Java</title>
+      <link>https://charlene19.github.io/secondBrain/posts/coursjava/</link>
+      <pubDate>Fri, 01 Nov 2019 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/coursjava/</guid>
+      <description>Vidéos : Encapsulation et abstraction : étude de cas 1
+Jeu de morpion 1
+Vidéos : Encapsulation et abstraction : étude de cas Jeu de morpion {width=&amp;ldquo;4.510416666666667in&amp;rdquo; height=&amp;ldquo;2.3333333333333335in&amp;rdquo;}Mauvaise grille.
+Déclaration de la classe ; déclaration des attributs.
+Méthode initialise() pour déclarer le nombre d&amp;rsquo;éléments au tableau.
+2^ème^ méthode getGrille
+Private ou public : Private permet d&amp;rsquo;interdire l&amp;rsquo;accès d&amp;rsquo;une autre classe. Permet d&amp;rsquo;éviter les modifications malvenues.
+De manière générale, lorsqu&amp;rsquo;un attribut est un objet offrir un accès à cet attribut via un getter revient exactement au même qu&amp;rsquo;offrir un accès direct à l&amp;rsquo;attribut.</description>
+    </item>
+    
+    <item>
+      <title>Critique de la RdN</title>
+      <link>https://charlene19.github.io/secondBrain/posts/divisiontravail/</link>
+      <pubDate>Thu, 01 Nov 2018 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/divisiontravail/</guid>
+      <description>Raisonner sur les épingles, l&amp;rsquo;exemple d&amp;rsquo;Adam Smith sur la division du travail
+Jean-louis Peaucelle
+J-l Peaucelle est un français, il est professeur de gestion. Il est ingénieur civil des mines, c&amp;rsquo;est-à-dire qu&amp;rsquo;il a fait l&amp;rsquo;Ecole des mines qui est une école hautement élitiste française.
+C&amp;rsquo;est un spécialiste des idées sur l&amp;rsquo;organisation. Il a contribué à plusieurs ouvrages autour de l&amp;rsquo;informatique dans les entreprises et a écrit un livre sur Henri Fayol.</description>
+    </item>
+    
+  </channel>
+</rss>
