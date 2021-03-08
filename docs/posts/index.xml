@@ -262,6 +262,110 @@ fournir le nombre d&rsquo;objets dans un collection.</p>
 		</item>
 		
 		<item>
+			<title>Introduction Machine Learning Python</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</link>
+			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</guid>
+			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Introduction Machine Learning Python
+J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
+Un processus stochastique ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&amp;rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&amp;rsquo;une épreuve.
+Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</description>
+			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:EXPORT_FILE_NAME: Introduction Machine Learning Python</p>
+<p>J&rsquo;ai installé : sklearn et jupyter sur PyCharm</p>
+<p>Un <strong><strong>processus stochastique</strong></strong> ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&rsquo;une épreuve.</p>
+<p>Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</p>
+<p><strong>champ aléatoire de Markov</strong> : est un ensemble de variables aléatoires vérifiant une propriété de Markov relativement à un graphe non orienté. C&rsquo;est un modèle graphique.</p>
+<p><strong>variable aléatoire</strong> : est une application définie sur l&rsquo;ensemble des
+éventualités, c&rsquo;est-à-dire l&rsquo;ensemble des résultats possibles d&rsquo;une
+expérience aléatoire. Ce furent les jeux de hasard qui amenèrent à
+concevoir les variables aléatoires, en associant à une éventualité
+(résultat du lancer d&rsquo;un ou plusieurs dés, d&rsquo;un tirage à pile ou
+face, d&rsquo;une roulette, etc.) un gain. Cette association
+éventualité-gain a donné lieu par la suite à la conception d&rsquo;une
+fonction de portée plus générale. Le développement des variables
+aléatoires est associé à la théorie de la mesure.</p>
+<p><strong>quartet d&rsquo;Anscombe</strong> :</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<figure>
+    <img src="/ox-hugo/quartetAnscombe.png"
+         alt="Figure 1: quartet d&amp;rsquo;Anscomb"/> <figcaption>
+            <p>Figure 1: quartet d&rsquo;Anscomb</p>
+        </figcaption>
+</figure>
+
+<p><strong>Instance</strong> ou observation sont des entrées dans un jeu de données.</p>
+<p><strong>supervised learning et unsupervised learning</strong> : Dans le cas des
+supervisés les données ont un label et sontclassés. Dans l&rsquo;autre
+c&rsquo;est à l&rsquo;outils de trouver des similarités et d&rsquo;effectuer ce
+classement.</p>
+<p>Technique un peu moins utilisé : le semi-supervised learning, qui prend en entrée certaines données annotées et d&rsquo;autres non. Ce sont des méthodes très intéressantes qui tirent parti des deux mondes (supervised et unsupervised), mais bien sûr apportent leur lot de difficultés.</p>
+<p>le reinforcement learning, qui se base sur un cycle d&rsquo;expérience /
+récompense et améliore les performances à chaque itération. Une
+analogie souvent citée est celle du cycle de dopamine : une &ldquo;bonne&rdquo;
+expérience
+augmente la dopamine et donc augmente la probabilité que l&rsquo;agent
+répète l&rsquo;expérience.</p>
+<h2 id="la-régression-valeur-continue-un-nombre">La régression* : Valeur continue un nombre</h2>
+<h2 id="la-classification-une-valeur-discrète--une-catégorie">La classification * : Une valeur discrète (une catégorie)</h2>
+<p>`
+Il existe aussi un autre type de prédiction possible qui est de
+sortir plusieurs labels de manière ordonnée (machine-learned ranking
+en anglais). Par exemple, l&rsquo;algorithme PageRank de Google retourne
+des résultats de recherche dans l&rsquo;ordre, du plus pertinent au moins
+pertinent.
+`</p>
+<p><strong>scoring</strong> : Traduit la probabilité d&rsquo;une réaction d&rsquo;un individu à un
+stimuli.</p>
+<p><strong>CPC</strong> (coût par clic) : le coût d&rsquo;un clic sur une publicité</p>
+<p><strong>CPM</strong> (coût pour mille) : le coût pour mille impressions d&rsquo;une publicité</p>
+<p><strong>outlier</strong> : évenement rare ou anomalies</p>
+<p><strong>collaborative filtering</strong> : qui se base sur des similarités entre
+utilisateurs, ou bien des similarités entre produits.</p>
+<p><strong>clustering</strong> : désigne les méthodes de regroupement automatique de
+données qui se ressemblent le plus en un ensemble de &ldquo;nuages&rdquo;,
+appelés clusters.</p>
+<p><strong>dataset unidimensionnel</strong> : Les observations dépendent uniquement d&rsquo;une variable.</p>
+<p><strong>régression linéaire</strong> : est un modèle de régression qui cherche à établir une relation linéaire entre une variable, dite expliquée, et une ou plusieurs variables, dites explicatives.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Timer</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</link>
+			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</guid>
+			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Timer Java
+:Timer:
+J&amp;rsquo;ai testé de mettre un Timer dans la méthode OBservable, mets le runner tourne sans même le callback à la méthode. Le timer est par contre lui fonctionnel.
+new Timer().schedule( new TimerTask() { Double temp = 0.0; @Override public void run() { temp += (Double) slider3.getValue(); System.out.println(&amp;quot;Slider3 : &amp;quot; + slider3.getValue() + &amp;quot; valueTemp &amp;quot; + temp); valueActivity += temp; temp = 0.0; } }, 5000, 5000); }); </description>
+			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:EXPORT_FILE_NAME: Timer Java</p>
+<p>:Timer:</p>
+<p>J&rsquo;ai testé de mettre un Timer dans la méthode OBservable, mets le runner tourne sans même
+le callback à la méthode.
+Le timer est par contre lui fonctionnel.</p>
+<pre><code class="language-nil" data-lang="nil">new Timer().schedule(
+		    new TimerTask() {
+			Double temp = 0.0;
+
+			@Override
+			public void run() {
+			    temp += (Double) slider3.getValue();
+			    System.out.println(&quot;Slider3 : &quot; + slider3.getValue()  + &quot; valueTemp &quot; + temp);
+			    valueActivity += temp;
+			    temp = 0.0;
+
+			}
+		    }, 5000, 5000);
+
+	});
+</code></pre>]]></content>
+		</item>
+		
+		<item>
 			<title>Choix hébergeur</title>
 			<link>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</link>
 			<pubDate>Mon, 14 Dec 2020 19:47:46 +0100</pubDate>
@@ -802,6 +906,42 @@ un tour du site en groupe. Puis à faire une sorte d&rsquo;oral blanc.</p>
 <p>Pour la présentation, le temps se répartir de manière égale entre chaque
 participant. Durant cet oral blanc, nous établiront l&rsquo;ordre de passage,
 et la partie qui sera présentée.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>FormSpree</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</link>
+			<pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</guid>
+			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: FormSpree
+:javascript: :html:formMail:
+FormSpree permet de créer un Form sur une page Html statique. C&amp;rsquo;est très arrangeant pour le cas des GitHub Pages. En plus avec l&amp;rsquo;option full script : ça permet d&amp;rsquo;avoir un button pop up type chatbox. Le problème est pour le changement de couleur. J&amp;rsquo;aimerais la changer. Je verrais s&amp;rsquo;il est possible de la personnaliser après.</description>
+			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:EXPORT_FILE_NAME: FormSpree</p>
+<p>:javascript:
+:html:formMail:</p>
+<p>FormSpree permet de créer un Form sur une page Html statique. C&rsquo;est très arrangeant pour le cas des GitHub Pages.
+En plus avec l&rsquo;option full script : ça permet d&rsquo;avoir un button pop up type chatbox.
+Le problème est pour le changement de couleur. J&rsquo;aimerais la changer. Je verrais s&rsquo;il est possible de la personnaliser
+après.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Optimisation Algorithmique</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</link>
+			<pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</guid>
+			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Optimisation Algorithmique
+Les méthodes d&amp;rsquo;optimisation numérique.
+Cours de l&amp;rsquo;ENS en ligne</description>
+			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:EXPORT_FILE_NAME: Optimisation Algorithmique</p>
+<p>Les méthodes d&rsquo;optimisation numérique.</p>
+<p><a href="https://www.di.ens.fr/~aspremon/ENSM1.html">Cours de l&rsquo;ENS en ligne</a></p>
 ]]></content>
 		</item>
 		

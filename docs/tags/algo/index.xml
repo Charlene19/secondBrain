@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algo on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/algo/</link>
+    <description>Recent content in algo on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 01 Nov 2020 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/algo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimisation Algorithmique</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</link>
+      <pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Optimisation Algorithmique
+Les méthodes d&amp;rsquo;optimisation numérique.
+Cours de l&amp;rsquo;ENS en ligne</description>
+    </item>
+    
+  </channel>
+</rss>

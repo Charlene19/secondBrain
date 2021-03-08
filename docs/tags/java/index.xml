@@ -20,5 +20,17 @@ public Double(double value);
 En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à une méthode spéciale de la classe: le constructeur.</description>
     </item>
     
+    <item>
+      <title>Timer</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</link>
+      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Timer Java
+:Timer:
+J&amp;rsquo;ai testé de mettre un Timer dans la méthode OBservable, mets le runner tourne sans même le callback à la méthode. Le timer est par contre lui fonctionnel.
+new Timer().schedule( new TimerTask() { Double temp = 0.0; @Override public void run() { temp += (Double) slider3.getValue(); System.out.println(&amp;quot;Slider3 : &amp;quot; + slider3.getValue() + &amp;quot; valueTemp &amp;quot; + temp); valueActivity += temp; temp = 0.0; } }, 5000, 5000); }); </description>
+    </item>
+    
   </channel>
 </rss>

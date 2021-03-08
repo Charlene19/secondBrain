@@ -40,6 +40,30 @@ En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à un
     </item>
     
     <item>
+      <title>Introduction Machine Learning Python</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</link>
+      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Introduction Machine Learning Python
+J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
+Un processus stochastique ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&amp;rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&amp;rsquo;une épreuve.
+Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</description>
+    </item>
+    
+    <item>
+      <title>Timer</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</link>
+      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Timer Java
+:Timer:
+J&amp;rsquo;ai testé de mettre un Timer dans la méthode OBservable, mets le runner tourne sans même le callback à la méthode. Le timer est par contre lui fonctionnel.
+new Timer().schedule( new TimerTask() { Double temp = 0.0; @Override public void run() { temp += (Double) slider3.getValue(); System.out.println(&amp;quot;Slider3 : &amp;quot; + slider3.getValue() + &amp;quot; valueTemp &amp;quot; + temp); valueActivity += temp; temp = 0.0; } }, 5000, 5000); }); </description>
+    </item>
+    
+    <item>
       <title>Choix hébergeur</title>
       <link>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</link>
       <pubDate>Mon, 14 Dec 2020 19:47:46 +0100</pubDate>
@@ -74,6 +98,28 @@ L&amp;rsquo;architecture du front (nouveauté) 12</description>
     </item>
     
     <item>
+      <title>FormSpree</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</link>
+      <pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: FormSpree
+:javascript: :html:formMail:
+FormSpree permet de créer un Form sur une page Html statique. C&amp;rsquo;est très arrangeant pour le cas des GitHub Pages. En plus avec l&amp;rsquo;option full script : ça permet d&amp;rsquo;avoir un button pop up type chatbox. Le problème est pour le changement de couleur. J&amp;rsquo;aimerais la changer. Je verrais s&amp;rsquo;il est possible de la personnaliser après.</description>
+    </item>
+    
+    <item>
+      <title>Optimisation Algorithmique</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</link>
+      <pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Optimisation Algorithmique
+Les méthodes d&amp;rsquo;optimisation numérique.
+Cours de l&amp;rsquo;ENS en ligne</description>
+    </item>
+    
+    <item>
       <title>Angular</title>
       <link>https://charlene19.github.io/secondBrain/posts/angular/</link>
       <pubDate>Sat, 07 Mar 2020 19:47:46 +0100</pubDate>
@@ -98,60 +144,6 @@ L&amp;rsquo;architecture du front (nouveauté) 12</description>
   &amp;quot;src\\styles.css&amp;quot;
 ]
 &lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Pseudo code</title>
-      <link>https://charlene19.github.io/secondBrain/posts/pseudocode/</link>
-      <pubDate>Fri, 06 Mar 2020 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/pseudocode/</guid>
-      <description>Créer une chaîne de caractères de 50 &amp;lsquo;-&amp;rsquo;  DEBUT
-CHAR cara = &amp;ldquo;-&amp;rdquo; ENTIER cpt = 50 ENTIER i = 0
-POUR i à cpt -1 AFFICHE cara FINPOUR  FIN
-Inverser une chaîne de caractères (sans supprimer l&amp;rsquo;originale).  CHAINE a &amp;lt;- &amp;ldquo;Random&amp;rdquo; CHAINE b ENTIER i, j, longueur
-longueur &amp;lt;- a.longueur j &amp;lt;- 0
-TANTQUE i &amp;gt; 0 POUR i &amp;lt;- longueur à i &amp;gt; 0 b AJOUTE a(i) i &amp;lt;- i -1 FINPOUR FINTANTQUE  FIN</description>
-    </item>
-    
-    <item>
-      <title>Algorithmie cours</title>
-      <link>https://charlene19.github.io/secondBrain/posts/coursalgo/</link>
-      <pubDate>Fri, 01 Nov 2019 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/coursalgo/</guid>
-      <description>Quatre algorithme étudié :
-L&amp;rsquo;invariant de boucle : Invariant qui est vraie avant et après chaque répétition.
-Définition de la notation Θ (grand thêta) : étant donnée une fonction f(n), Θ(f(n)) est l&#39;ensemble des fonctions g(n) telles qu&#39;il existe une constante positive réelle c, une constante positive réelle d, et un entier non négatif N tel que pour tout n&amp;gt;N, c× f(n) ≤ g(n) ≤ d × f(n).
-En d&#39;autres mots : Θ(f(n))=Ω(f(n))∩O(f(n))</description>
-    </item>
-    
-    <item>
-      <title>Prise de notes Java</title>
-      <link>https://charlene19.github.io/secondBrain/posts/coursjava/</link>
-      <pubDate>Fri, 01 Nov 2019 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/coursjava/</guid>
-      <description>Vidéos : Encapsulation et abstraction : étude de cas 1
-Jeu de morpion 1
-Vidéos : Encapsulation et abstraction : étude de cas Jeu de morpion {width=&amp;ldquo;4.510416666666667in&amp;rdquo; height=&amp;ldquo;2.3333333333333335in&amp;rdquo;}Mauvaise grille.
-Déclaration de la classe ; déclaration des attributs.
-Méthode initialise() pour déclarer le nombre d&amp;rsquo;éléments au tableau.
-2^ème^ méthode getGrille
-Private ou public : Private permet d&amp;rsquo;interdire l&amp;rsquo;accès d&amp;rsquo;une autre classe. Permet d&amp;rsquo;éviter les modifications malvenues.
-De manière générale, lorsqu&amp;rsquo;un attribut est un objet offrir un accès à cet attribut via un getter revient exactement au même qu&amp;rsquo;offrir un accès direct à l&amp;rsquo;attribut.</description>
-    </item>
-    
-    <item>
-      <title>Critique de la RdN</title>
-      <link>https://charlene19.github.io/secondBrain/posts/divisiontravail/</link>
-      <pubDate>Thu, 01 Nov 2018 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/divisiontravail/</guid>
-      <description>Raisonner sur les épingles, l&amp;rsquo;exemple d&amp;rsquo;Adam Smith sur la division du travail
-Jean-louis Peaucelle
-J-l Peaucelle est un français, il est professeur de gestion. Il est ingénieur civil des mines, c&amp;rsquo;est-à-dire qu&amp;rsquo;il a fait l&amp;rsquo;Ecole des mines qui est une école hautement élitiste française.
-C&amp;rsquo;est un spécialiste des idées sur l&amp;rsquo;organisation. Il a contribué à plusieurs ouvrages autour de l&amp;rsquo;informatique dans les entreprises et a écrit un livre sur Henri Fayol.</description>
     </item>
     
   </channel>
