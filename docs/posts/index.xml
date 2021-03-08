@@ -262,6 +262,29 @@ fournir le nombre d&rsquo;objets dans un collection.</p>
 		</item>
 		
 		<item>
+			<title>Antonin Artaud</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
+			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</guid>
+			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Antonin Artaud :EXPORT_DATE: 2021-02-18
+Wikipédia
+Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes. Afin assimilé comme tel, l&amp;rsquo;opportuniste André Breton évoque vaguement celui-ci André Breton, loquace !
+Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche non conventionnelle de la question de la souffrance essentialiste vis une recherche organique pour s&amp;rsquo;échapper de cette condition. Le rapport à la société et aux docteurs est aussi intéressant.</description>
+			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:EXPORT_FILE_NAME:  Antonin Artaud
+:EXPORT_DATE: 2021-02-18</p>
+<p><a href="https://fr.wikipedia.org/wiki/Antonin%5FArtaud">Wikipédia</a></p>
+<p>Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes.
+Afin assimilé comme tel, l&rsquo;opportuniste André Breton évoque vaguement celui-ci <a href="https://www.youtube.com/watch?v=wppj0h1%5FOXc&amp;t=722s">André Breton, loquace !</a></p>
+<p>Sa lettre : <a href="/secondBrain/posts/20210308192851-liquidation/">La liquidation de l&rsquo;opium</a> est étonnante dans son approche non conventionnelle
+de la question de la souffrance essentialiste vis une recherche organique pour s&rsquo;échapper de cette condition.
+Le rapport à la société et aux docteurs est aussi intéressant.</p>
+<p>Le fatalisme qui saute aux yeux n&rsquo;est finalement pas si évident que ça.</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>Introduction Machine Learning Python</title>
 			<link>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</link>
 			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
@@ -328,6 +351,55 @@ données qui se ressemblent le plus en un ensemble de &ldquo;nuages&rdquo;,
 appelés clusters.</p>
 <p><strong>dataset unidimensionnel</strong> : Les observations dépendent uniquement d&rsquo;une variable.</p>
 <p><strong>régression linéaire</strong> : est un modèle de régression qui cherche à établir une relation linéaire entre une variable, dite expliquée, et une ou plusieurs variables, dites explicatives.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>La liquidation de l&#39;opium</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</link>
+			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</guid>
+			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: La liquidation de l&amp;rsquo;opium :EXPORT_DATE: 2021-02-18
+J&amp;rsquo;ai l&amp;rsquo;intention non dissimulée d&amp;rsquo;épuiser la question afin qu&amp;rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.
+Mon point de vue est nettement anti-social.
+On n&amp;rsquo;a qu&amp;rsquo;une raison d&amp;rsquo;attaquer l&amp;rsquo;opium. C&amp;rsquo;est celui du danger que son emploi peut faire courir à l&amp;rsquo;ensemble de la société.
+Or ce danger est faux.
+Nous sommes nés pourris dans le corps et dans l&amp;rsquo;âme, nous sommes congénitalement inadaptés ; supprimez l&amp;rsquo;opium, vous ne supprimerez pas le besoin du crime, les cancers du corps et de l&amp;rsquo;âme, la propension au désespoir, le crétinisme né, la vérole héréditaire, la friabilité des instincts.</description>
+			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:EXPORT_FILE_NAME:  La liquidation de l&rsquo;opium
+:EXPORT_DATE: 2021-02-18</p>
+<p>J&rsquo;ai l&rsquo;intention non dissimulée d&rsquo;épuiser la question afin qu&rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.</p>
+<p>Mon point de vue est nettement anti-social.</p>
+<p>On n&rsquo;a qu&rsquo;une raison d&rsquo;attaquer l&rsquo;opium. C&rsquo;est celui du danger que son emploi peut faire courir à l&rsquo;ensemble de la société.</p>
+<p>Or ce danger est faux.</p>
+<p>Nous sommes nés pourris dans le corps et dans l&rsquo;âme, nous sommes congénitalement inadaptés ; supprimez l&rsquo;opium, vous ne supprimerez pas le besoin du crime, les cancers du corps et de l&rsquo;âme, la propension au désespoir, le crétinisme né, la vérole héréditaire, la friabilité des instincts. Vous n&rsquo;empêcherez pas qu&rsquo;il y ait des âmes destinées au poison quel qu&rsquo;il soit, poison de la morphine, poison de la lecture, poison de l&rsquo;isolement, poison de l&rsquo;onanisme, poison de coïts répétés, poison de la faiblesse enracinée de l&rsquo;âme, poison de l&rsquo;alcool, poison du tabac, poison de l&rsquo;anti-sociabilité. Il y a des âmes incurables et perdues pour le reste de la société. Supprimez-leur un moyen de folie, elles en inventeront dix mille autres. Elles créeront des moyens plus subtils, plus furieux, des moyens absolument désespérés de l&rsquo;humanité.</p>
+<p>Laissons se perdre les perdus, nous avons mieux à occuper notre temps qu&rsquo;à tenter une régénération impossible et pour le surplus, inutile, odieuse et nuisible.</p>
+<p>Tant que nous ne serons parvenus à supprimer aucune des causes du désespoir humain, nous n&rsquo;aurons pas le droit d&rsquo;essayer de supprimer les moyens par lesquels l&rsquo;homme essaie de se décrasser du désespoir.</p>
+<p>Car il faudrait d&rsquo;abord arriver à supprimer cette impulsion naturelle et cachée, cette pente spécieuse de l&rsquo;homme qui incline à trouver un moyen, qui lui donne l&rsquo;idée de chercher un moyen de sortir de ses maux.</p>
+<p>De plus, les perdus sont perdus par nature, toutes les idées de régénération morale n&rsquo;y feront rien, il y a un déterminisme inné, il y a une incurabilité indiscutable du suicide, du crime, de l&rsquo;idiotie, de la folie, il y a un cocuage invincible de l&rsquo;homme, il y a une friabilité du caractère, il y a un châtrage de l&rsquo;esprit.</p>
+<p>L&rsquo;aphasie existe, le tabès dorsalis existe, la méningite syphilitique, le vol, l&rsquo;usurpation. L&rsquo;enfer est déjà de ce monde et il est des hommes qui se sont évadés malheureux de l&rsquo;enfer, des évadés destinés à recommencer éternellement leur évasion. Et assez là-dessus.</p>
+<p>L&rsquo;homme est misérable, l&rsquo;âme est faible, il est des hommes qui se perdront toujours. Peu importent les moyens de la perte ; ça ne regarde pas la société.</p>
+<p>Nous avons bien démontré, n&rsquo;est-ce pas, qu&rsquo;elle n&rsquo;y peut rien, elle perd son temps, qu&rsquo;elle ne s&rsquo;obstine donc plus à s&rsquo;enraciner dans sa stupidité.</p>
+<p>Et enfin nuisible.</p>
+<p>Pour ceux qui osent regarder la vérité en face, on sait, n&rsquo;est-ce pas, les résultats de la suppression de l&rsquo;alcool aux États-Unis :
+Une super-production de folie : la bière au régime de l&rsquo;éther, l&rsquo;alcool bardé de cocaïne que l&rsquo;on vend clandestinement, l&rsquo;ivrognerie multipliée, une espèce d&rsquo;ivrognerie générale. Bref, la loi du fruit défendu.</p>
+<p>De même, pour l&rsquo;opium.</p>
+<p>L&rsquo;interdiction qui multiplie la curiosité de la drogue n&rsquo;a jusqu&rsquo;ici profité qu&rsquo;aux souteneurs de la médecine, du journalisme, de la littérature. Il y a des gens qui ont bâti de fécales et industrieuses renommées sur leurs prétendues indignations contre l&rsquo;inoffensive et infime secte des damnés de la drogue (inoffensive parce que infime et parce que toujours une exception), cette minorité de damnés de l&rsquo;esprit, de l&rsquo;âme, de la maladie.</p>
+<p>Ah ! que le cordon ombilical de la morale est chez eux bien noué. Depuis leur mère, ils n&rsquo;ont, n&rsquo;est-ce pas, jamais péché. Ce sont des apôtres, ce sont les descendants des pasteurs ; on peut seulement se demander où ils puisent leurs indignations, et combien surtout ils ont palpé pour ce faire, et en tout cas qu&rsquo;est-ce que ça leur a rapporté.</p>
+<p>Et d&rsquo;ailleurs, là n&rsquo;est pas la question.</p>
+<p>En réalité, cette fureur contre les toxiques et les lois stupides qui s&rsquo;en suivent :</p>
+<p>Est inopérante contre le besoin du toxique, qui, assouvi ou inassouvi, est inné à l&rsquo;âme, et l&rsquo;induirait à des gestes résolument anti-sociaux, même si le toxique n&rsquo;existait pas.</p>
+<p>Exaspère le besoin social du toxique, et le change en vice secret.</p>
+<p>Nuit à la véritable maladie, car c&rsquo;est là la véritable question, le nœud vital, le point dangereux :</p>
+<p>Malheureusement pour la médecine, la maladie existe.</p>
+<p>Toutes les lois, toutes les restrictions, toutes les campagnes contre les stupéfiants n&rsquo;aboutiront jamais qu&rsquo;à enlever à tous les nécessiteux de la douleur humaine, qui ont sur l&rsquo;état social d&rsquo;imprescriptibles droits, le dissolvant de leurs maux, un aliment pour eux plus merveilleux que le pain, et le moyen enfin de repénétrer dans la vie.</p>
+<p>Plutôt la peste que la morphine, hurle la médecine officielle, plutôt l&rsquo;enfer que la vie. Il n&rsquo;y a que les imbéciles du genre de J.P. Liausu (qui est pour surplus un avorton ignorant) pour prétendre qu&rsquo;il faille laisser des malades macérer dans leur maladie.</p>
+<p>Suicidez-vous, désespérés, et vous, torturés du corps et de l&rsquo;âme, perdez tout espoir. Il n&rsquo;y a plus pour vous de soulagement en ce monde. Le monde vit de vos charniers.</p>
+<p>Et vous, fous lucides, tabétiques, cancéreux, méningitiques chroniques, vous êtes des incompris. Il y a un point en vous que nul médecin ne comprendra jamais, et c&rsquo;est ce point pour moi qui vous sauve et vous rend augustes, purs, merveilleux : vous êtes hors la vie, vous êtes au-dessus de la vie, vous avez des maux que l&rsquo;homme ordinaire ne connaît pas, vous dépassez le niveau normal et c&rsquo;est de quoi les hommes vous tiennent rigueur ; vous empoisonnez leur quiétude, vous êtes des dissolvants de leur stabilité. Vous avez d&rsquo;irrépressibles douleurs dont l&rsquo;essence est d&rsquo;être inadaptable à aucun état connu, inajustable dans les mots. Vous avez des douleurs répétées et fuyantes, des douleurs insolubles, des douleurs hors de la pensée, des douleurs qui ne sont ni dans le corps ni dans l&rsquo;âme, mais qui tiennent de tous les deux. Et moi, je participe à vos maux, et je vous le demande : qui oserait nous mesurer le calmant ? Au nom de quelle clarté supérieure, âme à nous-mêmes, nous qui sommes à la racine même de la connaissance et de la clarté. Et cela, de par nos instances, de par notre insistance à souffrir. Nous que la douleur a fait voyager dans notre âme à la recherche d&rsquo;une place de calme où s&rsquo;accrocher, à la recherche de la stabilité dans le mal comme les autres dans le bien. Nous ne sommes pas fous, nous sommes de merveilleux médecins, nous connaissons le dosage de l&rsquo;âme,  de la sensibilité, de la moelle, de la pensée. Il faut nous laisser la paix, il faut laisser la paix aux malades, nous ne demandons rien aux hommes, nous ne leur demandons que le soulagement de nos maux. Nous avons bien évalué notre vie, nous savons ce qu&rsquo;elle comporte de restrictions en face des autres, et surtout en face de nous-mêmes. Nous savons à quel avachissement consenti, à quel renoncement de nous-même, à quelles paralysies de subtilités notre mal chaque jour nous oblige. Nous ne nous suicidons pas tout de suite. En attendant qu&rsquo;on nous foute la paix.</p>
+<p>Antonin Artaud</p>
+<p>La Révolution Surréaliste.</p>
+<p>(1er janvier 1925. )</p>
 ]]></content>
 		</item>
 		
@@ -4095,78 +4167,6 @@ du couple parental.</p>
 Ville &ndash; Daniel Wezer Lang</p>
 </li>
 </ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Antonin Artaud</title>
-			<link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-			
-			<guid>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</guid>
-			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Antonin Artaud :EXPORT_DATE: 2021-02-18
-Wikipédia
-Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes. Afin assimilé comme tel, l&amp;rsquo;opportuniste André Breton évoque vaguement celui-ci André Breton, loquace !
-Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche non conventionnelle de la question de la souffrance essentialiste vis une recherche organique pour s&amp;rsquo;échapper de cette condition. Le rapport à la société et aux docteurs est aussi intéressant.</description>
-			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
-:EXPORT_FILE_NAME:  Antonin Artaud
-:EXPORT_DATE: 2021-02-18</p>
-<p><a href="https://fr.wikipedia.org/wiki/Antonin%5FArtaud">Wikipédia</a></p>
-<p>Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes.
-Afin assimilé comme tel, l&rsquo;opportuniste André Breton évoque vaguement celui-ci <a href="https://www.youtube.com/watch?v=wppj0h1%5FOXc&amp;t=722s">André Breton, loquace !</a></p>
-<p>Sa lettre : <a href="/secondBrain/posts/20210308192851-liquidation/">La liquidation de l&rsquo;opium</a> est étonnante dans son approche non conventionnelle
-de la question de la souffrance essentialiste vis une recherche organique pour s&rsquo;échapper de cette condition.
-Le rapport à la société et aux docteurs est aussi intéressant.</p>
-<p>Le fatalisme qui saute aux yeux n&rsquo;est finalement pas si évident que ça.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>La liquidation de l&#39;opium</title>
-			<link>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-			
-			<guid>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</guid>
-			<description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: La liquidation de l&amp;rsquo;opium :EXPORT_DATE: 2021-02-18
-J&amp;rsquo;ai l&amp;rsquo;intention non dissimulée d&amp;rsquo;épuiser la question afin qu&amp;rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.
-Mon point de vue est nettement anti-social.
-On n&amp;rsquo;a qu&amp;rsquo;une raison d&amp;rsquo;attaquer l&amp;rsquo;opium. C&amp;rsquo;est celui du danger que son emploi peut faire courir à l&amp;rsquo;ensemble de la société.
-Or ce danger est faux.
-Nous sommes nés pourris dans le corps et dans l&amp;rsquo;âme, nous sommes congénitalement inadaptés ; supprimez l&amp;rsquo;opium, vous ne supprimerez pas le besoin du crime, les cancers du corps et de l&amp;rsquo;âme, la propension au désespoir, le crétinisme né, la vérole héréditaire, la friabilité des instincts.</description>
-			<content type="html"><![CDATA[<p>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
-:EXPORT_FILE_NAME:  La liquidation de l&rsquo;opium
-:EXPORT_DATE: 2021-02-18</p>
-<p>J&rsquo;ai l&rsquo;intention non dissimulée d&rsquo;épuiser la question afin qu&rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.</p>
-<p>Mon point de vue est nettement anti-social.</p>
-<p>On n&rsquo;a qu&rsquo;une raison d&rsquo;attaquer l&rsquo;opium. C&rsquo;est celui du danger que son emploi peut faire courir à l&rsquo;ensemble de la société.</p>
-<p>Or ce danger est faux.</p>
-<p>Nous sommes nés pourris dans le corps et dans l&rsquo;âme, nous sommes congénitalement inadaptés ; supprimez l&rsquo;opium, vous ne supprimerez pas le besoin du crime, les cancers du corps et de l&rsquo;âme, la propension au désespoir, le crétinisme né, la vérole héréditaire, la friabilité des instincts. Vous n&rsquo;empêcherez pas qu&rsquo;il y ait des âmes destinées au poison quel qu&rsquo;il soit, poison de la morphine, poison de la lecture, poison de l&rsquo;isolement, poison de l&rsquo;onanisme, poison de coïts répétés, poison de la faiblesse enracinée de l&rsquo;âme, poison de l&rsquo;alcool, poison du tabac, poison de l&rsquo;anti-sociabilité. Il y a des âmes incurables et perdues pour le reste de la société. Supprimez-leur un moyen de folie, elles en inventeront dix mille autres. Elles créeront des moyens plus subtils, plus furieux, des moyens absolument désespérés de l&rsquo;humanité.</p>
-<p>Laissons se perdre les perdus, nous avons mieux à occuper notre temps qu&rsquo;à tenter une régénération impossible et pour le surplus, inutile, odieuse et nuisible.</p>
-<p>Tant que nous ne serons parvenus à supprimer aucune des causes du désespoir humain, nous n&rsquo;aurons pas le droit d&rsquo;essayer de supprimer les moyens par lesquels l&rsquo;homme essaie de se décrasser du désespoir.</p>
-<p>Car il faudrait d&rsquo;abord arriver à supprimer cette impulsion naturelle et cachée, cette pente spécieuse de l&rsquo;homme qui incline à trouver un moyen, qui lui donne l&rsquo;idée de chercher un moyen de sortir de ses maux.</p>
-<p>De plus, les perdus sont perdus par nature, toutes les idées de régénération morale n&rsquo;y feront rien, il y a un déterminisme inné, il y a une incurabilité indiscutable du suicide, du crime, de l&rsquo;idiotie, de la folie, il y a un cocuage invincible de l&rsquo;homme, il y a une friabilité du caractère, il y a un châtrage de l&rsquo;esprit.</p>
-<p>L&rsquo;aphasie existe, le tabès dorsalis existe, la méningite syphilitique, le vol, l&rsquo;usurpation. L&rsquo;enfer est déjà de ce monde et il est des hommes qui se sont évadés malheureux de l&rsquo;enfer, des évadés destinés à recommencer éternellement leur évasion. Et assez là-dessus.</p>
-<p>L&rsquo;homme est misérable, l&rsquo;âme est faible, il est des hommes qui se perdront toujours. Peu importent les moyens de la perte ; ça ne regarde pas la société.</p>
-<p>Nous avons bien démontré, n&rsquo;est-ce pas, qu&rsquo;elle n&rsquo;y peut rien, elle perd son temps, qu&rsquo;elle ne s&rsquo;obstine donc plus à s&rsquo;enraciner dans sa stupidité.</p>
-<p>Et enfin nuisible.</p>
-<p>Pour ceux qui osent regarder la vérité en face, on sait, n&rsquo;est-ce pas, les résultats de la suppression de l&rsquo;alcool aux États-Unis :
-Une super-production de folie : la bière au régime de l&rsquo;éther, l&rsquo;alcool bardé de cocaïne que l&rsquo;on vend clandestinement, l&rsquo;ivrognerie multipliée, une espèce d&rsquo;ivrognerie générale. Bref, la loi du fruit défendu.</p>
-<p>De même, pour l&rsquo;opium.</p>
-<p>L&rsquo;interdiction qui multiplie la curiosité de la drogue n&rsquo;a jusqu&rsquo;ici profité qu&rsquo;aux souteneurs de la médecine, du journalisme, de la littérature. Il y a des gens qui ont bâti de fécales et industrieuses renommées sur leurs prétendues indignations contre l&rsquo;inoffensive et infime secte des damnés de la drogue (inoffensive parce que infime et parce que toujours une exception), cette minorité de damnés de l&rsquo;esprit, de l&rsquo;âme, de la maladie.</p>
-<p>Ah ! que le cordon ombilical de la morale est chez eux bien noué. Depuis leur mère, ils n&rsquo;ont, n&rsquo;est-ce pas, jamais péché. Ce sont des apôtres, ce sont les descendants des pasteurs ; on peut seulement se demander où ils puisent leurs indignations, et combien surtout ils ont palpé pour ce faire, et en tout cas qu&rsquo;est-ce que ça leur a rapporté.</p>
-<p>Et d&rsquo;ailleurs, là n&rsquo;est pas la question.</p>
-<p>En réalité, cette fureur contre les toxiques et les lois stupides qui s&rsquo;en suivent :</p>
-<p>Est inopérante contre le besoin du toxique, qui, assouvi ou inassouvi, est inné à l&rsquo;âme, et l&rsquo;induirait à des gestes résolument anti-sociaux, même si le toxique n&rsquo;existait pas.</p>
-<p>Exaspère le besoin social du toxique, et le change en vice secret.</p>
-<p>Nuit à la véritable maladie, car c&rsquo;est là la véritable question, le nœud vital, le point dangereux :</p>
-<p>Malheureusement pour la médecine, la maladie existe.</p>
-<p>Toutes les lois, toutes les restrictions, toutes les campagnes contre les stupéfiants n&rsquo;aboutiront jamais qu&rsquo;à enlever à tous les nécessiteux de la douleur humaine, qui ont sur l&rsquo;état social d&rsquo;imprescriptibles droits, le dissolvant de leurs maux, un aliment pour eux plus merveilleux que le pain, et le moyen enfin de repénétrer dans la vie.</p>
-<p>Plutôt la peste que la morphine, hurle la médecine officielle, plutôt l&rsquo;enfer que la vie. Il n&rsquo;y a que les imbéciles du genre de J.P. Liausu (qui est pour surplus un avorton ignorant) pour prétendre qu&rsquo;il faille laisser des malades macérer dans leur maladie.</p>
-<p>Suicidez-vous, désespérés, et vous, torturés du corps et de l&rsquo;âme, perdez tout espoir. Il n&rsquo;y a plus pour vous de soulagement en ce monde. Le monde vit de vos charniers.</p>
-<p>Et vous, fous lucides, tabétiques, cancéreux, méningitiques chroniques, vous êtes des incompris. Il y a un point en vous que nul médecin ne comprendra jamais, et c&rsquo;est ce point pour moi qui vous sauve et vous rend augustes, purs, merveilleux : vous êtes hors la vie, vous êtes au-dessus de la vie, vous avez des maux que l&rsquo;homme ordinaire ne connaît pas, vous dépassez le niveau normal et c&rsquo;est de quoi les hommes vous tiennent rigueur ; vous empoisonnez leur quiétude, vous êtes des dissolvants de leur stabilité. Vous avez d&rsquo;irrépressibles douleurs dont l&rsquo;essence est d&rsquo;être inadaptable à aucun état connu, inajustable dans les mots. Vous avez des douleurs répétées et fuyantes, des douleurs insolubles, des douleurs hors de la pensée, des douleurs qui ne sont ni dans le corps ni dans l&rsquo;âme, mais qui tiennent de tous les deux. Et moi, je participe à vos maux, et je vous le demande : qui oserait nous mesurer le calmant ? Au nom de quelle clarté supérieure, âme à nous-mêmes, nous qui sommes à la racine même de la connaissance et de la clarté. Et cela, de par nos instances, de par notre insistance à souffrir. Nous que la douleur a fait voyager dans notre âme à la recherche d&rsquo;une place de calme où s&rsquo;accrocher, à la recherche de la stabilité dans le mal comme les autres dans le bien. Nous ne sommes pas fous, nous sommes de merveilleux médecins, nous connaissons le dosage de l&rsquo;âme,  de la sensibilité, de la moelle, de la pensée. Il faut nous laisser la paix, il faut laisser la paix aux malades, nous ne demandons rien aux hommes, nous ne leur demandons que le soulagement de nos maux. Nous avons bien évalué notre vie, nous savons ce qu&rsquo;elle comporte de restrictions en face des autres, et surtout en face de nous-mêmes. Nous savons à quel avachissement consenti, à quel renoncement de nous-même, à quelles paralysies de subtilités notre mal chaque jour nous oblige. Nous ne nous suicidons pas tout de suite. En attendant qu&rsquo;on nous foute la paix.</p>
-<p>Antonin Artaud</p>
-<p>La Révolution Surréaliste.</p>
-<p>(1er janvier 1925. )</p>
 ]]></content>
 		</item>
 		

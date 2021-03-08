@@ -40,6 +40,18 @@ En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à un
     </item>
     
     <item>
+      <title>Antonin Artaud</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
+      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Antonin Artaud :EXPORT_DATE: 2021-02-18
+Wikipédia
+Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes. Afin assimilé comme tel, l&amp;rsquo;opportuniste André Breton évoque vaguement celui-ci André Breton, loquace !
+Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche non conventionnelle de la question de la souffrance essentialiste vis une recherche organique pour s&amp;rsquo;échapper de cette condition. Le rapport à la société et aux docteurs est aussi intéressant.</description>
+    </item>
+    
+    <item>
       <title>Introduction Machine Learning Python</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</link>
       <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
@@ -49,6 +61,20 @@ En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à un
 J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
 Un processus stochastique ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&amp;rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&amp;rsquo;une épreuve.
 Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</description>
+    </item>
+    
+    <item>
+      <title>La liquidation de l&#39;opium</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</link>
+      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</guid>
+      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: La liquidation de l&amp;rsquo;opium :EXPORT_DATE: 2021-02-18
+J&amp;rsquo;ai l&amp;rsquo;intention non dissimulée d&amp;rsquo;épuiser la question afin qu&amp;rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.
+Mon point de vue est nettement anti-social.
+On n&amp;rsquo;a qu&amp;rsquo;une raison d&amp;rsquo;attaquer l&amp;rsquo;opium. C&amp;rsquo;est celui du danger que son emploi peut faire courir à l&amp;rsquo;ensemble de la société.
+Or ce danger est faux.
+Nous sommes nés pourris dans le corps et dans l&amp;rsquo;âme, nous sommes congénitalement inadaptés ; supprimez l&amp;rsquo;opium, vous ne supprimerez pas le besoin du crime, les cancers du corps et de l&amp;rsquo;âme, la propension au désespoir, le crétinisme né, la vérole héréditaire, la friabilité des instincts.</description>
     </item>
     
     <item>
@@ -106,44 +132,6 @@ L&amp;rsquo;architecture du front (nouveauté) 12</description>
       <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: FormSpree
 :javascript: :html:formMail:
 FormSpree permet de créer un Form sur une page Html statique. C&amp;rsquo;est très arrangeant pour le cas des GitHub Pages. En plus avec l&amp;rsquo;option full script : ça permet d&amp;rsquo;avoir un button pop up type chatbox. Le problème est pour le changement de couleur. J&amp;rsquo;aimerais la changer. Je verrais s&amp;rsquo;il est possible de la personnaliser après.</description>
-    </item>
-    
-    <item>
-      <title>Optimisation Algorithmique</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</link>
-      <pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210305111006-optimisation/</guid>
-      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Optimisation Algorithmique
-Les méthodes d&amp;rsquo;optimisation numérique.
-Cours de l&amp;rsquo;ENS en ligne</description>
-    </item>
-    
-    <item>
-      <title>Angular</title>
-      <link>https://charlene19.github.io/secondBrain/posts/angular/</link>
-      <pubDate>Sat, 07 Mar 2020 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/angular/</guid>
-      <description>&lt;h1 id=&#34;angular&#34;&gt;Angular&lt;/h1&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Permet d&amp;rsquo;installer le module de node.js dans le projet&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Node.js&#34; data-lang=&#34;Node.js&#34;&gt;&lt;span class=&#34;nx&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;npm&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;latest&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Puis, cela pour installer le CLI d&amp;rsquo;Angular&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;npm install -g @angular/cli
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Si le projet est importé ou déjà créer, il faut juste lancer le server :&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ng serve
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sinon, on peut créer le projet au travers d&amp;rsquo;une ligne de code&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ng new mon-premier-projet
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;La commande&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;npm install
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;permet de télécharger des modules nécessaire. Exemple bootstrap.&lt;/p&gt;
-&lt;p&gt;Pour ajouter les modules télécharger il faut se rendre dans le fichier : angular.json puis mettre en lien la localisation des modules installés.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;quot;styles&amp;quot;: [
-  &amp;quot;node_modules\\bootstrap\\dist\\css\\bootstrap.css&amp;quot;,
-  &amp;quot;src\\styles.css&amp;quot;
-]
-&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
   </channel>
