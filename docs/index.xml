@@ -45,10 +45,10 @@ En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à un
       <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</guid>
-      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Antonin Artaud :EXPORT_DATE: 2021-02-18
-Wikipédia
+      <description>Wikipédia
 Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes. Afin assimilé comme tel, l&amp;rsquo;opportuniste André Breton évoque vaguement celui-ci André Breton, loquace !
-Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche non conventionnelle de la question de la souffrance essentialiste vis une recherche organique pour s&amp;rsquo;échapper de cette condition. Le rapport à la société et aux docteurs est aussi intéressant.</description>
+Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche non conventionnelle de la question de la souffrance essentialiste vis une recherche organique pour s&amp;rsquo;échapper de cette condition. Le rapport à la société et aux docteurs est aussi intéressant.
+Le fatalisme qui saute aux yeux n&amp;rsquo;est finalement pas si évident que ça.</description>
     </item>
     
     <item>
@@ -57,8 +57,7 @@ Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche
       <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</guid>
-      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Introduction Machine Learning Python
-J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
+      <description>J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
 Un processus stochastique ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&amp;rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&amp;rsquo;une épreuve.
 Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</description>
     </item>
@@ -69,8 +68,7 @@ Cette notion se généralise à plusieurs dimensions. Un cas particulier importa
       <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</guid>
-      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: La liquidation de l&amp;rsquo;opium :EXPORT_DATE: 2021-02-18
-J&amp;rsquo;ai l&amp;rsquo;intention non dissimulée d&amp;rsquo;épuiser la question afin qu&amp;rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.
+      <description>J&amp;rsquo;ai l&amp;rsquo;intention non dissimulée d&amp;rsquo;épuiser la question afin qu&amp;rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.
 Mon point de vue est nettement anti-social.
 On n&amp;rsquo;a qu&amp;rsquo;une raison d&amp;rsquo;attaquer l&amp;rsquo;opium. C&amp;rsquo;est celui du danger que son emploi peut faire courir à l&amp;rsquo;ensemble de la société.
 Or ce danger est faux.
@@ -83,9 +81,8 @@ Nous sommes nés pourris dans le corps et dans l&amp;rsquo;âme, nous sommes con
       <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</guid>
-      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: Timer Java
-:Timer:
-J&amp;rsquo;ai testé de mettre un Timer dans la méthode OBservable, mets le runner tourne sans même le callback à la méthode. Le timer est par contre lui fonctionnel.
+      <description>:Timer:
+J&amp;rsquo;ai testé de mettre un Timer dans la méthode OBservable, mais le runner tourne sans même le callback à la méthode. Le timer est par contre lui fonctionnel.
 new Timer().schedule( new TimerTask() { Double temp = 0.0; @Override public void run() { temp += (Double) slider3.getValue(); System.out.println(&amp;quot;Slider3 : &amp;quot; + slider3.getValue() + &amp;quot; valueTemp &amp;quot; + temp); valueActivity += temp; temp = 0.0; } }, 5000, 5000); }); </description>
     </item>
     
@@ -129,8 +126,7 @@ L&amp;rsquo;architecture du front (nouveauté) 12</description>
       <pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</guid>
-      <description>:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml :EXPORT_FILE_NAME: FormSpree
-:javascript: :html:formMail:
+      <description>:javascript: :html:formMail:
 FormSpree permet de créer un Form sur une page Html statique. C&amp;rsquo;est très arrangeant pour le cas des GitHub Pages. En plus avec l&amp;rsquo;option full script : ça permet d&amp;rsquo;avoir un button pop up type chatbox. Le problème est pour le changement de couleur. J&amp;rsquo;aimerais la changer. Je verrais s&amp;rsquo;il est possible de la personnaliser après.</description>
     </item>
     

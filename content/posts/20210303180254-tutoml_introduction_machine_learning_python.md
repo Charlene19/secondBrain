@@ -6,8 +6,6 @@ draft = false
 date = 2021-02-01T19:47:46+01:00
 +++
 
-:EXPORT\_HUGO\_FRONT\_MATTER\_FORMAT: yaml
-:EXPORT\_FILE\_NAME: Introduction Machine Learning Python
 
 J'ai installé : sklearn et jupyter sur PyCharm
 
