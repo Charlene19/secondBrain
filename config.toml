@@ -15,7 +15,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 publishDir = "docs"
 staticDir = ["static"]
 [author]
-  name = "John Doe"
+  name = "Charlène"
 
 [blackfriday]
   # hrefTargetBlank = true

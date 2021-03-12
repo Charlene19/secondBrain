@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selenium on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/selenium/</link>
+    <description>Recent content in Selenium on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selenium</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</guid>
+      <description>Selenium va me permettre de scrapper du Js.
+J&amp;rsquo;ai installé le package via IntelliJ sur mon env. Mais je dois encore lui offrir un accès à mon browser. Ici, google chrome :
+Description browser Selenium
+J&amp;rsquo;ai importer via PyCharm : Selenium. Puis dwl les drivers chrome.
+J&amp;rsquo;ai dû ouvrir les droits :
+sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des données retour de Form.</description>
+    </item>
+    
+  </channel>
+</rss>

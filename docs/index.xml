@@ -7,7 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crawler</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</guid>
+      <description>import requests from bs4 import BeautifulSoup class Crawler: def getPage(self, url): try: req = requests.get(url) except requests.exceptions.RequestException: return None return BeautifulSoup(req.text, &#39;html.parser&#39;) def safeGet(self, pageObj, selector): &amp;quot;&amp;quot;&amp;quot; Utilty function used to get a content string from a Beautiful Soup object and a selector. Returns an empty string if no object is found for the given selector &amp;quot;&amp;quot;&amp;quot; selectedElems = pageObj.select(selector) if selectedElems is not None and len(selectedElems) &amp;gt; 0: return &#39;\n&#39;.</description>
+    </item>
+    
+    <item>
+      <title>CrwalSpider</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210310135927-crwalspider/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210310135927-crwalspider/</guid>
+      <description>from scrapy.contrib.linkextractors import LinkExtractor from scrapy.contrib.spiders import CrawlSpider, Rule class ArticleSpider(CrawlSpider): name = &#39;articles&#39; allowed_domains = [&#39;wikipedia.org&#39;] start_urls = [&#39;https://en.wikipedia.org/wiki/&#39; &#39;Benevolent_dictator_for_life&#39;] rules = [Rule(LinkExtractor(allow=r&#39;.*&#39;), callback=&#39;parse_items&#39;, follow=True)] def parse_items(self, response): url = response.url title = response.css(&#39;h1::text&#39;).extract_first() text = response.xpath(&#39;//div[@id=&amp;quot;mw-content-text&amp;quot;]//text()&#39;) .extract() lastUpdated = response.css(&#39;li#footer-info-lastmod::text&#39;) .extract_first() lastUpdated = lastUpdated.replace( &#39;This page was last edited on &#39;, &#39;&#39;) print(&#39;URL is: {}&#39;.format(url)) print(&#39;title is: {} &#39;.format(title)) print(&#39;text is: {}&#39;.format(text)) print(&#39;Last updated: {}&#39;.format(lastUpdated)) #scrapy.contrib est depreacted : Nouvelle location</description>
+    </item>
+    
+    <item>
+      <title>Domain Format</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</guid>
+      <description>domain = &#39;{}://{}&#39;.format(urlparse(siteUrl).scheme, urlparse(siteUrl).netloc) </description>
+    </item>
+    
+    <item>
+      <title>Scrappy</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210310110014-scrappy/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210310110014-scrappy/</guid>
+      <description>spider : est un projet Scrapy
+ For large sites with many types of content, you might have separate Scrapy items for each type (blog posts, press releases, articles, etc.), each with different fields, but all running under the same Scrapy project. The name of each spider must be unique within the project.
+ Deux méthodes à noter :
+def start_requests(self): urls = [ &#39;http://en.wikipedia.org/wiki/Python_&#39; &#39;%28programming_language%29&#39;, &#39;https://en.wikipedia.org/wiki/Functional_programming&#39;, &#39;https://en.wikipedia.org/wiki/Monty_Python&#39;] return [scrapy.Request(url=url, callback=self.</description>
+    </item>
+    
+    <item>
+      <title>Selenium</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</guid>
+      <description>Selenium va me permettre de scrapper du Js.
+J&amp;rsquo;ai installé le package via IntelliJ sur mon env. Mais je dois encore lui offrir un accès à mon browser. Ici, google chrome :
+Description browser Selenium
+J&amp;rsquo;ai importer via PyCharm : Selenium. Puis dwl les drivers chrome.
+J&amp;rsquo;ai dû ouvrir les droits :
+sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des données retour de Form.</description>
+    </item>
+    
     <item>
       <title>About me</title>
       <link>https://charlene19.github.io/secondBrain/about-hugo/</link>
@@ -40,6 +93,22 @@ En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à un
     </item>
     
     <item>
+      <title>Regex</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</guid>
+      <description>[[./regx1.png]
+[[./regx2.png]
+[[./regx3.png]
+Le cours sur les regex en Java est vraiment bien fait mais il me semble qu&amp;rsquo;il y en a un autre généraliste.
+Par exemple sur le code wikiCrawlers :
+L&amp;rsquo;auteur1 dit qu&amp;rsquo;il y a trois choses en communs :
+ • They reside within the div with the id set to bodyContent . • The URLs do not contain colons. • The URLs begin with wiki.
+ Ce qui nous permet de définir notre regex :</description>
+    </item>
+    
+    <item>
       <title>Loss</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
       <pubDate>Mon, 01 Mar 2021 19:47:46 +0100</pubDate>
@@ -51,87 +120,6 @@ En apprentissage supervisé, c&amp;rsquo;est la notion de perte d&amp;rsquo;info
  L&amp;rsquo;erreur ou le rique
 L&amp;rsquo;erreur quadratique, c&amp;rsquo;est la distance euclidienne entre un point et un modèle.
 Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreurs entre la résultante et le modèle.</description>
-    </item>
-    
-    <item>
-      <title>Antonin Artaud</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
-      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</guid>
-      <description>Wikipédia
-Inventeur du théâtre de la cruauté. Faisant partie du courant des suréalistes. Afin assimilé comme tel, l&amp;rsquo;opportuniste André Breton évoque vaguement celui-ci André Breton, loquace !
-Sa lettre : La liquidation de l&amp;rsquo;opium est étonnante dans son approche non conventionnelle de la question de la souffrance essentialiste vis une recherche organique pour s&amp;rsquo;échapper de cette condition. Le rapport à la société et aux docteurs est aussi intéressant.
-Le fatalisme qui saute aux yeux n&amp;rsquo;est finalement pas si évident que ça.</description>
-    </item>
-    
-    <item>
-      <title>Introduction Machine Learning Python</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</link>
-      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</guid>
-      <description>J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
-Un processus stochastique ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&amp;rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&amp;rsquo;une épreuve.
-Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</description>
-    </item>
-    
-    <item>
-      <title>La liquidation de l&#39;opium</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</link>
-      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</guid>
-      <description>J&amp;rsquo;ai l&amp;rsquo;intention non dissimulée d&amp;rsquo;épuiser la question afin qu&amp;rsquo;on nous foute la paix une fois pour toutes avec les soi-disant dangers de la drogue.
-Mon point de vue est nettement anti-social.
-On n&amp;rsquo;a qu&amp;rsquo;une raison d&amp;rsquo;attaquer l&amp;rsquo;opium. C&amp;rsquo;est celui du danger que son emploi peut faire courir à l&amp;rsquo;ensemble de la société.
-Or ce danger est faux.
-Nous sommes nés pourris dans le corps et dans l&amp;rsquo;âme, nous sommes congénitalement inadaptés ; supprimez l&amp;rsquo;opium, vous ne supprimerez pas le besoin du crime, les cancers du corps et de l&amp;rsquo;âme, la propension au désespoir, le crétinisme né, la vérole héréditaire, la friabilité des instincts.</description>
-    </item>
-    
-    <item>
-      <title>Timer</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</link>
-      <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</guid>
-      <description>:Timer:
-J&amp;rsquo;ai testé de mettre un Timer dans la méthode OBservable, mais le runner tourne sans même le callback à la méthode. Le timer est par contre lui fonctionnel.
-new Timer().schedule( new TimerTask() { Double temp = 0.0; @Override public void run() { temp += (Double) slider3.getValue(); System.out.println(&amp;quot;Slider3 : &amp;quot; + slider3.getValue() + &amp;quot; valueTemp &amp;quot; + temp); valueActivity += temp; temp = 0.0; } }, 5000, 5000); }); </description>
-    </item>
-    
-    <item>
-      <title>Choix hébergeur</title>
-      <link>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</link>
-      <pubDate>Mon, 14 Dec 2020 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/choisir-un-h%C3%A9bergeur/</guid>
-      <description>Choisir un hébergeur  Vous avez besoin de 3 choses pour créer un site :
- Un nom de domaine, comme par ex. : mon-site.com Un hébergement pour stocker vos pages, articles, etc. Un système de gestion de contenu comme WordPress ou Joomla. Cela vous permettra de créer votre site facilement sans aucune connaissance technique.   Unhébergeurmutualisé:
-Les ressources du serveur (processeur et la mémoire) sont partagés avec des centaines de sites internet.</description>
-    </item>
-    
-    <item>
-      <title>Cahier des Charges Prjet Front et Back-end</title>
-      <link>https://charlene19.github.io/secondBrain/posts/cahiercharges/</link>
-      <pubDate>Tue, 01 Dec 2020 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/cahiercharges/</guid>
-      <description>Projet Groupe Contenu Projet Groupe 1
-Modalités 2
-Objectif du site 2
-Définition en méthodologie Scrum : 2
-La conception du MCD : 4
-Base de données : 4
-Choix de l&amp;rsquo;architecture (nouveauté) : 6
-La modularité des fonctionnalités du site : 7
-Les technos 8
-Back-end (nouveauté): 8
-L&amp;rsquo;architecture du back (nouveauté) : 8
-Les fonctionnalités du Back-End 9
-Les API&amp;rsquo;s 11
-Front-end (nouveauté) : 11
-L&amp;rsquo;architecture du front (nouveauté) 12</description>
     </item>
     
   </channel>

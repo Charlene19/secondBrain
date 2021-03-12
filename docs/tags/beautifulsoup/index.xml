@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BeautifulSoup on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/beautifulsoup/</link>
+    <description>Recent content in BeautifulSoup on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/beautifulsoup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>getLinks</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210309114017-getlinks/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210309114017-getlinks/</guid>
+      <description>La méthode getLinks :
+def getLinks(articleUrl): html = urlopen(&#39;http://en.wikipedia.org{}&#39;.format(articleUrl)) bs = BeautifulSoup(html, &#39;html.parser&#39;) return bs.find(&#39;div&#39;, {&#39;id&#39;: &#39;bodyContent&#39;}).find_all(&#39;a&#39;, href=re.compile(&#39;^(/wiki/)((?!:).)*$&#39;)) </description>
+    </item>
+    
+  </channel>
+</rss>

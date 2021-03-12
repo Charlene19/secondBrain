@@ -6,8 +6,221 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 06 Mar 2021 19:47:46 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0100</lastBuildDate>
 		<atom:link href="https://charlene19.github.io/secondBrain/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Crawler</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</link>
+			<pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</guid>
+			<description>import requests from bs4 import BeautifulSoup class Crawler: def getPage(self, url): try: req = requests.get(url) except requests.exceptions.RequestException: return None return BeautifulSoup(req.text, &#39;html.parser&#39;) def safeGet(self, pageObj, selector): &amp;quot;&amp;quot;&amp;quot; Utilty function used to get a content string from a Beautiful Soup object and a selector. Returns an empty string if no object is found for the given selector &amp;quot;&amp;quot;&amp;quot; selectedElems = pageObj.select(selector) if selectedElems is not None and len(selectedElems) &amp;gt; 0: return &#39;\n&#39;.</description>
+			<content type="html"><![CDATA[<pre><code class="language-nil" data-lang="nil">import requests
+from bs4 import BeautifulSoup
+
+
+class Crawler:
+
+    def getPage(self, url):
+	try:
+	    req = requests.get(url)
+	except requests.exceptions.RequestException:
+	    return None
+	return BeautifulSoup(req.text, 'html.parser')
+
+    def safeGet(self, pageObj, selector):
+	&quot;&quot;&quot;
+	Utilty function used to get a content string from a Beautiful Soup
+	object and a selector. Returns an empty string if no object
+	is found for the given selector
+	&quot;&quot;&quot;
+	selectedElems = pageObj.select(selector)
+	if selectedElems is not None and len(selectedElems) &gt; 0:
+	    return '\n'.join([elem.get_text() for elem in selectedElems])
+	return ''
+
+    def parse(self, site, url):
+	&quot;&quot;&quot;
+	Extract content from a given page URL
+	&quot;&quot;&quot;
+	bs = self.getPage(url)
+	if bs is not None:
+	    title = self.safeGet(bs, site.titleTag)
+	    body = self.safeGet(bs, site.bodyTag)
+	    if title != '' and body != '':
+		content = Content(url, title, body)
+		content.print()
+
+crawler = Crawler()
+
+siteData = [
+    ['O\'Reilly Media', 'http://oreilly.com', 'h1', 'section#product-description'],
+    ['Reuters', 'http://reuters.com', 'h1', 'div.StandardArticleBody_body_1gnLA'],
+    ['Brookings', 'http://www.brookings.edu', 'h1', 'div.post-body'],
+    ['New York Times', 'http://nytimes.com', 'h1', 'div.StoryBodyCompanionColumn div p']
+]
+websites = []
+for row in siteData:
+    websites.append(Website(row[0], row[1], row[2], row[3]))
+
+crawler.parse(websites[0], 'http://shop.oreilly.com/product/0636920028154.do')
+crawler.parse(
+    websites[1], 'http://www.reuters.com/article/us-usa-epa-pruitt-idUSKBN19W2D0')
+crawler.parse(
+    websites[2],
+    'https://www.brookings.edu/blog/techtank/2016/03/01/idea-to-retire-old-methods-of-policy-education/')
+crawler.parse(
+    websites[3],
+    'https://www.nytimes.com/2018/01/28/business/energy-environment/oil-boom.html')
+
+</code></pre><p>Les différences crawler :</p>
+<ul>
+<li>Par une méthode GET : l&rsquo;arg de la recherche est dans l&rsquo;URL</li>
+<li>Les résultats sont sous forme de liste donc utilise le tag list/ ou l&rsquo;identificateur
+en proprio. ex : <!-- raw HTML omitted --></li>
+<li>Chaque résultat est lui-même une url</li>
+</ul>
+<p><strong>Crawling multiple pages types</strong></p>
+<p>Construire des objets permettant d&rsquo;identifier les data récoltés. Permet aussi de faciliter
+l&rsquo;identification et la classification en db.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>CrwalSpider</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210310135927-crwalspider/</link>
+			<pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210310135927-crwalspider/</guid>
+			<description>from scrapy.contrib.linkextractors import LinkExtractor from scrapy.contrib.spiders import CrawlSpider, Rule class ArticleSpider(CrawlSpider): name = &#39;articles&#39; allowed_domains = [&#39;wikipedia.org&#39;] start_urls = [&#39;https://en.wikipedia.org/wiki/&#39; &#39;Benevolent_dictator_for_life&#39;] rules = [Rule(LinkExtractor(allow=r&#39;.*&#39;), callback=&#39;parse_items&#39;, follow=True)] def parse_items(self, response): url = response.url title = response.css(&#39;h1::text&#39;).extract_first() text = response.xpath(&#39;//div[@id=&amp;quot;mw-content-text&amp;quot;]//text()&#39;) .extract() lastUpdated = response.css(&#39;li#footer-info-lastmod::text&#39;) .extract_first() lastUpdated = lastUpdated.replace( &#39;This page was last edited on &#39;, &#39;&#39;) print(&#39;URL is: {}&#39;.format(url)) print(&#39;title is: {} &#39;.format(title)) print(&#39;text is: {}&#39;.format(text)) print(&#39;Last updated: {}&#39;.format(lastUpdated)) #scrapy.contrib est depreacted : Nouvelle location</description>
+			<content type="html"><![CDATA[<pre><code class="language-nil" data-lang="nil">from scrapy.contrib.linkextractors import LinkExtractor
+from scrapy.contrib.spiders import CrawlSpider, Rule
+class ArticleSpider(CrawlSpider):
+name = 'articles'
+allowed_domains = ['wikipedia.org']
+start_urls = ['https://en.wikipedia.org/wiki/'
+'Benevolent_dictator_for_life']
+rules = [Rule(LinkExtractor(allow=r'.*'), callback='parse_items',
+follow=True)]
+def parse_items(self, response):
+url = response.url
+title = response.css('h1::text').extract_first()
+text = response.xpath('//div[@id=&quot;mw-content-text&quot;]//text()')
+.extract()
+lastUpdated = response.css('li#footer-info-lastmod::text')
+.extract_first()
+lastUpdated = lastUpdated.replace(
+'This page was last edited on ', '')
+print('URL is: {}'.format(url))
+print('title is: {} '.format(title))
+print('text is: {}'.format(text))
+print('Last updated: {}'.format(lastUpdated))
+</code></pre><p>#scrapy.contrib est depreacted : <a href="https://docs.scrapy.org/en/latest/news.html#full-list-of-relocations">Nouvelle location</a></p>
+<p>Scrapy permet de générer les datas sous différents formats :</p>
+<pre><code class="language-nil" data-lang="nil">$ scrapy runspider articleItems.py -o articles.csv -t csv
+$ scrapy runspider articleItems.py -o articles.json -t json
+$ scrapy runspider articleItems.py -o articles.xml -t xml
+</code></pre><p><a href="20210310141632-itempipeline.org">itemPipeline</a>Pour aller plus loin avec Scrapy : <strong>Learning Scrapy: Learn the art of eficient web scraping and crawling with Python
+Kouzis-Loukas Dimitrios</strong></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Domain Format</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</link>
+			<pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</guid>
+			<description>domain = &#39;{}://{}&#39;.format(urlparse(siteUrl).scheme, urlparse(siteUrl).netloc) </description>
+			<content type="html"><![CDATA[<pre><code class="language-nil" data-lang="nil">domain = '{}://{}'.format(urlparse(siteUrl).scheme,
+urlparse(siteUrl).netloc)
+</code></pre>]]></content>
+		</item>
+		
+		<item>
+			<title>Scrappy</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210310110014-scrappy/</link>
+			<pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210310110014-scrappy/</guid>
+			<description>spider : est un projet Scrapy
+ For large sites with many types of content, you might have separate Scrapy items for each type (blog posts, press releases, articles, etc.), each with different fields, but all running under the same Scrapy project. The name of each spider must be unique within the project.
+ Deux méthodes à noter :
+def start_requests(self): urls = [ &#39;http://en.wikipedia.org/wiki/Python_&#39; &#39;%28programming_language%29&#39;, &#39;https://en.wikipedia.org/wiki/Functional_programming&#39;, &#39;https://en.wikipedia.org/wiki/Monty_Python&#39;] return [scrapy.Request(url=url, callback=self.</description>
+			<content type="html"><![CDATA[<p>spider : est un projet Scrapy</p>
+<blockquote>
+<p>For large sites with many types of content, you might have separate Scrapy items for
+each type (blog posts, press releases, articles, etc.), each with different fields, but all
+running under the same Scrapy project. The name of each spider must be unique
+within the project.</p>
+</blockquote>
+<p>Deux méthodes à noter :</p>
+<pre><code class="language-nil" data-lang="nil">def start_requests(self):
+    urls = [
+	'http://en.wikipedia.org/wiki/Python_'
+	'%28programming_language%29',
+	'https://en.wikipedia.org/wiki/Functional_programming',
+	'https://en.wikipedia.org/wiki/Monty_Python']
+    return [scrapy.Request(url=url, callback=self.parse)
+	    for url in urls]
+</code></pre><p>Methode d&rsquo;entrée du programme. Elle fournit la request.</p>
+<pre><code class="language-nil" data-lang="nil">def parse(self, response):
+       url = response.url
+       title = response.css('h1::text').extract_first()
+       print('URL is: {}'.format(url))
+       print('Title is: {}'.format(title))
+</code></pre><p><a href="20210310135927-crwalspider.org">CrwalSpider</a></p>
+<p>Scrapy permet de faire des objets qui faciliteront le stockage.</p>
+<pre><code class="language-nil" data-lang="nil">from scrapy.contrib.linkextractors import LinkExtractor
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from wikiSpider.items import Article
+class ArticleSpider(CrawlSpider):
+name = 'articleItems'
+allowed_domains = ['wikipedia.org']
+start_urls = ['https://en.wikipedia.org/wiki/Benevolent'
+'_dictator_for_life']
+rules = [
+Rule(LinkExtractor(allow='(/wiki/)((?!:).)*$'),
+callback='parse_items', follow=True),
+]
+def parse_items(self, response):
+article = Article()
+article['url'] = response.url
+article['title'] = response.css('h1::text').extract_first()
+article['text'] = response.xpath('//div[@id='
+'&quot;mw-content-text&quot;]//text()').extract()
+lastUpdated = response.css('li#footer-info-lastmod::text')
+.extract_first()
+article['lastUpdated'] = lastUpdated.replace('This page was '
+'last edited on ', '')
+return article
+</code></pre>]]></content>
+		</item>
+		
+		<item>
+			<title>Selenium</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</link>
+			<pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</guid>
+			<description>Selenium va me permettre de scrapper du Js.
+J&amp;rsquo;ai installé le package via IntelliJ sur mon env. Mais je dois encore lui offrir un accès à mon browser. Ici, google chrome :
+Description browser Selenium
+J&amp;rsquo;ai importer via PyCharm : Selenium. Puis dwl les drivers chrome.
+J&amp;rsquo;ai dû ouvrir les droits :
+sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des données retour de Form.</description>
+			<content type="html"><![CDATA[<p>Selenium va me permettre de scrapper du Js.</p>
+<p>J&rsquo;ai installé le package via IntelliJ sur mon env. Mais je dois encore lui offrir
+un accès à mon browser. Ici, google chrome :</p>
+<p><a href="https://tecadmin.net/setup-selenium-with-chromedriver-on-debian/">Description browser Selenium</a></p>
+<p>J&rsquo;ai importer via PyCharm : Selenium.
+Puis dwl les drivers chrome.</p>
+<p>J&rsquo;ai dû ouvrir les droits :</p>
+<pre><code class="language-nil" data-lang="nil">sudo chmod u+rwxX /usr/bin/chromedriver
+</code></pre><p>Maintenant à appliquer avec des données retour de Form.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Bézier Courbe en ReactJs</title>
@@ -262,6 +475,48 @@ fournir le nombre d&rsquo;objets dans un collection.</p>
 		</item>
 		
 		<item>
+			<title>Regex</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</link>
+			<pubDate>Sat, 06 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</guid>
+			<description>[[./regx1.png]
+[[./regx2.png]
+[[./regx3.png]
+Le cours sur les regex en Java est vraiment bien fait mais il me semble qu&amp;rsquo;il y en a un autre généraliste.
+Par exemple sur le code wikiCrawlers :
+L&amp;rsquo;auteur1 dit qu&amp;rsquo;il y a trois choses en communs :
+ • They reside within the div with the id set to bodyContent . • The URLs do not contain colons. • The URLs begin with wiki.
+ Ce qui nous permet de définir notre regex :</description>
+			<content type="html"><![CDATA[<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+[[./regx1.png]</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+[[./regx2.png]</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+[[./regx3.png]</p>
+<p>Le cours <a href="https://cyberzoide.developpez.com/tutoriels/java/regex/">sur les regex en Java</a> est vraiment bien fait mais il me semble qu&rsquo;il y en a un
+autre généraliste.</p>
+<p>Par exemple sur le code wikiCrawlers :</p>
+<p>L&rsquo;auteur<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> dit qu&rsquo;il y a trois choses en communs :</p>
+<blockquote>
+<p>• They reside within the div with the id set to bodyContent .
+• The URLs do not contain colons.
+• The URLs begin with <em>wiki</em>.</p>
+</blockquote>
+<p>Ce qui nous permet de définir notre regex :</p>
+<pre><code class="language-nil" data-lang="nil">^(/wiki/)((?!:).)*$&quot;)
+</code></pre><section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>: Web Scrapping with Python Collecting More Data from the Modern web by Ryan Mitchell <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+		</item>
+		
+		<item>
 			<title>Loss</title>
 			<link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
 			<pubDate>Mon, 01 Mar 2021 19:47:46 +0100</pubDate>
@@ -286,6 +541,100 @@ Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreur
 <p>Ici le but de l&rsquo;algorithme est de converger vers le maximum de la fonction de la vraisemblance.</p>
 <p>Ô : est un estimateur.</p>
 <p><a href="https://quantivity.wordpress.com/2011/05/23/why-minimize-negative-log-likelihood/">Lien entre Loss et Vraissemblance</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>getLinks</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210309114017-getlinks/</link>
+			<pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210309114017-getlinks/</guid>
+			<description>La méthode getLinks :
+def getLinks(articleUrl): html = urlopen(&#39;http://en.wikipedia.org{}&#39;.format(articleUrl)) bs = BeautifulSoup(html, &#39;html.parser&#39;) return bs.find(&#39;div&#39;, {&#39;id&#39;: &#39;bodyContent&#39;}).find_all(&#39;a&#39;, href=re.compile(&#39;^(/wiki/)((?!:).)*$&#39;)) </description>
+			<content type="html"><![CDATA[<p>La méthode getLinks :</p>
+<pre><code class="language-nil" data-lang="nil">
+def getLinks(articleUrl):
+    html = urlopen('http://en.wikipedia.org{}'.format(articleUrl))
+    bs = BeautifulSoup(html, 'html.parser')
+    return bs.find('div', {'id': 'bodyContent'}).find_all('a',
+							  href=re.compile('^(/wiki/)((?!:).)*$'))
+</code></pre>]]></content>
+		</item>
+		
+		<item>
+			<title>ScrapperPy</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210303174459-scrapperpy/</link>
+			<pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210303174459-scrapperpy/</guid>
+			<description>:python:
+QustionsObjectif
+Création d&amp;rsquo;un scrapper pour les offres d&amp;rsquo;emploi de programmeur informatique Java. Avec plusieurs mots clef : développeur, java, paris, seine-saint-denis, débutant.
+Je vais utiliser le scrapper Scrappy, qui va me renvoyer mes données en JSON. Je vais après faire une utilisation de mes données.
+Je m&amp;rsquo;appuies sur le livre de Ryan Mitchell : Web Scraping with Python Collecting more data from the modern web.
+:beautifulSoup:
+Il y existe différents parser : html.</description>
+			<content type="html"><![CDATA[<p>:python:</p>
+<p><a href="20210309134055-qustionsobjectif.org">QustionsObjectif</a></p>
+<p>Création d&rsquo;un scrapper pour les offres d&rsquo;emploi de programmeur informatique Java.
+Avec plusieurs mots clef : développeur, java, paris, seine-saint-denis, débutant.</p>
+<p>Je vais utiliser le scrapper Scrappy, qui va me renvoyer mes données en JSON.
+Je vais après faire une utilisation de mes données.</p>
+<p>Je m&rsquo;appuies sur le livre de Ryan Mitchell : Web Scraping with Python Collecting more data
+from the modern web.</p>
+<p>:beautifulSoup:</p>
+<p>Il y existe différents parser : html.parser, lxml, html5lib.</p>
+<p>:bsException:</p>
+<p>Il faut prévoir une erreur dans la recherche d&rsquo;url.</p>
+<p>from urllib.request import urlopen
+from urllib.error import HTTPError</p>
+<p>avec un try catch qui offre une méthode en cas de levée d&rsquo;erreur.</p>
+<p>Les méthodes de Bs :</p>
+<p><em>find and find_all</em> : tag, attributes, recursive, text, limit, keywords.</p>
+<blockquote>
+<p>The attributes argument takes a Python dictionary of attributes and matches tags
+that contain any one of those attributes. For example, the following function would
+return both the green and red span tags in the HTML document:
+.find_all(&lsquo;span&rsquo;, {&lsquo;class&rsquo;:{&lsquo;green&rsquo;, &lsquo;red&rsquo;}})</p>
+</blockquote>
+<p><em>recursive</em> : La recherche si est true va rechercher dans les
+attributs enfants. Si faux, juste au top niveau.</p>
+<p><em>text</em> : va s&rsquo;intéresser au texte recherché.</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">nameList = bs.find_all(text=&#39;the prince&#39;)
+print(len(nameList))
+</code></pre></div><p><strong>Attention</strong> : certains mot-clefs sont protégés en Python comme
+&lsquo;class&rsquo;, il faut alors mettre un underscore : &lsquo;class_&rsquo; pour pouvoir
+faire appel à ce tag.</p>
+<p>:BsObject:</p>
+<p>Il existe 4 objets BeautifulSoup :</p>
+<blockquote>
+<p>BeautifulSoup objects
+Instances seen in previous code examples as the variable bs
+Tag objects
+Retrieved in lists, or retrieved individually by calling find and find_all on a
+BeautifulSoup object, or drilling down, as follows:
+bs.div.h1
+However, there are two more objects in the library that, although less commonly
+used, are still important to know about:
+NavigableString objects
+Used to represent text within tags, rather than the tags themselves (some func‐
+tions operate on and produce NavigableStrings , rather than tag objects).
+Comment object
+Used to find HTML comments in comment tags, <!-- raw HTML omitted --> .</p>
+</blockquote>
+<p><em>next_siblings</em> permet d&rsquo;extraire les données sur les colonnes côte à
+orcôte sans le titre.</p>
+<p>POur optimiser la recherche, le mieux est de stocker les résultats dans un set. Un set
+ne permet pas la duplication d&rsquo;élements.</p>
+<blockquote>
+<p>Python has a default recursion limit (the number of times a pro‐
+gram can recursively call itself) of 1,000. Because Wikipedia’s net‐
+work of links is extremely large, this program will eventually hit
+that recursion limit and stop, unless you put in a recursion counter
+or something to prevent that from happening.</p>
+</blockquote>
+<p>La librairie <a href="https://requests.readthedocs.io/en/master/">Requests</a> est une autre librairie pour obtenir les GET comme urlopen.</p>
 ]]></content>
 		</item>
 		

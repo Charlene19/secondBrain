@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 01 Mar 2021 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regex</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</guid>
+      <description>[[./regx1.png]
+[[./regx2.png]
+[[./regx3.png]
+Le cours sur les regex en Java est vraiment bien fait mais il me semble qu&amp;rsquo;il y en a un autre généraliste.
+Par exemple sur le code wikiCrawlers :
+L&amp;rsquo;auteur1 dit qu&amp;rsquo;il y a trois choses en communs :
+ • They reside within the div with the id set to bodyContent . • The URLs do not contain colons. • The URLs begin with wiki.
+ Ce qui nous permet de définir notre regex :</description>
+    </item>
+    
     <item>
       <title>Loss</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
