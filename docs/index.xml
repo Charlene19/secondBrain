@@ -40,6 +40,20 @@ En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à un
     </item>
     
     <item>
+      <title>Loss</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
+      <pubDate>Mon, 01 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</guid>
+      <description>:MachineLearning:
+En apprentissage supervisé, c&amp;rsquo;est la notion de perte d&amp;rsquo;information qui est très imortante. Puisque c&amp;rsquo;est cette perte qu&amp;rsquo;il va falloir ramener au minimum.
+ L&amp;rsquo;apprentissage se résume en fait souvent à une méthode itérative qui converge vers un minimum de cette fonction.
+ L&amp;rsquo;erreur ou le rique
+L&amp;rsquo;erreur quadratique, c&amp;rsquo;est la distance euclidienne entre un point et un modèle.
+Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreurs entre la résultante et le modèle.</description>
+    </item>
+    
+    <item>
       <title>Antonin Artaud</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
       <pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
@@ -118,16 +132,6 @@ Les fonctionnalités du Back-End 9
 Les API&amp;rsquo;s 11
 Front-end (nouveauté) : 11
 L&amp;rsquo;architecture du front (nouveauté) 12</description>
-    </item>
-    
-    <item>
-      <title>FormSpree</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</link>
-      <pubDate>Sun, 01 Nov 2020 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210304144031-formspree/</guid>
-      <description>:javascript: :html:formMail:
-FormSpree permet de créer un Form sur une page Html statique. C&amp;rsquo;est très arrangeant pour le cas des GitHub Pages. En plus avec l&amp;rsquo;option full script : ça permet d&amp;rsquo;avoir un button pop up type chatbox. Le problème est pour le changement de couleur. J&amp;rsquo;aimerais la changer. Je verrais s&amp;rsquo;il est possible de la personnaliser après.</description>
     </item>
     
   </channel>

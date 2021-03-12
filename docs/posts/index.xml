@@ -262,6 +262,34 @@ fournir le nombre d&rsquo;objets dans un collection.</p>
 		</item>
 		
 		<item>
+			<title>Loss</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
+			<pubDate>Mon, 01 Mar 2021 19:47:46 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</guid>
+			<description>:MachineLearning:
+En apprentissage supervisé, c&amp;rsquo;est la notion de perte d&amp;rsquo;information qui est très imortante. Puisque c&amp;rsquo;est cette perte qu&amp;rsquo;il va falloir ramener au minimum.
+ L&amp;rsquo;apprentissage se résume en fait souvent à une méthode itérative qui converge vers un minimum de cette fonction.
+ L&amp;rsquo;erreur ou le rique
+L&amp;rsquo;erreur quadratique, c&amp;rsquo;est la distance euclidienne entre un point et un modèle.
+Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreurs entre la résultante et le modèle.</description>
+			<content type="html"><![CDATA[<p>:MachineLearning:</p>
+<p>En apprentissage supervisé, c&rsquo;est la notion de perte d&rsquo;information qui est très imortante. Puisque c&rsquo;est cette perte qu&rsquo;il va falloir ramener au minimum.</p>
+<blockquote>
+<p>L&rsquo;apprentissage se résume en fait souvent à une méthode itérative qui converge vers un minimum de cette fonction.</p>
+</blockquote>
+<p><strong>L&rsquo;erreur ou le rique</strong></p>
+<p>L&rsquo;erreur quadratique, c&rsquo;est la distance euclidienne entre un point et un modèle.</p>
+<p>Le risque empirique : c&rsquo;est le calcul de la somme de toutes les erreurs entre la résultante et le modèle.
+[statistical learning theory ]</p>
+<p><strong>La vraissemblance</strong></p>
+<p>Ici le but de l&rsquo;algorithme est de converger vers le maximum de la fonction de la vraisemblance.</p>
+<p>Ô : est un estimateur.</p>
+<p><a href="https://quantivity.wordpress.com/2011/05/23/why-minimize-negative-log-likelihood/">Lien entre Loss et Vraissemblance</a></p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>Antonin Artaud</title>
 			<link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
 			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>

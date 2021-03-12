@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 01 Feb 2021 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 19:47:46 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loss</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
+      <pubDate>Mon, 01 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</guid>
+      <description>:MachineLearning:
+En apprentissage supervisé, c&amp;rsquo;est la notion de perte d&amp;rsquo;information qui est très imortante. Puisque c&amp;rsquo;est cette perte qu&amp;rsquo;il va falloir ramener au minimum.
+ L&amp;rsquo;apprentissage se résume en fait souvent à une méthode itérative qui converge vers un minimum de cette fonction.
+ L&amp;rsquo;erreur ou le rique
+L&amp;rsquo;erreur quadratique, c&amp;rsquo;est la distance euclidienne entre un point et un modèle.
+Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreurs entre la résultante et le modèle.</description>
+    </item>
+    
     <item>
       <title>Introduction Machine Learning Python</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210303180254-tutoml_introduction_machine_learning_python/</link>
