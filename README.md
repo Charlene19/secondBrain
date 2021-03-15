@@ -33,7 +33,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Charlene19/secondeBrain">
+  <a href="https://github.com/Charlene19/secondBrain">
     <img src="https://github.com/Charlene19/secondBrain/blob/master/static/img/sdbn.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -49,7 +49,7 @@
     ·
     <a href="https://github.com/Charlene19/secondBrain/issues">Report Bug</a>
     ·
-    <a href="href="https://github.com/Charlene19/secondeBrain/issues">Request Feature</a>
+    <a href="href="https://github.com/Charlene19/secondBrain/issues">Request Feature</a>
   </p>
 </p>
 
@@ -171,14 +171,14 @@ Project Link:  Link: [https://github.com/Charlene19/secondBrain/](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Charlene19/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Charlene19/secondBrain.svg?style=for-the-badge
 [contributors-url]: https://github.com/Charlene19/secondBrain/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Charlene19/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Charlene19/secondBrain.svg?style=for-the-badge
 [forks-url]: https://github.com/Charlene19/secondBrain/network/members
-[stars-shield]: https://img.shields.io/github/stars/Charlene19/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Charlene19/secondBrain.svg?style=for-the-badge
 [stars-url]: https://github.com/Charlene19/secondBrain/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Charlene19/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/Charlene19/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues/Charlene19/secondBrain.svg?style=for-the-badge
+[issues-url]: https://github.com/Charlene19/secondBrain/issues
+[license-shield]: https://img.shields.io/github/license/Charlene19/secondBrain.svg?style=for-the-badge
+[license-url]: https://github.com/Charlene19/secondBrain/blob/master/LICENSE.txt
 
