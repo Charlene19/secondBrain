@@ -37,17 +37,17 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Second Brain</h3>
 
   <p align="center">
-    project_description
+    Un recueil de notes.
     <br />
-    <a href="https://github.com/Charlene19/secondeBrain"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Charlene19/secondBrain"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Charlene19/secondeBrain">View Demo</a>
+    <a href="https://charlene19.github.io/secondBrain/posts/">Projet en ligne</a>
     ·
-    <a href="https://github.com/Charlene19/secondeBrain/issues">Report Bug</a>
+    <a href="https://github.com/Charlene19/secondBrain/issues">Report Bug</a>
     ·
     <a href="href="https://github.com/Charlene19/secondeBrain/issues">Request Feature</a>
   </p>
@@ -86,7 +86,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://charlene19.github.io/secondBrain/)
+![Product Name Screen Shot](https://github.com/Charlene19/secondBrain/blob/master/static/img/Zettl1.png)
 
 SecondBrain est un recepteur de notes flottantes ou d'articles. Il fonctionne selon le principe de Niklas Luhmann : [Zettelkasten](https://organisologie.com/prise-de-note/#:~:text=Niklas%20Luhmann%20a%20invent%C3%A9%20la%20m%C3%A9thode%20Zettelkasten).
 Ces notes sont prises dans mon éditeur de texte au quotidien avec [emacs](https://www.gnu.org/software/emacs/) et le package [OrgRoam](https://github.com/org-roam/org-roam).
@@ -140,7 +140,7 @@ Ou autres selon votre système d'[exploitation](https://gohugo.io/getting-starte
 
 [Demo](https://charlene19.github.io/secondBrain/)
 
-POur plus d'exemples [réels](https://ox-hugo.scripter.co/doc/examples/)_
+Pour plus d'exemples [réels](https://ox-hugo.scripter.co/doc/examples/)_
 
 
 
