@@ -34,7 +34,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Charlene19/secondeBrain">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Charlene19/secondBrain/blob/master/static/img/sdbn.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Second Brain</h3>
@@ -68,7 +68,7 @@
     <li>
       <a href="#getting-started">Démarrer le projet</a>
       <ul>
-        <li><a href="#prerequisites">Prérequis</a></li>
+        <li><a href="#prérequis">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
