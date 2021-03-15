@@ -92,7 +92,7 @@ SecondBrain est un recepteur de notes flottantes ou d'articles. Il fonctionne se
 Ces notes sont prises dans mon éditeur de texte au quotidien avec [emacs](https://www.gnu.org/software/emacs/) et le package [OrgRoam](https://github.com/org-roam/org-roam).
 Cela permet de créer des notes avec un identifiant unique et surtout de lier les notes entre elles : 
 
-[![OrgRoamServer][product-screenshot]](https://charlene19.github.io/secondBrain/)
+![OrgRoamServer](https://github.com/Charlene19/secondBrain/blob/master/static/img/orgRoamServer.png)
 
 Puis, ces notes sont déployées avec GitHubPages [ici](https://charlene19.github.io/secondBrain/)
 
