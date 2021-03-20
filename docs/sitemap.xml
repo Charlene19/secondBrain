@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://charlene19.github.io/secondBrain/</loc>
+    <lastmod>2021-03-19T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/</loc>
+    <lastmod>2021-03-19T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</loc>
+    <lastmod>2021-03-19T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</loc>
+    <lastmod>2021-03-18T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/machinelearning/</loc>
+    <lastmod>2021-03-17T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</loc>
+    <lastmod>2021-03-17T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/</loc>
+    <lastmod>2021-03-17T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</loc>
+    <lastmod>2021-03-16T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</loc>
     <lastmod>2021-03-09T00:00:00+01:00</lastmod>
   </url><url>
@@ -9,12 +33,6 @@
     <lastmod>2021-03-09T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</loc>
-    <lastmod>2021-03-09T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://charlene19.github.io/secondBrain/</loc>
-    <lastmod>2021-03-09T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://charlene19.github.io/secondBrain/posts/</loc>
     <lastmod>2021-03-09T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/tags/programming/</loc>
@@ -35,9 +53,6 @@
     <loc>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</loc>
     <lastmod>2021-03-09T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/tags/</loc>
-    <lastmod>2021-03-09T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://charlene19.github.io/secondBrain/about-hugo/</loc>
     <lastmod>2021-03-07T19:47:46+01:00</lastmod>
   </url><url>
@@ -56,9 +71,6 @@
     <loc>https://charlene19.github.io/secondBrain/tags/untagged/</loc>
     <lastmod>2021-03-06T19:47:46+01:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/tags/machinelearning/</loc>
-    <lastmod>2021-03-06T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</loc>
     <lastmod>2021-03-06T00:00:00+01:00</lastmod>
   </url><url>
@@ -72,6 +84,9 @@
     <lastmod>2021-03-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210303174459-scrapperpy/</loc>
+    <lastmod>2021-03-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210312154325-scrapperwork/</loc>
     <lastmod>2021-03-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</loc>

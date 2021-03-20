@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet &#39;Recognizer emotional&#39;</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</guid>
+      <description>Projet construit à partir de cet article. Je ne sais pour l&amp;rsquo;instant pas quelle liberté je prendrais par rapport à lui. Les librairies : Librosa, SoundFile, NumPy, Scikit-Learn.
+En premier lieu, j&amp;rsquo;ai dû télécharger des samples de données, en l&amp;rsquo;occurence des voix sur kagle. Puis définir un dictionnaire de données dans mon fichier. Afin de tester et faire progresser au mieux mon programme, j&amp;rsquo;ai sélectionné 3 émotions.
+emotion_labels = { &#39;01&#39;: &#39;neutral&#39;, &#39;02&#39;: &#39;calm&#39;, &#39;03&#39;: &#39;happy&#39;, &#39;04&#39;: &#39;sad&#39;, &#39;05&#39;: &#39;angry&#39;, &#39;06&#39;: &#39;fearful&#39;, &#39;07&#39;: &#39;disgust&#39;, &#39;08&#39;: &#39;surprised&#39; } focused_emotion_labels = [&#39;happy&#39;, &#39;sad&#39;, &#39;angry&#39;] Extraction</description>
+    </item>
+    
     <item>
       <title>Regex</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</link>

@@ -6,13 +6,13 @@ tags = ["MachineLearning"]
 draft = false
 +++
 
-<a id="org06b39de"></a>
+<a id="org08c167c"></a>
 [[./regx1.png]
 
-<a id="org59a13b2"></a>
+<a id="orgd077c17"></a>
 [[./regx2.png]
 
-<a id="org3595e73"></a>
+<a id="org39a27ed"></a>
 [[./regx3.png]
 
 Le cours [sur les regex en Java](https://cyberzoide.developpez.com/tutoriels/java/regex/) est vraiment bien fait mais il me semble qu'il y en a un
@@ -31,7 +31,5 @@ Ce qui nous permet de définir notre regex :
 ```nil
 ^(/wiki/)((?!:).)*$")
 ```
-
-Ce site permet de tester des regex [Html](https://regexr.com/3ff0o)
 
 [^fn:1]: : Web Scrapping with Python Collecting More Data from the Modern web by Ryan Mitchell

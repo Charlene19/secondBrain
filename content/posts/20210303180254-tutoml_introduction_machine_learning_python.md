@@ -30,6 +30,7 @@ Cette notion se généralise à plusieurs dimensions. Un cas particulier importa
 <a id="orgc688cae"></a>
 
 {{< figure src="/ox-hugo/quartetAnscombe.png" caption="Figure 1: quartet d'Anscomb" >}}
+![Figure 1: quartet d'Anscomb](https://github.com/Charlene19/Charlene19/blob/main/PortFolio/quartetAnscombe.png?raw=true)
 
 **Instance** ou observation sont des entrées dans un jeu de données.
 

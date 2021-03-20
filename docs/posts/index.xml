@@ -6,8 +6,122 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0100</lastBuildDate>
 		<atom:link href="https://charlene19.github.io/secondBrain/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Stiegler</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</link>
+			<pubDate>Fri, 19 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</guid>
+			<description>Suite à l&amp;rsquo;écoute des deux interviews de Stiegler chez Thinkerview, j&amp;rsquo;ai repéré deux choses. La première, j&amp;rsquo;aimerais me rapprocher de son institut de recherche scientifique. Je n&amp;rsquo;ai pas très bien compris ce qui s&amp;rsquo;y fait. Mais l&amp;rsquo;idée d&amp;rsquo;utilisation de datas pour redonner la place est intéressante. Il est possible que ça soit une coquille vide mais quand même.
+La deuxième chose est : Le ou les jardins de Pierre :</description>
+			<content type="html"><![CDATA[<p>Suite à l&rsquo;écoute des deux interviews de <a href="https://www.youtube.com/watch?v=qYCfx2xFMjE">Stiegler</a> chez <a href="https://www.youtube.com/watch?v=YDT5f5sQSGA&amp;t=933s">Thinkerview</a>, j&rsquo;ai repéré deux choses. La première, j&rsquo;aimerais me rapprocher de son institut
+de recherche scientifique. Je n&rsquo;ai pas très bien compris ce qui s&rsquo;y fait. Mais l&rsquo;idée d&rsquo;utilisation de datas pour redonner la place est intéressante.
+Il est possible que ça soit une coquille vide mais quand même.</p>
+<p>La deuxième chose est : Le ou les jardins de Pierre :</p>
+<p><img src="https://github.com/Charlene19/Charlene19/blob/main/PortFolio/kyoto.jpg?raw=true" alt="Jardin de Pierre"></p>
+<p>Puis enfin la nouvelle : <a href="http://clicnet.swarthmore.edu/litterature/classique/flaubert/julien.1.html">La Légende de Saint Julien l&rsquo;Hospitalier</a>.
+Ça parle d&rsquo;une sorte de résilience ou plutôt d&rsquo;un changement de cap, de regard sur la vie après des expériences très difficile ou dans ce cas des actions
+inhumaines.
+Son approche m&rsquo;a vraiment intéressé.</p>
+<p>Cette interview était très riche même si l&rsquo;animateur est vraiment limité dans son approche. J&rsquo;ai bien aimé la théorisation du monde libre, de l&rsquo;open source.
+J&rsquo;y participe plus à défault que par réelle réflexion. J&rsquo;aimerais prendre plus de choix réflechi, par exemple à mon mode de vie.</p>
+<p>Par exemple sa réflexion sur l&rsquo;absurdité de faire venir des haricots-verts du Kenya m&rsquo;a marqué. Je ne savais pas que les haricots verts que je consommes ne sont
+pas produits en France. Je n&rsquo;ai jamais pensé ce légumes comme une consommation exotique ou quoi.</p>
+<p>Je prendrais un peu de temps pour réflechir au manger local. C&rsquo;est peut-être le bon moment pour me réinscrire en AMAP.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>GitHub Action : Tuto GitLab</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</link>
+			<pubDate>Thu, 18 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</guid>
+			<description>COurs sur les GitHub WorkFlow.
+Il y a deux types d&amp;rsquo;actions : Container actions ou Js Actions.
+ Docker container actions allow the environment to be packaged with the GitHub Actions code and can only execute in the GitHub-Hosted Linux environment.
+JavaScript actions decouple the GitHub Actions code from the environment allowing faster execution but accepting greater dependency management responsibility.
+  jobs: is the base component of a workflow run build: is the identifier we&amp;rsquo;re attaching to this job name: is the name of the job, this is displayed on GitHub when the workflow is running runs-on: defines the type of machine to run the job on.</description>
+			<content type="html"><![CDATA[<p>COurs sur les GitHub Work<a href="https://lab.github.com/githubtraining/github-actions:-hello-world?overlay=register-box-overlay">Flow</a>.</p>
+<p>Il y a deux types d&rsquo;actions : Container actions ou Js Actions.</p>
+<blockquote>
+<p>Docker container actions allow the environment to be packaged with the GitHub Actions code and can only execute in the GitHub-Hosted Linux environment.</p>
+<p>JavaScript actions decouple the GitHub Actions code from the environment allowing faster execution but accepting greater dependency management responsibility.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>jobs: is the base component of a workflow run
+build: is the identifier we&rsquo;re attaching to this job
+name: is the name of the job, this is displayed on GitHub when the workflow is running
+runs-on: defines the type of machine to run the job on. The machine can be either a GitHub-hosted runner or a self-hosted runner.
+steps: the linear sequence of operations that make up a job
+uses: actions/checkout@v1 uses a community action called checkout to allow the workflow to access the contents of the repository
+uses: ./action-a provides the relative path to the action we created in the action-a directory of the repository
+with: is used to specify the input variables that will be available to your action in the runtime environment. In this case, the input variable is MY_NAME, and it is currently initialized to &ldquo;Mona&rdquo;.</p>
+</blockquote>
+<pre><code class="language-nil" data-lang="nil">jobs:
+  build:
+    name: Hello world action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+	with:
+	  MY_NAME: &quot;Mona&quot;
+</code></pre><p><a href="https://blog.octo.com/tour-dhorizon-de-github-action/">Explication</a></p>
+<p>En définitif, pour l&rsquo;instant je ne sais pas trop comment je pourrais avoir besoin de ce CI/CD. À voir sur des projets plus constant. C&rsquo;est pas ma prio.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Projet &#39;Recognizer emotional&#39;</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</link>
+			<pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</guid>
+			<description>Projet construit à partir de cet article. Je ne sais pour l&amp;rsquo;instant pas quelle liberté je prendrais par rapport à lui. Les librairies : Librosa, SoundFile, NumPy, Scikit-Learn.
+En premier lieu, j&amp;rsquo;ai dû télécharger des samples de données, en l&amp;rsquo;occurence des voix sur kagle. Puis définir un dictionnaire de données dans mon fichier. Afin de tester et faire progresser au mieux mon programme, j&amp;rsquo;ai sélectionné 3 émotions.
+emotion_labels = { &#39;01&#39;: &#39;neutral&#39;, &#39;02&#39;: &#39;calm&#39;, &#39;03&#39;: &#39;happy&#39;, &#39;04&#39;: &#39;sad&#39;, &#39;05&#39;: &#39;angry&#39;, &#39;06&#39;: &#39;fearful&#39;, &#39;07&#39;: &#39;disgust&#39;, &#39;08&#39;: &#39;surprised&#39; } focused_emotion_labels = [&#39;happy&#39;, &#39;sad&#39;, &#39;angry&#39;] Extraction</description>
+			<content type="html"><![CDATA[<p>Projet construit à partir de cet <a href="https://towardsdatascience.com/building-a-speech-emotion-recognizer-using-python-4c1c7c89d713">article</a>. Je ne sais pour l&rsquo;instant pas quelle liberté je prendrais par rapport à lui.
+Les librairies : Librosa, SoundFile, NumPy, Scikit-Learn.</p>
+<p>En premier lieu, j&rsquo;ai dû télécharger des samples de données, en l&rsquo;occurence des voix sur kagle. Puis définir un dictionnaire de données dans mon fichier.
+Afin de tester et faire progresser au mieux mon programme, j&rsquo;ai sélectionné 3 émotions.</p>
+<pre><code class="language-nil" data-lang="nil">
+emotion_labels = {
+    '01': 'neutral',
+    '02': 'calm',
+    '03': 'happy',
+    '04': 'sad',
+    '05': 'angry',
+    '06': 'fearful',
+    '07': 'disgust',
+    '08': 'surprised'
+}
+
+focused_emotion_labels = ['happy', 'sad', 'angry']
+
+</code></pre><p><a href="20210317143643-extraction.org">Extraction</a></p>
+<p>L&rsquo;apprentissage sera supervisée. Le ration est de 3/4 d&rsquo;entraînement et 1/4 de tests.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Gist</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</link>
+			<pubDate>Tue, 16 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</guid>
+			<description>Création d&amp;rsquo;un gist.
+Il est possible de créer un gist public ou privé. Je vais laisser le scrapperPe en pv pour l&amp;rsquo;instant.
+Il suffit juste d&amp;rsquo;aller sur l&amp;rsquo;onglet Gist de sa page gh et copier-coller son snippets et c&amp;rsquo;est bon.</description>
+			<content type="html"><![CDATA[<p>Création d&rsquo;un gist.</p>
+<p>Il est possible de créer un gist public ou privé. Je vais laisser le scrapperPe en pv pour l&rsquo;instant.</p>
+<p>Il suffit juste d&rsquo;aller sur l&rsquo;onglet Gist de sa page gh et copier-coller son snippets et c&rsquo;est bon.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Crawler</title>
@@ -505,7 +619,8 @@ autre généraliste.</p>
 </blockquote>
 <p>Ce qui nous permet de définir notre regex :</p>
 <pre><code class="language-nil" data-lang="nil">^(/wiki/)((?!:).)*$&quot;)
-</code></pre><section class="footnotes" role="doc-endnotes">
+</code></pre><p>Ce site permet de tester des regex <a href="https://regexr.com/3ff0o">Html</a></p>
+<section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
@@ -639,6 +754,28 @@ or something to prevent that from happening.</p>
 		</item>
 		
 		<item>
+			<title>ScrapperWork</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210312154325-scrapperwork/</link>
+			<pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210312154325-scrapperwork/</guid>
+			<description>  Le principe faire un scrapper sur les sites où je recherche tous les jours. Cela concerne 5-6 sites. Je compte lancer le scrapper tous les jours mais aussi consulter les offres tous les jours donc pour le stockage je pars sur un csv. Pas très couteux en termes d&amp;rsquo;orga et rapidement accessible.
+ScrapperPoleEmploi
+  </description>
+			<content type="html"><![CDATA[<ul>
+<li>
+<p>Le principe faire un scrapper sur les sites où je recherche tous les jours.
+Cela concerne 5-6 sites.
+Je compte lancer le scrapper tous les jours mais aussi consulter les offres tous les jours
+donc pour le stockage je pars sur un csv. Pas très couteux en termes d&rsquo;orga et rapidement
+accessible.</p>
+<p><a href="20210312154549-scrapperpoleemploi.org">ScrapperPoleEmploi</a></p>
+</li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
 			<title>Antonin Artaud</title>
 			<link>https://charlene19.github.io/secondBrain/posts/20210308193034-antonin_artaud/</link>
 			<pubDate>Mon, 01 Feb 2021 19:47:46 +0100</pubDate>
@@ -682,13 +819,14 @@ fonction de portée plus générale. Le développement des variables
 aléatoires est associé à la théorie de la mesure.</p>
 <p><strong>quartet d&rsquo;Anscombe</strong> :</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<figure>
+<p><figure>
     <img src="/ox-hugo/quartetAnscombe.png"
          alt="Figure 1: quartet d&amp;rsquo;Anscomb"/> <figcaption>
             <p>Figure 1: quartet d&rsquo;Anscomb</p>
         </figcaption>
 </figure>
 
+<img src="https://github.com/Charlene19/Charlene19/blob/main/PortFolio/quartetAnscombe.png?raw=true" alt="Figure 1: quartet d&rsquo;Anscomb"></p>
 <p><strong>Instance</strong> ou observation sont des entrées dans un jeu de données.</p>
 <p><strong>supervised learning et unsupervised learning</strong> : Dans le cas des
 supervisés les données ont un label et sontclassés. Dans l&rsquo;autre

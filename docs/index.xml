@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stiegler</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</guid>
+      <description>Suite à l&amp;rsquo;écoute des deux interviews de Stiegler chez Thinkerview, j&amp;rsquo;ai repéré deux choses. La première, j&amp;rsquo;aimerais me rapprocher de son institut de recherche scientifique. Je n&amp;rsquo;ai pas très bien compris ce qui s&amp;rsquo;y fait. Mais l&amp;rsquo;idée d&amp;rsquo;utilisation de datas pour redonner la place est intéressante. Il est possible que ça soit une coquille vide mais quand même.
+La deuxième chose est : Le ou les jardins de Pierre :</description>
+    </item>
+    
+    <item>
+      <title>GitHub Action : Tuto GitLab</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</guid>
+      <description>COurs sur les GitHub WorkFlow.
+Il y a deux types d&amp;rsquo;actions : Container actions ou Js Actions.
+ Docker container actions allow the environment to be packaged with the GitHub Actions code and can only execute in the GitHub-Hosted Linux environment.
+JavaScript actions decouple the GitHub Actions code from the environment allowing faster execution but accepting greater dependency management responsibility.
+  jobs: is the base component of a workflow run build: is the identifier we&amp;rsquo;re attaching to this job name: is the name of the job, this is displayed on GitHub when the workflow is running runs-on: defines the type of machine to run the job on.</description>
+    </item>
+    
+    <item>
+      <title>Projet &#39;Recognizer emotional&#39;</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</guid>
+      <description>Projet construit à partir de cet article. Je ne sais pour l&amp;rsquo;instant pas quelle liberté je prendrais par rapport à lui. Les librairies : Librosa, SoundFile, NumPy, Scikit-Learn.
+En premier lieu, j&amp;rsquo;ai dû télécharger des samples de données, en l&amp;rsquo;occurence des voix sur kagle. Puis définir un dictionnaire de données dans mon fichier. Afin de tester et faire progresser au mieux mon programme, j&amp;rsquo;ai sélectionné 3 émotions.
+emotion_labels = { &#39;01&#39;: &#39;neutral&#39;, &#39;02&#39;: &#39;calm&#39;, &#39;03&#39;: &#39;happy&#39;, &#39;04&#39;: &#39;sad&#39;, &#39;05&#39;: &#39;angry&#39;, &#39;06&#39;: &#39;fearful&#39;, &#39;07&#39;: &#39;disgust&#39;, &#39;08&#39;: &#39;surprised&#39; } focused_emotion_labels = [&#39;happy&#39;, &#39;sad&#39;, &#39;angry&#39;] Extraction</description>
+    </item>
+    
+    <item>
+      <title>Gist</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</guid>
+      <description>Création d&amp;rsquo;un gist.
+Il est possible de créer un gist public ou privé. Je vais laisser le scrapperPe en pv pour l&amp;rsquo;instant.
+Il suffit juste d&amp;rsquo;aller sur l&amp;rsquo;onglet Gist de sa page gh et copier-coller son snippets et c&amp;rsquo;est bon.</description>
+    </item>
+    
     <item>
       <title>Crawler</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</link>
@@ -69,57 +114,6 @@ sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des donnée
       <guid>https://charlene19.github.io/secondBrain/about-hugo/</guid>
       <description>Je suis, quelque part par là :
 Et à peu près comme ça :</description>
-    </item>
-    
-    <item>
-      <title>Bézier Courbe en ReactJs</title>
-      <link>https://charlene19.github.io/secondBrain/posts/beziercurve/</link>
-      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/beziercurve/</guid>
-      <description>Un tracé est d&#39;abord initialisé par la méthode beginPath(). Le point de référence de début du tracé est désigné avec moveTo(x,y). Il s&#39;agit en quelque sorte de décider à partir de quel emplacement le pinceau va être posé. Puis vient le tracé de la ligne elle-même avec la méthode lineTo(x,y) qui va ajouter un segment au chemin qui fut débuté par beginPath(). On peut ajouter autant de segments que l&#39;on veut, puis éventuellement &amp;quot;fermer&amp;quot; la forme pour revenir automatiquement au point de départ avec closePath() .</description>
-    </item>
-    
-    <item>
-      <title>Questions débutant Java</title>
-      <link>https://charlene19.github.io/secondBrain/posts/quesjava/</link>
-      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/quesjava/</guid>
-      <description>[Quelle est la différence entre : « Double » et « double » pour un attribut ? Quand mettre l&amp;rsquo;un ou l&amp;rsquo;autre ?] Le constructeur Double permet de définir un objet Double à partir d&amp;rsquo;une variable double :
-public Double(double value);
-[Qu&amp;rsquo;est-ce qu&amp;rsquo;un constructeur ?] Pour instancier une classe, c&#39;est-à-dire créer un objet à partir d&#39;une classe, il s&#39;agit d&#39;utiliser l&#39;opérateur new.
-En réalité l&#39;opérateur new, lorsqu&#39;il est utilisé, fait appel à une méthode spéciale de la classe: le constructeur.</description>
-    </item>
-    
-    <item>
-      <title>Regex</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</link>
-      <pubDate>Sat, 06 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210309105325-regex/</guid>
-      <description>[[./regx1.png]
-[[./regx2.png]
-[[./regx3.png]
-Le cours sur les regex en Java est vraiment bien fait mais il me semble qu&amp;rsquo;il y en a un autre généraliste.
-Par exemple sur le code wikiCrawlers :
-L&amp;rsquo;auteur1 dit qu&amp;rsquo;il y a trois choses en communs :
- • They reside within the div with the id set to bodyContent . • The URLs do not contain colons. • The URLs begin with wiki.
- Ce qui nous permet de définir notre regex :</description>
-    </item>
-    
-    <item>
-      <title>Loss</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</link>
-      <pubDate>Mon, 01 Mar 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210305103616-loss/</guid>
-      <description>:MachineLearning:
-En apprentissage supervisé, c&amp;rsquo;est la notion de perte d&amp;rsquo;information qui est très imortante. Puisque c&amp;rsquo;est cette perte qu&amp;rsquo;il va falloir ramener au minimum.
- L&amp;rsquo;apprentissage se résume en fait souvent à une méthode itérative qui converge vers un minimum de cette fonction.
- L&amp;rsquo;erreur ou le rique
-L&amp;rsquo;erreur quadratique, c&amp;rsquo;est la distance euclidienne entre un point et un modèle.
-Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreurs entre la résultante et le modèle.</description>
     </item>
     
   </channel>

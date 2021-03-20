@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>machinelearning</title>
+      <link>https://charlene19.github.io/secondBrain/tags/machinelearning/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/tags/machinelearning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Programming</title>
       <link>https://charlene19.github.io/secondBrain/tags/programming/</link>
@@ -68,15 +77,6 @@
       <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/tags/untagged/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machinelearning</title>
-      <link>https://charlene19.github.io/secondBrain/tags/machinelearning/</link>
-      <pubDate>Sat, 06 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/tags/machinelearning/</guid>
       <description></description>
     </item>
     
