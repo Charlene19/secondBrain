@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaggle on My Zettelkasten</title>
+    <link>https://charlene19.github.io/secondBrain/tags/kaggle/</link>
+    <description>Recent content in Kaggle on My Zettelkasten</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/kaggle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Premiere compétition Kaggle</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210322115253-premiere/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210322115253-premiere/</guid>
+      <description>Les consignes :
+ 1- Build a Random Forest model with all of your data (X and y). 2- Read in the &amp;ldquo;test&amp;rdquo; data, which doesn&amp;rsquo;t include values for the target. Predict home values in the test data with your Random Forest model. 3- Submit those predictions to the competition and see your score. 4- Optionally, come back to see if you can improve your model by adding features or changing your model.</description>
+    </item>
+    
+  </channel>
+</rss>

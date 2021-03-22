@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kaggle</title>
+      <link>https://charlene19.github.io/secondBrain/tags/kaggle/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/tags/kaggle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machinelearning</title>
+      <link>https://charlene19.github.io/secondBrain/tags/machinelearning/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/tags/machinelearning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>société</title>
       <link>https://charlene19.github.io/secondBrain/tags/soci%C3%A9t%C3%A9/</link>
@@ -32,15 +50,6 @@
       <pubDate>Thu, 18 Mar 2021 00:00:00 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/tags/programmation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machinelearning</title>
-      <link>https://charlene19.github.io/secondBrain/tags/machinelearning/</link>
-      <pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/tags/machinelearning/</guid>
       <description></description>
     </item>
     
@@ -86,15 +95,6 @@
       <pubDate>Sun, 07 Mar 2021 19:47:46 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/tags/presentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>java</title>
-      <link>https://charlene19.github.io/secondBrain/tags/java/</link>
-      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/tags/java/</guid>
       <description></description>
     </item>
     

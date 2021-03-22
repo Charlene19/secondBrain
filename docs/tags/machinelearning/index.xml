@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Premiere compétition Kaggle</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210322115253-premiere/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210322115253-premiere/</guid>
+      <description>Les consignes :
+ 1- Build a Random Forest model with all of your data (X and y). 2- Read in the &amp;ldquo;test&amp;rdquo; data, which doesn&amp;rsquo;t include values for the target. Predict home values in the test data with your Random Forest model. 3- Submit those predictions to the competition and see your score. 4- Optionally, come back to see if you can improve your model by adding features or changing your model.</description>
+    </item>
+    
     <item>
       <title>Projet &#39;Recognizer emotional&#39;</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</link>
@@ -58,6 +68,17 @@ Le risque empirique : c&amp;rsquo;est le calcul de la somme de toutes les erreur
       <description>J&amp;rsquo;ai installé : sklearn et jupyter sur PyCharm
 Un processus stochastique ou processus aléatoire (voir Calcul stochastique) ou fonction aléatoire (voir Probabilité) représente une évolution, discrète ou à temps continu, d&amp;rsquo;une variable aléatoire. Celle-ci intervient dans le calcul classique des probabilités, où elle mesure chaque résultat possible (ou réalisation) d&amp;rsquo;une épreuve.
 Cette notion se généralise à plusieurs dimensions. Un cas particulier important, le champ aléatoire de Markov, est utilisé en analyse spatiale.</description>
+    </item>
+    
+    <item>
+      <title>Q Learning</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210320144329-q/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210320144329-q/</guid>
+      <description>Technique d&amp;rsquo;apprentissage qui ne nécessite aucun modèle initial de l&amp;rsquo;environnement.
+ Un des points forts du {\displaystyle Q}Q-learning est qu&amp;rsquo;il permet de comparer les récompenses probables de prendre les actions accessibles sans avoir de connaissance initiale de l’environnement. En d&amp;rsquo;autres termes, bien que le système soit modélisé par un processus de décision markovien (fini), l&amp;rsquo;agent qui apprend ne le connait pas et l&amp;rsquo;algorithme du {\displaystyle Q}Q-learning ne l&amp;rsquo;utilise pas.
+ Définition formelle :</description>
     </item>
     
   </channel>
