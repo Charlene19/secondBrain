@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0200</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ash</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</guid>
+      <description>Je vais commencer une série d&amp;rsquo;analyse à propos des écrits de Ashley Morris. Ash est un blogger des années 2000 qui vivaient à la Nouvelle-Orléans et qui s&amp;rsquo;est fait connaître pour ses célebres coup de gueule. Son personnage a été repris dans la série Treme.
+Les articles d&amp;rsquo;Ash Morris ne sont vraiment pas consensuels. C&amp;rsquo;est d&amp;rsquo;ailleurs pour ça, je pense, qu&amp;rsquo;il a eu un tel succès. Petu-être aussi à cause de la rareté des blogs à cette époque.</description>
+    </item>
+    
+    <item>
+      <title>Silvanus Thompson</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210330093307-silvanusthompson/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210330093307-silvanusthompson/</guid>
+      <description>Thompson fait partie de ces découvertes qui rendent plaisante l&amp;rsquo;apprentissage des maths. Tout comme Mr Rouget ou Ivan Savov, je trouve cette pédagogie d&amp;rsquo;apprentissage très plaisante. Et efficace contrairement à wikiversité qui est vraiment mal foutue pour les maths.
+Calculus Made Easy est encore plus intéressant parce qu&amp;rsquo;il y a un aspect philosophique dans le méta-apprentissage. Mon propos n&amp;rsquo;est pas clair mais peut être illustrer par le prologue :</description>
+    </item>
+    
     <item>
       <title>Premiere compétition Kaggle</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210322115253-premiere/</link>
@@ -88,32 +108,6 @@ Il suffit juste d&amp;rsquo;aller sur l&amp;rsquo;onglet Gist de sa page gh et c
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</guid>
       <description>domain = &#39;{}://{}&#39;.format(urlparse(siteUrl).scheme, urlparse(siteUrl).netloc) </description>
-    </item>
-    
-    <item>
-      <title>Scrappy</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210310110014-scrappy/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210310110014-scrappy/</guid>
-      <description>spider : est un projet Scrapy
- For large sites with many types of content, you might have separate Scrapy items for each type (blog posts, press releases, articles, etc.), each with different fields, but all running under the same Scrapy project. The name of each spider must be unique within the project.
- Deux méthodes à noter :
-def start_requests(self): urls = [ &#39;http://en.wikipedia.org/wiki/Python_&#39; &#39;%28programming_language%29&#39;, &#39;https://en.wikipedia.org/wiki/Functional_programming&#39;, &#39;https://en.wikipedia.org/wiki/Monty_Python&#39;] return [scrapy.Request(url=url, callback=self.</description>
-    </item>
-    
-    <item>
-      <title>Selenium</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210311163747-selenium/</guid>
-      <description>Selenium va me permettre de scrapper du Js.
-J&amp;rsquo;ai installé le package via IntelliJ sur mon env. Mais je dois encore lui offrir un accès à mon browser. Ici, google chrome :
-Description browser Selenium
-J&amp;rsquo;ai importer via PyCharm : Selenium. Puis dwl les drivers chrome.
-J&amp;rsquo;ai dû ouvrir les droits :
-sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des données retour de Form.</description>
     </item>
     
   </channel>

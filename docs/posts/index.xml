@@ -6,8 +6,44 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0200</lastBuildDate>
 		<atom:link href="https://charlene19.github.io/secondBrain/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Ash</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</link>
+			<pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</guid>
+			<description>Je vais commencer une série d&amp;rsquo;analyse à propos des écrits de Ashley Morris. Ash est un blogger des années 2000 qui vivaient à la Nouvelle-Orléans et qui s&amp;rsquo;est fait connaître pour ses célebres coup de gueule. Son personnage a été repris dans la série Treme.
+Les articles d&amp;rsquo;Ash Morris ne sont vraiment pas consensuels. C&amp;rsquo;est d&amp;rsquo;ailleurs pour ça, je pense, qu&amp;rsquo;il a eu un tel succès. Petu-être aussi à cause de la rareté des blogs à cette époque.</description>
+			<content type="html"><![CDATA[<p>Je vais commencer une série d&rsquo;analyse à propos des écrits de <a href="https://ashleymorris.typepad.com/ashley_morris_the_blog/">Ashley Morris</a>.
+Ash est un blogger des années 2000 qui vivaient à la Nouvelle-Orléans et qui s&rsquo;est fait
+connaître pour ses célebres coup de gueule. Son personnage a été repris dans la série <a href="https://fr.wikipedia.org/wiki/Treme">Treme</a>.</p>
+<p>Les articles d&rsquo;Ash Morris ne sont vraiment pas consensuels. C&rsquo;est d&rsquo;ailleurs pour ça, je pense,
+qu&rsquo;il a eu un tel succès. Petu-être aussi à cause de la rareté des blogs à cette époque. Enfin
+pas rare pour des ados mais pour des adultes, si j&rsquo;imagine. Enfin je suppose ici, j&rsquo;ai aucun chiffres
+pour attester.</p>
+<p>Je pense faire le premier article d&rsquo;analyse à propos de ce <a href="https://ashleymorris.typepad.com/ashley_morris_the_blog/2005/12/rip_tulane_comp.html">billet.</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Silvanus Thompson</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210330093307-silvanusthompson/</link>
+			<pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210330093307-silvanusthompson/</guid>
+			<description>Thompson fait partie de ces découvertes qui rendent plaisante l&amp;rsquo;apprentissage des maths. Tout comme Mr Rouget ou Ivan Savov, je trouve cette pédagogie d&amp;rsquo;apprentissage très plaisante. Et efficace contrairement à wikiversité qui est vraiment mal foutue pour les maths.
+Calculus Made Easy est encore plus intéressant parce qu&amp;rsquo;il y a un aspect philosophique dans le méta-apprentissage. Mon propos n&amp;rsquo;est pas clair mais peut être illustrer par le prologue :</description>
+			<content type="html"><![CDATA[<p>Thompson fait partie de ces découvertes qui rendent plaisante l&rsquo;apprentissage des maths.
+Tout comme <a href="https://discord.com/channels/238651393055916032/289031187291176960/821377092515790848">Mr Rouget</a> ou <a href="https://minireference.com/static/excerpts/noBSguide_v5_preview.pdf#via_flyer">Ivan Savov</a>, je trouve cette pédagogie d&rsquo;apprentissage très plaisante.
+Et efficace contrairement à wikiversité qui est vraiment mal foutue pour les maths.</p>
+<p><a href="https://calculusmadeeasy.org/1.html">Calculus Made Easy</a> est encore plus intéressant parce qu&rsquo;il y a un aspect philosophique dans
+le méta-apprentissage. Mon propos n&rsquo;est pas clair mais peut être illustrer par le prologue :</p>
+<p><img src="https://github.com/Charlene19/Charlene19/blob/main/PortFolio/easyCalculus.png?raw=true" alt="prologue"></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Premiere compétition Kaggle</title>
