@@ -73,6 +73,7 @@ staticDir = ["static"]
     url = "posts/"
     weight = 10
 
+
   [[menu.main]]
     name = "Litterature"
     url = "litterature/"
@@ -84,15 +85,18 @@ staticDir = ["static"]
     url = "neworleans/"
     weight = 50
 
+
   [[menu.main]]
     name = "Sociologie"
     url = "sociologie/"
     weight = 30
 
+
  [[menu.main]]
     name = "Programmation"
     url = "programmation/"
     weight = 20
+
 
   [[menu.main]]
     name = "About"
