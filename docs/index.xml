@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0200</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0200</lastBuildDate><atom:link href="https://charlene19.github.io/secondBrain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le Lys dans la vallée</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210407092654-le_lys/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210407092654-le_lys/</guid>
+      <description> Les parvenus sont comme les singes desquels ils ont l&amp;rsquo;adresse : on voit en hauteur, on admire leur agilité pendant l&amp;rsquo;escalade ; mais arrivés à la cime, on n&amp;rsquo;apperçoit plus que leurs côtés honteux.
+  L&amp;rsquo;esclave à sa vanité, il ne veut appartenir qu&amp;rsquo;au plus grand des despotes.
+ </description>
+    </item>
+    
+    <item>
+      <title>Le vase</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210407092439-levase/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210407092439-levase/</guid>
+      <description>Un lecteur de rêves khazar, encore élève dans un monastère, reçut en cadeau un vase qu’il rangea dans sa cellule. Le soir il y déposa sa bague. Mais lorsqu’il voulut la reprendre le lendemain matin, elle n’y était plus. Vainement il enfonçait son bras dans le vase, il n’arrivait pas à en toucher le fond. Cela le surprit car le récipient semblait moins haut que son bras n’était long. Il le souleva mais, dessous, le sol était plat, et il n’y avait aucune ouverture dans le vase, pas plus que dans n’importe quel autre.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://charlene19.github.io/secondBrain/posts/20210331151745-sentimentanalysis/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/posts/20210331151745-sentimentanalysis/</guid>
+      <description>Je vais reprendre l&amp;rsquo;appli de Aboullaite Med. Le principe est de faire un analyseur de sentiments en s&amp;rsquo;appuyant sur standfordCore Nlp : Cette bibliothèque de nlp pour Java. L&amp;rsquo;appli est sur deux volets. Un back-end : Avec spring boot Un frontend : ReactJs
+Ma connaissance de ces deux technos vont me permettre de remanier ce programme qui est pour l&amp;rsquo;instant est fonctionnel. Mais qui contient plusieurs choses à améliorer : le front, l&amp;rsquo;analyse des sentiments n&amp;rsquo;est pas disponible en français avec la bibli.</description>
+    </item>
+    
+    <item>
+      <title>Ash</title>
+      <link>https://charlene19.github.io/secondBrain/neworleans/20210330091948-ash/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/neworleans/20210330091948-ash/</guid>
+      <description>Je vais commencer une série d&amp;rsquo;analyse à propos des écrits de Ashley Morris. Ash est un blogger des années 2000 qui vivaient à la Nouvelle-Orléans et qui s&amp;rsquo;est fait connaître pour ses célebres coup de gueule. Son personnage a été repris dans la série Treme.
+Les articles d&amp;rsquo;Ash Morris ne sont vraiment pas consensuels. C&amp;rsquo;est d&amp;rsquo;ailleurs pour ça, je pense, qu&amp;rsquo;il a eu un tel succès. Petu-être aussi à cause de la rareté des blogs à cette époque.</description>
+    </item>
+    
     <item>
       <title>Ash</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</link>
@@ -70,44 +110,6 @@ JavaScript actions decouple the GitHub Actions code from the environment allowin
       <description>Projet construit à partir de cet article. Je ne sais pour l&amp;rsquo;instant pas quelle liberté je prendrais par rapport à lui. Les librairies : Librosa, SoundFile, NumPy, Scikit-Learn.
 En premier lieu, j&amp;rsquo;ai dû télécharger des samples de données, en l&amp;rsquo;occurence des voix sur kagle. Puis définir un dictionnaire de données dans mon fichier. Afin de tester et faire progresser au mieux mon programme, j&amp;rsquo;ai sélectionné 3 émotions.
 emotion_labels = { &#39;01&#39;: &#39;neutral&#39;, &#39;02&#39;: &#39;calm&#39;, &#39;03&#39;: &#39;happy&#39;, &#39;04&#39;: &#39;sad&#39;, &#39;05&#39;: &#39;angry&#39;, &#39;06&#39;: &#39;fearful&#39;, &#39;07&#39;: &#39;disgust&#39;, &#39;08&#39;: &#39;surprised&#39; } focused_emotion_labels = [&#39;happy&#39;, &#39;sad&#39;, &#39;angry&#39;] Extraction</description>
-    </item>
-    
-    <item>
-      <title>Gist</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</link>
-      <pubDate>Tue, 16 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</guid>
-      <description>Création d&amp;rsquo;un gist.
-Il est possible de créer un gist public ou privé. Je vais laisser le scrapperPe en pv pour l&amp;rsquo;instant.
-Il suffit juste d&amp;rsquo;aller sur l&amp;rsquo;onglet Gist de sa page gh et copier-coller son snippets et c&amp;rsquo;est bon.</description>
-    </item>
-    
-    <item>
-      <title>Crawler</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210310102636-crawler/</guid>
-      <description>import requests from bs4 import BeautifulSoup class Crawler: def getPage(self, url): try: req = requests.get(url) except requests.exceptions.RequestException: return None return BeautifulSoup(req.text, &#39;html.parser&#39;) def safeGet(self, pageObj, selector): &amp;quot;&amp;quot;&amp;quot; Utilty function used to get a content string from a Beautiful Soup object and a selector. Returns an empty string if no object is found for the given selector &amp;quot;&amp;quot;&amp;quot; selectedElems = pageObj.select(selector) if selectedElems is not None and len(selectedElems) &amp;gt; 0: return &#39;\n&#39;.</description>
-    </item>
-    
-    <item>
-      <title>CrwalSpider</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210310135927-crwalspider/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210310135927-crwalspider/</guid>
-      <description>from scrapy.contrib.linkextractors import LinkExtractor from scrapy.contrib.spiders import CrawlSpider, Rule class ArticleSpider(CrawlSpider): name = &#39;articles&#39; allowed_domains = [&#39;wikipedia.org&#39;] start_urls = [&#39;https://en.wikipedia.org/wiki/&#39; &#39;Benevolent_dictator_for_life&#39;] rules = [Rule(LinkExtractor(allow=r&#39;.*&#39;), callback=&#39;parse_items&#39;, follow=True)] def parse_items(self, response): url = response.url title = response.css(&#39;h1::text&#39;).extract_first() text = response.xpath(&#39;//div[@id=&amp;quot;mw-content-text&amp;quot;]//text()&#39;) .extract() lastUpdated = response.css(&#39;li#footer-info-lastmod::text&#39;) .extract_first() lastUpdated = lastUpdated.replace( &#39;This page was last edited on &#39;, &#39;&#39;) print(&#39;URL is: {}&#39;.format(url)) print(&#39;title is: {} &#39;.format(title)) print(&#39;text is: {}&#39;.format(text)) print(&#39;Last updated: {}&#39;.format(lastUpdated)) #scrapy.contrib est depreacted : Nouvelle location</description>
-    </item>
-    
-    <item>
-      <title>Domain Format</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210309135210-domain_format/</guid>
-      <description>domain = &#39;{}://{}&#39;.format(urlparse(siteUrl).scheme, urlparse(siteUrl).netloc) </description>
     </item>
     
   </channel>

@@ -2,25 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210407092654-le_lys/</loc>
+    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210407092439-levase/</loc>
+    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/litterature/</loc>
+    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/</loc>
+    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/</loc>
+    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/</loc>
+    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/java/</loc>
+    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/machinelerning/</loc>
+    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/nlp/</loc>
+    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/tags/reactjs/</loc>
+    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/posts/20210331151745-sentimentanalysis/</loc>
+    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://charlene19.github.io/secondBrain/neworleans/20210330091948-ash/</loc>
+    <lastmod>2021-03-30T00:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</loc>
     <lastmod>2021-03-30T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/tags/maths/</loc>
     <lastmod>2021-03-30T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/</loc>
-    <lastmod>2021-03-30T00:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://charlene19.github.io/secondBrain/tags/new-orleans/</loc>
     <lastmod>2021-03-30T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/posts/</loc>
+    <loc>https://charlene19.github.io/secondBrain/neworleans/</loc>
     <lastmod>2021-03-30T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210330093307-silvanusthompson/</loc>
-    <lastmod>2021-03-30T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://charlene19.github.io/secondBrain/tags/</loc>
     <lastmod>2021-03-30T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/tags/kaggle/</loc>
@@ -89,9 +119,6 @@
     <loc>https://charlene19.github.io/secondBrain/posts/beziercurve/</loc>
     <lastmod>2021-03-06T19:47:46+01:00</lastmod>
   </url><url>
-    <loc>https://charlene19.github.io/secondBrain/tags/java/</loc>
-    <lastmod>2021-03-06T19:47:46+01:00</lastmod>
-  </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/quesjava/</loc>
     <lastmod>2021-03-06T19:47:46+01:00</lastmod>
   </url><url>
@@ -123,9 +150,6 @@
     <lastmod>2021-02-01T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210308192851-liquidation/</loc>
-    <lastmod>2021-02-01T19:47:46+01:00</lastmod>
-  </url><url>
-    <loc>https://charlene19.github.io/secondBrain/tags/litterature/</loc>
     <lastmod>2021-02-01T19:47:46+01:00</lastmod>
   </url><url>
     <loc>https://charlene19.github.io/secondBrain/posts/20210305184949-timer/</loc>

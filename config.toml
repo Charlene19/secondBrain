@@ -74,6 +74,27 @@ staticDir = ["static"]
     weight = 10
 
   [[menu.main]]
+    name = "Litterature"
+    url = "litterature/"
+    weight = 40
+
+
+  [[menu.main]]
+    name = "New-Orleans"
+    url = "neworleans/"
+    weight = 50
+
+  [[menu.main]]
+    name = "Sociologie"
+    url = "sociologie/"
+    weight = 30
+
+ [[menu.main]]
+    name = "Programmation"
+    url = "programmation/"
+    weight = 20
+
+  [[menu.main]]
     name = "About"
     url = "about-hugo/"
     weight = 20

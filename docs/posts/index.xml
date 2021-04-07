@@ -6,8 +6,81 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0200</lastBuildDate>
+		<lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0200</lastBuildDate>
 		<atom:link href="https://charlene19.github.io/secondBrain/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Le Lys dans la vallée</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210407092654-le_lys/</link>
+			<pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210407092654-le_lys/</guid>
+			<description> Les parvenus sont comme les singes desquels ils ont l&amp;rsquo;adresse : on voit en hauteur, on admire leur agilité pendant l&amp;rsquo;escalade ; mais arrivés à la cime, on n&amp;rsquo;apperçoit plus que leurs côtés honteux.
+  L&amp;rsquo;esclave à sa vanité, il ne veut appartenir qu&amp;rsquo;au plus grand des despotes.
+ </description>
+			<content type="html"><![CDATA[<blockquote>
+<p>Les parvenus sont comme les singes desquels ils ont l&rsquo;adresse : on voit en hauteur, on admire
+leur agilité pendant l&rsquo;escalade ; mais arrivés à la cime, on n&rsquo;apperçoit plus que leurs côtés honteux.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>L&rsquo;esclave à sa vanité, il ne veut appartenir qu&rsquo;au plus grand des despotes.</p>
+</blockquote>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Le vase</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210407092439-levase/</link>
+			<pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210407092439-levase/</guid>
+			<description>Un lecteur de rêves khazar, encore élève dans un monastère, reçut en cadeau un vase qu’il rangea dans sa cellule. Le soir il y déposa sa bague. Mais lorsqu’il voulut la reprendre le lendemain matin, elle n’y était plus. Vainement il enfonçait son bras dans le vase, il n’arrivait pas à en toucher le fond. Cela le surprit car le récipient semblait moins haut que son bras n’était long. Il le souleva mais, dessous, le sol était plat, et il n’y avait aucune ouverture dans le vase, pas plus que dans n’importe quel autre.</description>
+			<content type="html"><![CDATA[<blockquote>
+<p>Un lecteur de rêves khazar, encore élève dans un monastère, reçut en cadeau un vase qu’il rangea
+dans sa cellule. Le soir il y déposa sa bague. Mais lorsqu’il voulut la reprendre le lendemain matin,
+elle n’y était plus. Vainement il enfonçait son bras dans le vase, il n’arrivait pas à en toucher le fond.
+Cela le surprit car le récipient semblait moins haut que son bras n’était long. Il le souleva mais,
+dessous, le sol était plat, et il n’y avait aucune ouverture dans le vase, pas plus que dans n’importe
+quel autre. Il prit un bâton et essaya d’atteindre le fond, mais toujours sans succès ; le fond du vase
+semblait se dérober. Il se dit “Là où je suis, là est ma limite” et il s’adressa à son maître Mokadasa
+Al Safer , lui demandant d’expliquer ce que signifiait un tel phénomène. Le maître prit un caillou,
+le jeta dans le vase, et compta. Lorsqu’il arriva à 70 on entendit à l’intérieur du récipient un bruit de
+plongeon, comme si un objet était tombé dans l’eau et le maître dit :
+— Je pourrais t’expliquer ce que représente ton vase, mais demande-toi d’abord si c’est bien utile.
+Dès que je t’aurai dit ce qu’il en est, le vase prendra, pour toi et les autres, une valeur inférieure à celle
+qu’il a maintenant. En effet, quelle que soit sa valeur, elle ne peut être supérieure à celle du tout. Et
+dès que je t’aurai dit ce qu’il est, il ne sera plus tout ce qu’il n’est pas, et donc plus ce qu’il est encore
+maintenant.
+L’élève fut d’accord avec son maître. Mais ce dernier prit un bâton et cassa le vase. Stupéfait, le
+jeune homme lui demanda le motif de ce dommage et le maître répliqua :
+— Le dommage aurait consisté à te dire à quoi servait ce vase avant de le casser. Mais puisque tu
+ne connais pas son usage, le dommage n’existe pas, car le vase te servira toujours, comme s’il n’était
+pas cassé&hellip;
+En effet, le vase khazar sert encore, bien qu’il n’existe plus depuis longtemps.</p>
+</blockquote>
+<p>Milorad Pavic,´ Le Dictionnaire Khazar</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Sentiment Analysis</title>
+			<link>https://charlene19.github.io/secondBrain/posts/20210331151745-sentimentanalysis/</link>
+			<pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+			
+			<guid>https://charlene19.github.io/secondBrain/posts/20210331151745-sentimentanalysis/</guid>
+			<description>Je vais reprendre l&amp;rsquo;appli de Aboullaite Med. Le principe est de faire un analyseur de sentiments en s&amp;rsquo;appuyant sur standfordCore Nlp : Cette bibliothèque de nlp pour Java. L&amp;rsquo;appli est sur deux volets. Un back-end : Avec spring boot Un frontend : ReactJs
+Ma connaissance de ces deux technos vont me permettre de remanier ce programme qui est pour l&amp;rsquo;instant est fonctionnel. Mais qui contient plusieurs choses à améliorer : le front, l&amp;rsquo;analyse des sentiments n&amp;rsquo;est pas disponible en français avec la bibli.</description>
+			<content type="html"><![CDATA[<p>Je vais reprendre l&rsquo;appli de <a href="https://aboullaite.me/stanford-corenlp-java/">Aboullaite Med</a>. Le principe est de faire un analyseur de sentiments
+en s&rsquo;appuyant sur standfordCore Nlp : Cette bibliothèque de nlp pour Java.
+L&rsquo;appli est sur deux volets.
+<strong>Un back-end</strong> : Avec spring boot
+<strong>Un frontend</strong> : ReactJs</p>
+<p>Ma connaissance de ces deux technos vont me permettre de remanier ce programme qui est pour l&rsquo;instant
+est fonctionnel. Mais qui contient plusieurs choses à améliorer : le front, l&rsquo;analyse des sentiments n&rsquo;est
+pas disponible en français avec la bibli. Je pense qu&rsquo;il doit y avoir de nouveaux modules.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Ash</title>
