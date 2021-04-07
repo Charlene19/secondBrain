@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Prise de notes Java">
+<meta itemprop="description" content="Vidéos : Encapsulation et abstraction : étude de cas 1
+Jeu de morpion 1
+Vidéos : Encapsulation et abstraction : étude de cas Jeu de morpion {width=&ldquo;4.510416666666667in&rdquo; height=&ldquo;2.3333333333333335in&rdquo;}Mauvaise grille.
+Déclaration de la classe ; déclaration des attributs.
+Méthode initialise() pour déclarer le nombre d&rsquo;éléments au tableau.
+2^ème^ méthode getGrille
+Private ou public : Private permet d&rsquo;interdire l&rsquo;accès d&rsquo;une autre classe. Permet d&rsquo;éviter les modifications malvenues.
+De manière générale, lorsqu&rsquo;un attribut est un objet offrir un accès à cet attribut via un getter revient exactement au même qu&rsquo;offrir un accès direct à l&rsquo;attribut."><meta itemprop="datePublished" content="2019-11-01T19:47:46&#43;01:00" />
+<meta itemprop="dateModified" content="2019-11-01T19:47:46&#43;01:00" />
+<meta itemprop="wordCount" content="1293">
+<meta itemprop="keywords" content="programming," /><meta property="og:title" content="Prise de notes Java" />
+<meta property="og:description" content="Vidéos : Encapsulation et abstraction : étude de cas 1
+Jeu de morpion 1
+Vidéos : Encapsulation et abstraction : étude de cas Jeu de morpion {width=&ldquo;4.510416666666667in&rdquo; height=&ldquo;2.3333333333333335in&rdquo;}Mauvaise grille.
+Déclaration de la classe ; déclaration des attributs.
+Méthode initialise() pour déclarer le nombre d&rsquo;éléments au tableau.
+2^ème^ méthode getGrille
+Private ou public : Private permet d&rsquo;interdire l&rsquo;accès d&rsquo;une autre classe. Permet d&rsquo;éviter les modifications malvenues.
+De manière générale, lorsqu&rsquo;un attribut est un objet offrir un accès à cet attribut via un getter revient exactement au même qu&rsquo;offrir un accès direct à l&rsquo;attribut." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://charlene19.github.io/secondBrain/programmation/coursjava/" /><meta property="article:section" content="programmation" />
+<meta property="article:published_time" content="2019-11-01T19:47:46&#43;01:00" />
+<meta property="article:modified_time" content="2019-11-01T19:47:46&#43;01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Prise de notes Java"/>
+<meta name="twitter:description" content="Vidéos : Encapsulation et abstraction : étude de cas 1
+Jeu de morpion 1
+Vidéos : Encapsulation et abstraction : étude de cas Jeu de morpion {width=&ldquo;4.510416666666667in&rdquo; height=&ldquo;2.3333333333333335in&rdquo;}Mauvaise grille.
+Déclaration de la classe ; déclaration des attributs.
+Méthode initialise() pour déclarer le nombre d&rsquo;éléments au tableau.
+2^ème^ méthode getGrille
+Private ou public : Private permet d&rsquo;interdire l&rsquo;accès d&rsquo;une autre classe. Permet d&rsquo;éviter les modifications malvenues.
+De manière générale, lorsqu&rsquo;un attribut est un objet offrir un accès à cet attribut via un getter revient exactement au même qu&rsquo;offrir un accès direct à l&rsquo;attribut."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/secondBrain/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/secondBrain/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/secondBrain/favicon-16x16.png">
+	<link rel="manifest" href="/secondBrain/site.webmanifest">
+	<link rel="mask-icon" href="/secondBrain/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/secondBrain/favicon.ico">
+
+	<title>Prise de notes Java</title>
+	<link rel="stylesheet" href="https://charlene19.github.io/secondBrain/css/style.min.f74778e3020c87c304fb5982e09b92ba63a5c7f202996d4c7283d6057acfe9c1.css" integrity="sha256-90d44wIMh8ME+1mC4JuSumOlx/ICmW1McoPWBXrP6cE=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://charlene19.github.io/secondBrain/">My Zettelkasten</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://charlene19.github.io/secondBrain/posts/">Posts</a>
+				<a href="https://charlene19.github.io/secondBrain/about-hugo/">About</a>
+				<a href="https://charlene19.github.io/secondBrain/programmation/">Programmation</a>
+				<a href="https://charlene19.github.io/secondBrain/sociologie/">Sociologie</a>
+				<a href="https://charlene19.github.io/secondBrain/litterature/">Litterature</a>
+				<a href="https://charlene19.github.io/secondBrain/neworleans/">New-Orleans</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://charlene19.github.io/" target="_blank" rel="noopener me" title="Website"><svg xmlns="http://www.w3.org/2000/svg" class="feather feather-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><a href="https://github.com/Charlene19/" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://charlene19.github.io/secondBrain/posts/">Posts</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/about-hugo/">About</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/programmation/">Programmation</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/sociologie/">Sociologie</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/litterature/">Litterature</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/neworleans/">New-Orleans</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>Prise de notes Java</h1>
+		<div class="content">
+			<p><a href="#vid%C3%A9os-encapsulation-et-abstraction-%C3%A9tude-de-cas">Vidéos : Encapsulation et abstraction : étude de cas
+1</a></p>
+<p><a href="#jeu-de-morpion">Jeu de morpion 1</a></p>
+<h1 id="vidéos-encapsulation-et-abstraction-étude-de-cas">Vidéos : Encapsulation et abstraction : étude de cas<a href="#vidéos-encapsulation-et-abstraction-étude-de-cas" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h2 id="jeu-de-morpion">Jeu de morpion<a href="#jeu-de-morpion" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p><img src="media/image1.png" alt="">{width=&ldquo;4.510416666666667in&rdquo;
+height=&ldquo;2.3333333333333335in&rdquo;}Mauvaise grille.</p>
+<p>Déclaration de la classe ; déclaration des attributs.</p>
+<p>Méthode initialise() pour déclarer le nombre d&rsquo;éléments au tableau.</p>
+<p>2^ème^ méthode getGrille</p>
+<h2 id="private-ou-public">Private ou public :<a href="#private-ou-public" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Private permet d&rsquo;interdire l&rsquo;accès d&rsquo;une autre classe. Permet d&rsquo;éviter
+les modifications malvenues.</p>
+<p>De manière générale, lorsqu&rsquo;un attribut est un objet offrir un accès à
+cet attribut via un getter revient exactement au même qu&rsquo;offrir un accès
+direct à l&rsquo;attribut.</p>
+<p><img src="media/image2.png" alt="">{width=&ldquo;4.520833333333333in&rdquo;
+height=&ldquo;2.5416666666666665in&rdquo;}</p>
+<p><img src="media/image3.png" alt="">{width=&ldquo;4.833333333333333in&rdquo; height=&ldquo;2.5in&rdquo;}</p>
+<p><img src="media/image4.png" alt="">{width=&ldquo;5.666666666666667in&rdquo;
+height=&ldquo;2.9270833333333335in&rdquo;}</p>
+<h1 id="classe-et-instances-types-et-variables">Classe et Instances, Types et Variables<a href="#classe-et-instances-types-et-variables" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>La classe définit un nouveau type, qui permet de créer 3
+variables (instances ou objet).</p>
+<h2 id="déclaration-des-attributs">Déclaration des attributs<a href="#déclaration-des-attributs" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Simplement mettre le type et le nom de l&rsquo;attribut.</p>
+<p>L&rsquo;accès aux valeurs des attributs d&rsquo;une instance de nom <em>nom_instance</em>
+se fait comme pour accéder aux champs d&rsquo;une structure :</p>
+<p><em>nom_instance.nom_attribut</em></p>
+<h2 id="déclaration-des-méthodes">Déclaration des méthodes<a href="#déclaration-des-méthodes" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Une méthode se déclare avec le <em>type_retour nom_méthode (type_param1
+nom_param1,&hellip;){</em></p>
+<p><em>//corps de la méthode}</em></p>
+<p>Les méthodes sont mises dans la classe elle-même. Il n&rsquo;y a donc pas de
+besoin de réécrire les attributs si ceux-ci sont déjà mentionnés dans la
+classe elle-même. Puisque les méthodes ont accès à ses attributs. On
+appelle cela une <strong>portée de classe</strong>.</p>
+<p>[Il ne faut pas passer les attributs comme arguments aux méthodes de la
+classe.]{.ul}</p>
+<p>Les méthodes peuvent avoir des paramètres : ceux qui sont nécessaires
+(et donc extérieurs à l&rsquo;instance) pour exécuter la méthode en question.</p>
+<p>Dans ce cas la cas, il faut mettre le paramètre extérieur dans la
+méthode.</p>
+<h2 id="appels-aux-méthodes">Appels aux méthodes<a href="#appels-aux-méthodes" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p><img src="media/image5.png" alt="">{width=&ldquo;4.25in&rdquo; height=&ldquo;2.6458333333333335in&rdquo;}</p>
+<h2 id="créer-des-boucles">Créer des boucles<a href="#créer-des-boucles" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Avec : <strong>while</strong> pour une seule condition <em>while
+(condition){instruction}</em></p>
+<p>Avec <strong>do&hellip;while</strong> : <em>do{instruction ;}while(condition) ;</em></p>
+<p>Va exécuter au moins une fois l&rsquo;instruction.</p>
+<p><img src="media/image6.png" alt="">{width=&ldquo;4.708333333333333in&rdquo;
+height=&ldquo;2.8229166666666665in&rdquo;}</p>
+<h2 id="if-else">If&hellip; Else<a href="#if-else" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p><strong>If</strong> Spécifie au code d&rsquo;être exécuté si la condition est vraie.</p>
+<p>if (20 &gt; 18) {</p>
+<p>System.out.println(&quot;20 is greater than 18&quot;);</p>
+<p>}</p>
+<p><strong>Else</strong> si la condition est fausse.</p>
+<p>if (<em>condition</em>) {</p>
+<p><em>// block of code to be executed if the condition is true</em></p>
+<p>} else {</p>
+<p><em>// block of code to be executed if the condition is false</em></p>
+<p>}</p>
+<h2 id="les-variables">Les variables<a href="#les-variables" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Il y a trois grands types de variables.</p>
+<ul>
+<li>
+<p>Les variables d&rsquo;instance : ce sont elles qui définissent les
+variables de notre objet.</p>
+</li>
+<li>
+<p>Les variables de classe : elles sont communes à toutes les instances
+de notre classe.</p>
+</li>
+<li>
+<p>Les variables locales : ce sont des variables utiisées pour
+travailler dans l&rsquo;objet.</p>
+</li>
+</ul>
+<h2 id="la-méthode-tostring">La méthode toString()<a href="#la-méthode-tostring" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h1 id="constructeurs-introduction">Constructeurs (Introduction)<a href="#constructeurs-introduction" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h2 id="initialisation-des-attributs">Initialisation des attributs<a href="#initialisation-des-attributs" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>C&rsquo;est pas sécure de laisser l&rsquo;utilisateur d&rsquo;initialiser les attributs.</p>
+<p>Une solution est d&rsquo;offrir une méthode d&rsquo;initialisation pour initialiser
+les attributs.</p>
+<p><img src="media/image7.png" alt="">{width=&ldquo;2.9375in&rdquo; height=&ldquo;1.6979166666666667in&rdquo;}</p>
+<p>C&rsquo;est ce qu&rsquo;on appelle un constructeurs.</p>
+<p>Un constructeur est une méthode :</p>
+<ul>
+<li>
+<p>Invoquée systématiquement lors de la déclaration d&rsquo;un objet</p>
+</li>
+<li>
+<p>Chargée d&rsquo;effectuer toutes les opérations requises en début de vie
+de l&rsquo;objet (dont l&rsquo;initialisation des attributs)</p>
+</li>
+</ul>
+<p>Ce sont des méthodes comme les autres, seulement elles n&rsquo;ont pas de
+retour (même pas void). Ils ont les mêmes noms que la classe. Et ils
+sont invoqués à chaque fois qu&rsquo;une instance est créée.</p>
+<p>Les constructeurs peuvent être surchargés donc avoir plusieurs
+paramétres.</p>
+<h2 id="initialisation-par-constructeur">Initialisation par constructeur<a href="#initialisation-par-constructeur" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h2 id="constructeur-par-défaut">Constructeur par défaut<a href="#constructeur-par-défaut" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>C&rsquo;est un constructeur sans paramétre. On parle de constructeur par
+défaut par défaut. Il va initialiser tous les attributs avec des valeurs
+par défaut (0 ; 0.0 ; false ; null).</p>
+<p>Le constructeur par défaut disparaît dès qu&rsquo;au moins un constructeur a
+été spécifié.</p>
+<p><img src="media/image8.png" alt="">{width=&ldquo;3.6145833333333335in&rdquo;
+height=&ldquo;2.3229166666666665in&rdquo;}</p>
+<p>Trois modèles de constructeurs.</p>
+<p>A.  Quand il n&rsquo;y a pas de constructeur, il y a un constructeur par
+défaut par defaut.</p>
+<p>B.  Il y a un constructeur par défaut.</p>
+<p>C.  Il y a un constructeur explicite donc il n&rsquo;y a pas de constructeur
+par défaut par défaut. Donc il faudra initialiser les objets avec
+les paramétres donnés par le constructeur.</p>
+<h2 id="appel-au-constructeur">Appel au constructeur<a href="#appel-au-constructeur" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Java autorise les constructeurs d&rsquo;une classe à appeler n&rsquo;importe quel
+autre constructeur de cette même classe en utilisant <strong>this.</strong> Lorsqu&rsquo;on
+utilise this on ne doit mettre aucun autre instruction avant d&rsquo;y faire
+appel.</p>
+<p>On peut aussi attribuer des valeurs aux attributs sans faire appel aux
+constructeurs. Ceci se fait au moment de la déclaration des attributs.</p>
+<p><img src="media/image9.png" alt="">{width=&ldquo;2.6145833333333335in&rdquo;
+height=&ldquo;1.6458333333333333in&rdquo;}</p>
+<p>Il est préferable d&rsquo;initialiser les valeurs dans les constructeurs.</p>
+<h2 id="constructeur-de-copie">Constructeur de copie<a href="#constructeur-de-copie" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Avec Java il est possible de créer des copies.</p>
+<p><img src="media/image10.png" alt="">{width=&ldquo;1.78125in&rdquo; height=&ldquo;1.1458333333333333in&rdquo;}</p>
+<p>public Rectangle (Rectangle autreRectangle){</p>
+<p>hauteur = autreRectangle.hauteur ;</p>
+<p>largeur = autreRectangle.largeur ; }</p>
+<p>La méthode clône <strong>clone()</strong></p>
+<h1 id="fin-de-vie-affectation-affichage-et-comparaison-dobjets">Fin de vie, affectation, affichage et comparaison d'objets<a href="#fin-de-vie-affectation-affichage-et-comparaison-dobjets" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Garbage collection (ramasse-miettes) récupère la mémoire occupée par les
+objets qui ne sont plus utilisés. Il est lancé automatiquement.</p>
+<p>Affecation et copie d&rsquo;objets</p>
+<p>La méthode toString : permet de donner une représentation des valeurs.</p>
+<h2 id="comparaison-dobjets">Comparaison d&rsquo;objets<a href="#comparaison-dobjets" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>L&rsquo;opérateur == compare les références aux objets. Pour comparer les
+objets il faut utiliser .equals()</p>
+<p>Il y a la classe <strong>boolean equals()</strong></p>
+<h1 id="héritage">Héritage<a href="#héritage" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>L&rsquo;héritage permet la relation « est-un ». Cela permet d&rsquo;éviter la
+duplication de méthode.</p>
+<p>On parlera de super classe dont les sous-classe vont hérités.</p>
+<p>Les sous-classes vont hérités de tous les attributs et toutes les
+méthodes sauf les constructeurs.</p>
+<p>Enrichissement : des attributs ou des méthodes peuvent être définies
+sous C1</p>
+<p>Spécialisation : des méthodes héritées de C peuvent être redéfinies sous
+C1</p>
+<h2 id="la-transitivité-de-lhéritage">La transitivité de l&rsquo;héritage<a href="#la-transitivité-de-lhéritage" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>L&rsquo;héritage crée un réseau de dépendances entre classes. Qui est organisé
+en structure arborescente cela crée une <strong>hiérarchie de classes</strong>.</p>
+<p>En pratique :</p>
+<p>Un héritage s&rsquo;obtient avec le mot-clé <em><strong>extends NomSuper classe</strong></em> puis
+en déclarant les attributs et méthodes de la sous-classe</p>
+<h1 id="héritage-droit-daccès-protected">Héritage : droit d&rsquo;accès protected<a href="#héritage-droit-daccès-protected" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Il y a différents types d&rsquo;accès : public : accessible à l&rsquo;intérieur et à
+l&rsquo;extérieur de la classe. Une privé : visible uniquement à l&rsquo;intérieur
+de la classe. Par défaut : visible depuis toutes les classes du même
+paquetage.</p>
+<p>Le droit d&rsquo;accès « protected » permet un accès aux attributs de tous les
+membres d&rsquo;une classe de sa descendance. Et du même paquetage.</p>
+<p>Le droit d&rsquo;accès par défaut est un peu plus restrictif car il même
+l&rsquo;accès aux atributs que dans le même packetage.</p>
+<p>Pour résumer une sous classe n&rsquo;a pas accès aux membres privés d&rsquo;une
+classe. Pour y avoir accès elle foit utiliser des getter/setters prévus
+dans la super classe.</p>
+<p><img src="media/image11.png" alt="">{width=&ldquo;4.166666666666667in&rdquo; height=&ldquo;2.40625in&rdquo;}</p>
+<h2 id="héritage-masquage">Héritage : masquage :<a href="#héritage-masquage" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<ul>
+<li>
+<p>Rédefinition (overriding) : une méthode de la superclasse est
+redéfinit</p>
+</li>
+<li>
+<p>Masquage = pour les variables (shadowing)</p>
+</li>
+</ul>
+<p>On dit que la méthode héritée est la <strong>méthode par défaut</strong>. Et la
+méthode redéfinit de la méthode héritée est la <strong>méthode spécialisée</strong>.</p>
+<p>Le terme super. Permet d&rsquo;utiliser la méthode par défaut de la super
+classe.</p>
+<p>Constructeurs et héritage :</p>
+<h1 id="polymorphisme">Polymorphisme<a href="#polymorphisme" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>La résolution statique des liens : le type apparent de la variable qui
+est choisit pour déterminer la variable qui va être appliquée. Ce n&rsquo;est
+pas ce qui est choisit par java.</p>
+<p>La résolution dynamique des liens : C&rsquo;est le type effectif donc le type
+effectivement stocké à l&rsquo;intérieur de la variable qui va être
+prépondérant : c&rsquo;est cette résolution qui est effective en Java.</p>
+<p>Pour avoir un polymorphisme il faut avoir : de l&rsquo;héritage et de la
+résolution dynamique des liens.</p>
+<p>Méthodes abstraites : Elle force les sous-classe à redéfinir la méthode</p>
+<p>Elle s&rsquo;écrit en la déclarant abstract et se finit par : ; Elle doit être
+contenue dans une classe abstraite.</p>
+<p>On peut utiliser une méthode abstraite.</p>
+<p>Les sous-classes d&rsquo;une classe abstraite restent abstraites tant que
+toutes les méthodes abstraite héritées ne sont pas redéfinies.</p>
+<p>Toutes les classes qui n&rsquo;héritent pas d&rsquo;autres classes, héritent de la
+classe Object.</p>
+<p><img src="media/image12.png" alt="">{width=&ldquo;5.364583333333333in&rdquo;
+height=&ldquo;3.2708333333333335in&rdquo;}</p>
+<p><img src="media/image13.png" alt="">{width=&ldquo;5.239583333333333in&rdquo;
+height=&ldquo;2.4479166666666665in&rdquo;}</p>
+<h2 id="le-modificateur-final">Le modificateur final<a href="#le-modificateur-final" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Le modificateur final peut s&rsquo;appliquer à des classes pour dire qu&rsquo;elles
+ne peuvent pas être étendues. A des méthodes pour dire qu&rsquo;elles ne
+peuvent pas être redéfinies et à des variables pour dire qu&rsquo;elles ne
+peuvent pas être modifiées.</p>
+<p>Les méthodes finales : doit être introduit par le mot : final</p>
+
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2021 <a href="https://charlene19.github.io/secondBrain/">Charlène</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://charlene19.github.io/secondBrain/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://charlene19.github.io/secondBrain/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

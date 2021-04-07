@@ -18,6 +18,35 @@
     </item>
     
     <item>
+      <title>Bézier Courbe en ReactJs</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/beziercurve/</link>
+      <pubDate>Sat, 06 Mar 2021 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/beziercurve/</guid>
+      <description>Un tracé est d&#39;abord initialisé par la méthode beginPath(). Le point de référence de début du tracé est désigné avec moveTo(x,y). Il s&#39;agit en quelque sorte de décider à partir de quel emplacement le pinceau va être posé. Puis vient le tracé de la ligne elle-même avec la méthode lineTo(x,y) qui va ajouter un segment au chemin qui fut débuté par beginPath(). On peut ajouter autant de segments que l&#39;on veut, puis éventuellement &amp;quot;fermer&amp;quot; la forme pour revenir automatiquement au point de départ avec closePath() .</description>
+    </item>
+    
+    <item>
+      <title>Le buffle et le tigre</title>
+      <link>https://charlene19.github.io/secondBrain/litterature/buffle/</link>
+      <pubDate>Sat, 06 Jan 2018 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/litterature/buffle/</guid>
+      <description>Le buffle, le tigre et l&amp;rsquo;intelligence
+Dans les temps très anciens, les
+hommes menaient les buffles aux champs
+en les tirant par une corde attachée à leurs
+cornes. Ce n&amp;rsquo;était pas toujours facile, et les
+buffles allaient souvent où ils voulaient.
+Alors, quelqu&amp;rsquo;un eut l&amp;rsquo;idée de passer un
+anneau dans leurs naseaux et d&amp;rsquo;y nouer
+une corde. Depuis, les buffles suivaient
+docilement.
+Et ainsi, même les enfants
+pouvaient les garder.</description>
+    </item>
+    
+    <item>
       <title>Le buffle et le tigre</title>
       <link>https://charlene19.github.io/secondBrain/posts/buffle/</link>
       <pubDate>Sat, 06 Jan 2018 19:47:46 +0100</pubDate>

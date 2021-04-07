@@ -22,5 +22,19 @@ J&amp;rsquo;ai dû ouvrir les droits :
 sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des données retour de Form.</description>
     </item>
     
+    <item>
+      <title>Selenium</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/20210311163747-selenium/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/20210311163747-selenium/</guid>
+      <description>Selenium va me permettre de scrapper du Js.
+J&amp;rsquo;ai installé le package via IntelliJ sur mon env. Mais je dois encore lui offrir un accès à mon browser. Ici, google chrome :
+Description browser Selenium
+J&amp;rsquo;ai importer via PyCharm : Selenium. Puis dwl les drivers chrome.
+J&amp;rsquo;ai dû ouvrir les droits :
+sudo chmod u+rwxX /usr/bin/chromedriver Maintenant à appliquer avec des données retour de Form.</description>
+    </item>
+    
   </channel>
 </rss>

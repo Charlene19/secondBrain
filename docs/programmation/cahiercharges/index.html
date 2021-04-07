@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Cahier des Charges Prjet Front et Back-end">
+<meta itemprop="description" content="Projet Groupe Contenu Projet Groupe 1
+Modalités 2
+Objectif du site 2
+Définition en méthodologie Scrum : 2
+La conception du MCD : 4
+Base de données : 4
+Choix de l&rsquo;architecture (nouveauté) : 6
+La modularité des fonctionnalités du site : 7
+Les technos 8
+Back-end (nouveauté): 8
+L&rsquo;architecture du back (nouveauté) : 8
+Les fonctionnalités du Back-End 9
+Les API&rsquo;s 11
+Front-end (nouveauté) : 11
+L&rsquo;architecture du front (nouveauté) 12"><meta itemprop="datePublished" content="2020-12-01T19:47:46&#43;01:00" />
+<meta itemprop="dateModified" content="2020-12-01T19:47:46&#43;01:00" />
+<meta itemprop="wordCount" content="2506">
+<meta itemprop="keywords" content="programming,management," /><meta property="og:title" content="Cahier des Charges Prjet Front et Back-end" />
+<meta property="og:description" content="Projet Groupe Contenu Projet Groupe 1
+Modalités 2
+Objectif du site 2
+Définition en méthodologie Scrum : 2
+La conception du MCD : 4
+Base de données : 4
+Choix de l&rsquo;architecture (nouveauté) : 6
+La modularité des fonctionnalités du site : 7
+Les technos 8
+Back-end (nouveauté): 8
+L&rsquo;architecture du back (nouveauté) : 8
+Les fonctionnalités du Back-End 9
+Les API&rsquo;s 11
+Front-end (nouveauté) : 11
+L&rsquo;architecture du front (nouveauté) 12" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://charlene19.github.io/secondBrain/programmation/cahiercharges/" /><meta property="article:section" content="programmation" />
+<meta property="article:published_time" content="2020-12-01T19:47:46&#43;01:00" />
+<meta property="article:modified_time" content="2020-12-01T19:47:46&#43;01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cahier des Charges Prjet Front et Back-end"/>
+<meta name="twitter:description" content="Projet Groupe Contenu Projet Groupe 1
+Modalités 2
+Objectif du site 2
+Définition en méthodologie Scrum : 2
+La conception du MCD : 4
+Base de données : 4
+Choix de l&rsquo;architecture (nouveauté) : 6
+La modularité des fonctionnalités du site : 7
+Les technos 8
+Back-end (nouveauté): 8
+L&rsquo;architecture du back (nouveauté) : 8
+Les fonctionnalités du Back-End 9
+Les API&rsquo;s 11
+Front-end (nouveauté) : 11
+L&rsquo;architecture du front (nouveauté) 12"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/secondBrain/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/secondBrain/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/secondBrain/favicon-16x16.png">
+	<link rel="manifest" href="/secondBrain/site.webmanifest">
+	<link rel="mask-icon" href="/secondBrain/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/secondBrain/favicon.ico">
+
+	<title>Cahier des Charges Prjet Front et Back-end</title>
+	<link rel="stylesheet" href="https://charlene19.github.io/secondBrain/css/style.min.f74778e3020c87c304fb5982e09b92ba63a5c7f202996d4c7283d6057acfe9c1.css" integrity="sha256-90d44wIMh8ME+1mC4JuSumOlx/ICmW1McoPWBXrP6cE=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://charlene19.github.io/secondBrain/">My Zettelkasten</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://charlene19.github.io/secondBrain/posts/">Posts</a>
+				<a href="https://charlene19.github.io/secondBrain/about-hugo/">About</a>
+				<a href="https://charlene19.github.io/secondBrain/programmation/">Programmation</a>
+				<a href="https://charlene19.github.io/secondBrain/sociologie/">Sociologie</a>
+				<a href="https://charlene19.github.io/secondBrain/litterature/">Litterature</a>
+				<a href="https://charlene19.github.io/secondBrain/neworleans/">New-Orleans</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://charlene19.github.io/" target="_blank" rel="noopener me" title="Website"><svg xmlns="http://www.w3.org/2000/svg" class="feather feather-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><a href="https://github.com/Charlene19/" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://charlene19.github.io/secondBrain/posts/">Posts</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/about-hugo/">About</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/programmation/">Programmation</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/sociologie/">Sociologie</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/litterature/">Litterature</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/neworleans/">New-Orleans</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>Cahier des Charges Prjet Front et Back-end</h1>
+		<div class="content">
+			<h2 id="projet-groupe">Projet Groupe<a href="#projet-groupe" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h1 id="contenu" class="TOC-Heading">Contenu<a href="#contenu" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p><a href="#projet-groupe">Projet Groupe 1</a></p>
+<p><a href="#_Toc56694768">Modalités 2</a></p>
+<p><a href="#_Toc56694769">Objectif du site 2</a></p>
+<p><a href="#d%C3%A9finition-en-m%C3%A9thodologie-scrum">Définition en méthodologie Scrum :
+2</a></p>
+<p><a href="#la-conception-du-mcd">La conception du MCD : 4</a></p>
+<p><a href="#base-de-donn%C3%A9es">Base de données : 4</a></p>
+<p><a href="#choix-de-larchitecture-nouveaut%C3%A9">Choix de l&rsquo;architecture (nouveauté)  :
+6</a></p>
+<p><a href="#la-modularit%C3%A9-des-fonctionnalit%C3%A9s-du-site">La modularité des fonctionnalités du site :
+7</a></p>
+<p><a href="#_Toc56694775">Les technos 8</a></p>
+<p><a href="#back-end-nouveaut%C3%A9">Back-end (nouveauté): 8</a></p>
+<p><a href="#larchitecture-du-back-nouveaut%C3%A9">L&rsquo;architecture du back (nouveauté) :
+8</a></p>
+<p><a href="#_Toc56694778">Les fonctionnalités du Back-End 9</a></p>
+<p><a href="#_Toc56694779">Les API&rsquo;s 11</a></p>
+<p><a href="#front-end-nouveaut%C3%A9">Front-end (nouveauté)  : 11</a></p>
+<p><a href="#_Toc56694781">L&rsquo;architecture du front (nouveauté) 12</a></p>
+<p><a href="#les-api">Les API : 13</a></p>
+<p><a href="#planning">Planning : 13</a></p>
+<p><a href="#_Toc56694784">Avant le 9/11 14</a></p>
+<p><a href="#_Toc56694785">Semaine du 9 14</a></p>
+<p><a href="#_Toc56694786">Semaine du 16 14</a></p>
+<p><a href="#_Toc56694787">Semaine du 23 14</a></p>
+<p><a href="#_Toc56694788">Semaine du 30 15</a></p>
+<p><a href="#du-30-au-2">Du 30 au 2 : 15</a></p>
+<p><a href="#_Toc56694790">Du 3 au 4 15</a></p>
+<p><a href="#_Toc56694791">Semaine du 7 15</a></p>
+<p><a href="#du-7-au-9">Du 7 au 9 : 15</a></p>
+<p><a href="#section">10 : 15</a></p>
+<p><a href="#section-1">11 : 15</a></p>
+<p>[]{#_Toc56694768 .anchor}<strong>Modalités</strong> : Concevoir un site internet et
+une application de support type back-end réservé à l&rsquo;administration du
+site.</p>
+<p>[]{#_Toc56694769 .anchor}<strong>Objectif du site</strong> : Réseau social permettant
+l&rsquo;échange entre utilisateurs.</p>
+<p>Données échangées : Fichier multimédia, texte.</p>
+<p>Type d&rsquo;échange possible :</p>
+<p>- Public : toutes personnes présentes sur le site</p>
+<p>- Semi-Privé : une personne à un groupe</p>
+<p>- Privé : Une personne partage un évènement pour elle-même ou pour une
+personne autorisée. [tchat 1 vs 1 : optionnel]</p>
+<p>Type d&rsquo;accès au site : Système de connexion sécurisée. Fonctionnalités
+pour utilisateur non-connecté à définir.</p>
+<h3 id="définition-en-méthodologie-scrum-">Définition en méthodologie Scrum :<a href="#définition-en-méthodologie-scrum-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<h4 id="backlog-pour-le-côté-admin">Backlog pour le côté admin:<a href="#backlog-pour-le-côté-admin" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>User Stories (US) 1 : En tant qu&rsquo;administrateur je dois valider
+l&rsquo;inscription d&rsquo;un client avec les informations qu&rsquo;il aura fournies
+soit :</p>
+<ul>
+<li>
+<p>Un email</p>
+</li>
+<li>
+<p>Un nom d&rsquo;utilisateur</p>
+</li>
+<li>
+<p>Un mot de passe</p>
+</li>
+</ul>
+<p>US 2 : En tant qu&rsquo;administrateur je dois pouvoir ajouter des
+fonctionnalités au site web,tel que des API, des fonts, des
+fonctionnalités.</p>
+<p>US 3 : En tant qu&rsquo;administrateur je dois pouvoir autoriser les
+modifications d&rsquo;un utilisateur sur ses données personnelles comme son
+mail ou son mot de passe.</p>
+<p>US 4 : En tant qu&rsquo;administrateur je dois pouvoir supprimer le compte
+d&rsquo;un utilisateur de la base de données.</p>
+<p>US 5 : En tant qu&rsquo;administrateur je dois pouvoir accéder à tous les
+utilisateurs.</p>
+<p>US 6 : En tant qu&rsquo;administrateur je dois pouvoir consulter tous les
+groupes constitués sur le site.</p>
+<p>US 7 : En tant qu&rsquo;administrateur je dois pouvoir liés des thèmes à des
+fonctionnalités [sous forme d&rsquo;ID]</p>
+<p>US 8 : En tant qu&rsquo;administrateur je dois pouvoir supprimer les messages
+malveillants qui m&rsquo;auront été signalés via le bouton de signalement.
+Cela au travers des règles qui auront été éditées sur le site.</p>
+<p>US 9 : En tant qu&rsquo;administrateur je dois pouvoir me logger pour accéder
+au back-end.</p>
+<p>US 10 : En tant qu&rsquo;administrateur je dois pouvoir envoyer des emails aux
+clients sanctionnées, ou qui souhaitent modifier des informations de
+log.</p>
+<h4 id="backlog-pour-le-côté-utilisateur-">Backlog pour le côté utilisateur :<a href="#backlog-pour-le-côté-utilisateur-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>User Stories (US) 1 : En tant qu&rsquo;utilisateur, je dois pouvoir consulter
+le site soit en étant logger ou en ne l&rsquo;étant pas.</p>
+<p>US 2 : En tant qu&rsquo;utilisateur, je dois pouvoir me créer un compte en
+fournissant un nom d&rsquo;utilisateur unique, un email n&rsquo;ayant jamais servie
+sur le site et un mot de passe sécurisé.</p>
+<p>US 3 : En tant qu&rsquo;utilisateur, je dois pouvoir modifier mon compte, le
+consulter et le supprimer.</p>
+<p>US 4 : En tant qu&rsquo;utilisateur, je dois pouvoir consulter des évènements
+auquel l&rsquo;accès m&rsquo;ait autorisé. En les sélectionnant par intérêt : thème,
+date ou créateur de l&rsquo;évènement.</p>
+<p>US 5 : En tant qu&rsquo;utilisateur, je dois pouvoir créer des évènements en
+fournissant un titre, un contenu.</p>
+<p>US 6 : En tant qu&rsquo;utilisateur, modifier des évènements que j&rsquo;ai créés.</p>
+<p>US 7 : En tant qu&rsquo;utilisateur, je peux consulter des évènements auquel
+j&rsquo;ai le droit d&rsquo;accès.</p>
+<p>US 8 : En tant qu&rsquo;utilisateur, je peux supprimer des évènements que j&rsquo;ai
+créés.</p>
+<p>US 9 : En tant qu&rsquo;utilisateur, je dois choisir qui j&rsquo;autorise à
+consulter et participer aux évènements que j&rsquo;ai créés.</p>
+<p>US 10 : En tant qu&rsquo;utilisateur, je peux participer à des évènements en
+ajoutant des évènements à un évènement.</p>
+<p>US 11 : En tant qu&rsquo;utilisateur, je dois pouvoir signaler un message que
+je considère bafouer les règles du site.</p>
+<p>US 12 : En tant qu&rsquo;utilisateur, je peux consulter tous les évènements
+que j&rsquo;ai postés.</p>
+<p>US 13 : En tant qu&rsquo;utilisateur, je peux consulter tous les évènements
+que j&rsquo;ai postés ainsi que les réponses y apporter [Répondre à un
+évènement fait que les participants à cet évènement sont par défaut
+autorisés à consulter l&rsquo;évènement].</p>
+<p>US 14 : En tant qu&rsquo;utilisateur, je peux choisir les thèmes qui
+m&rsquo;intéressent (à défaut thème imposé)</p>
+<p>US 15 : En tant qu&rsquo;utilisateur, je peux choisir les fonctionnalités que
+je veux avoir sur ma page (à défaut fonctionnalités basiques)</p>
+<p>US 16 : En tant qu&rsquo;utilisateur, je peux me connecter et me déconnecter.</p>
+<p>LES ressources :</p>
+<p><a href="https://www.nutcache.com/fr/blog/quest-ce-quun-backlog-scrum/">Backlog
+scrum</a></p>
+<h3 id="la-conception-du-mcd-">La conception du MCD :<a href="#la-conception-du-mcd-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>[Outils utilisés]{.ul} : Power AMC et Power Designer</p>
+<p>Le MCD a été pensé avec au centre le membre du site. Des pôles se sont
+dégagés :</p>
+<ul>
+<li>
+<p>L&rsquo;administration du site</p>
+</li>
+<li>
+<p>Les évènements</p>
+</li>
+<li>
+<p>Les groupes</p>
+</li>
+</ul>
+<p>La conception du MCD a permis en plus de faire ressortir des pôles, de
+définir les fonctionnalités de notre application.</p>
+<p>Nous avons choisi d&rsquo;étendre notre application sur deux serveurs. Ce
+choix a aussi impacté notre conception du MCD.</p>
+<h3 id="base-de-données">Base de données :<a href="#base-de-données" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>[Microsoft SQL Server :]{.ul}</p>
+<p>Base de données SQL et relationnelle, nous permet d&rsquo;avoir une gestion
+par entité. Ce qui nous semble essentiel pour la gestion des clients
+(répétition des modèles : login/mot de passe) et a démontré son
+efficacité en terme de sécurité.</p>
+<p>Nous avons aussi choisi de positionner tous les éléments liés au site
+web dans notre base de données SQL. En plus d&rsquo;offrir une gestion
+dynamique de notre application, cela permet une atteinte plus rapide de
+nos éléments, sans besoin de plus de contrôle.</p>
+<p>[Mongo DB :]{.ul}</p>
+<p>La BDD Mongo DB semble la plus adaptée au projet. Notre application
+étant un réseau social avec gestion de médias et échanges. La rapidité
+d&rsquo;accès aux éléments stockés dans la base, et la souplesse des données à
+pouvoir stocker dans MongoDB nous a convaincu de choisir cette base de
+données.</p>
+<p>MongoDB bénéficie de passerelles avec Spring Boot que nous avons décidé
+d&rsquo;utiliser. La gestion Base de données &ndash; métier en est ainsi facilitée.</p>
+<h4 id="schéma-mongodb-">Schéma MongoDB  :<a href="#schéma-mongodb-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>User Document ([</p>
+<p>{ _id : &lt;Object_id&gt;,</p>
+<p>Username : &lt;Caractère&gt;}])</p>
+<p>Event Document([</p>
+<p>{_id : &lt;Object_id&gt;,</p>
+<p>User_id&lt;Object_id&gt;,</p>
+<p>Content :&lt;Object/string&gt;,</p>
+<p>Type : &lt;Caractère&gt;,</p>
+<p>Date :&lt;Date&gt;,</p>
+<p>Titre :&lt;String&gt;}])</p>
+<p>Comment Document([</p>
+<p>{_id : &lt;Object_Id&gt;,</p>
+<p>User_id : &lt;Object_Id&gt;,</p>
+<p>Event_id : &lt;Object_Id&gt;,</p>
+<p>Content : &lt;String&gt;}])</p>
+<p>Group Document([</p>
+<p>{_id :&lt;Object_Id&gt;,</p>
+<p>Members : ([</p>
+<p>{ User Document ([</p>
+<p>{ _id : &lt;Object_id&gt;,</p>
+<p>Username : &lt;Caractère&gt;}])</p>
+<p>}])</p>
+<p>Description : &lt;String&gt;}])</p>
+<p>LES ressources :</p>
+<p><a href="https://openclassrooms.com/fr/courses/4462426-maitrisez-les-bases-de-donnees-nosql/4474601-decouvrez-le-fonctionnement-de-mongodb">Maîtrisez les bases de données
+NoSQL</a></p>
+<h4 id="la-gestion-de-deux-bases-de-données">La gestion de deux bases de données :<a href="#la-gestion-de-deux-bases-de-données" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>Nous avons dû rechercher la fiabilité de cette pratique. Cela nous a été
+confirmé par des professionnels du métier. Grâce aux fichiers de
+configuration que nous allons éditer dans notre création de projet
+s&rsquo;appuyant sur Maven, le mappage vers deux bases de données est
+grandement facilitée.</p>
+<p>LES ressources :</p>
+<p><a href="https://o7planning.org/fr/11773/tutoriel-spring-boot-et-mongodb">tutoriel-spring-boot-et-mongodb</a></p>
+<h3 id="choix-de-larchitecture-nouveauté-">Choix de l&rsquo;architecture (nouveauté)  :<a href="#choix-de-larchitecture-nouveauté-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Packages-by-feature : Organisation en couche métiers. Moins répandue
+mais plus adaptée à la conception en micro-services. (notion à définir).</p>
+<p><img src="media/image1.png" alt="">{width=&ldquo;2.7399660979877516in&rdquo;
+height=&ldquo;4.7194083552056in&rdquo;}</p>
+<p>Modèle MVC : Très répandue. Modèle connue est facile à déployer.
+Particulièrement intéressant pour la duplication.</p>
+<p><img src="media/image2.png" alt="">{width=&ldquo;3.021255468066492in&rdquo;
+height=&ldquo;4.7194083552056in&rdquo;}</p>
+<h4 id="larchitecture-de-lapplication-web-angular-nouveauté-">L&rsquo;architecture de l&rsquo;application web Angular (nouveauté)  :<a href="#larchitecture-de-lapplication-web-angular-nouveauté-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>Est nativement organisé par package by features. Chaque page (ou
+application language Angular) est indépendante.</p>
+<h4 id="larchitecture-du-front-spring----jpa---javafx-nouveauté-">L&rsquo;architecture du front Spring &ndash; JPA &ndash;JavaFX  (nouveauté) :<a href="#larchitecture-du-front-spring----jpa---javafx-nouveauté-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>Gagne en simplicité à être déployé en package MVC.</p>
+<p>LES ressources :</p>
+<p><a href="https://dzone.com/articles/project-package-organization">Informations sur
+l'architecture</a></p>
+<h3 id="la-modularité-des-fonctionnalités-du-site">La modularité des fonctionnalités du site :<a href="#la-modularité-des-fonctionnalités-du-site" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Modularité adaptative selon les requêtes des utilisateurs connectés.</p>
+<p>Liste non-exhaustive des possibles :</p>
+<ul>
+<li>
+<p>Choix du font</p>
+</li>
+<li>
+<p>Choix des API déployées selon les intérêts</p>
+</li>
+<li>
+<p>Choix du chiffrage durant le chat</p>
+</li>
+<li>
+<p>Choix de la conservation des données (persistance des messages par
+exemple. Ou suppression des évènements à une durée définie)</p>
+</li>
+<li>
+<p>Choix des implémentations : fbook, google, etc&hellip;</p>
+</li>
+</ul>
+<p>[]{#_Toc56694775 .anchor}<strong>Les technos</strong> :</p>
+<p>Nous aurons deux sets de techno. Une pour le back-end et une autre pour
+le front.</p>
+<h3 id="back-endnouveauté">Back-end (nouveauté):<a href="#back-endnouveauté" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Réservé à l&rsquo;administration du site.</p>
+<p>Le Back-end en JavaFX . Les problèmes de comptabilité sont pour
+l&rsquo;instant un frein à la conception avec IntelliJ et à l&rsquo;intégration par
+SpringBoot &ndash; Maven.</p>
+<p>Retour donc sur Java 8 et IntelliJ.</p>
+<p>L&rsquo;utilisation de Java 8 permet d&rsquo;exploiter Spring.</p>
+<p>L&rsquo;articulation Java Fx et Spring a représenté un vrai défi. Le mélange
+de deux technologie avec des starters propres s&rsquo;est révélé assez
+complexe.</p>
+<p>De plus, les tests unitaires se sont montrés indispensable. Nous
+utilisons JUnit inclut de base grâce à Spring.</p>
+<h3 id="larchitecture-du-back-nouveauté">L&rsquo;architecture du back (nouveauté) :<a href="#larchitecture-du-back-nouveauté" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p><img src="media/image3.png" alt="">{width=&ldquo;3.9479166666666665in&rdquo;
+height=&ldquo;6.572916666666667in&rdquo;}</p>
+<p>[]{#_Toc56694778 .anchor}<strong>Les fonctionnalités du Back-End</strong> :</p>
+<p>[Administration système]{.ul} :</p>
+<ol>
+<li>&ndash; Compte personnel :</li>
+</ol>
+<p>- Le mot de passe doit pouvoir être modifié</p>
+<p>- Affichage en label du nom de l&rsquo;administrateur.</p>
+<p>- Sous forme de ComboBox : les WebContent en gestion : jsp ce que c&rsquo;est</p>
+<p>2 &ndash; Configuration rôle administrateur</p>
+<p>-Liste des administrateurs sous forme de tableau</p>
+<p>- Liste des rôles possible</p>
+<p>3 &ndash; Etat du système</p>
+<p>-A définir quand le site sera en place</p>
+<p>4- Les logs</p>
+<p>Faire un renvoi vers le fichier des logs. Hyperlien simple</p>
+<p>[Gestion des utilisateurs et des groupes]{.ul} :</p>
+<p>[Utilisateur]{.ul} :</p>
+<p>Espace recherche d&rsquo;un utilisateur : par son login, par ses évènements,
+par son statut.</p>
+<p>Tableau scrollable avec tous les utilisateurs.</p>
+<p>Espace modération d&rsquo;un utilisateur :</p>
+<p>A définir</p>
+<p>[Groupe]{.ul} :</p>
+<p>Espace recherche d&rsquo;un groupe : par son nom, par son nombre de
+participants, par son id, par ses mots-clef</p>
+<p>Espace modération d&rsquo;un groupe :</p>
+<p>A définir</p>
+<p>[En attente de validation]{.ul} :</p>
+<p>Espace modération Evènement : tableau</p>
+<p>Espace modération Commentaires : tableau</p>
+<p>Espace modération Client : tableau (méthode à définir)</p>
+<p>Validation création de compte</p>
+<p>[Gestion de l&rsquo;application web :]{.ul}</p>
+<p>Liste des API en Combo Box : quand sélectionner affichage dans un
+tableau avec Id/Nom/Description</p>
+<p>Liste des Fonts en Combo Box : quand sélectionner affichage dans un
+tableau avec Id/Nom/Description</p>
+<p>Liste des Images en Combo Box : quand sélectionner affichage dans un
+tableau avec Id/Nom/Description</p>
+<p>Liste des pages du site en Combo Box : quand sélectionner affichage dans
+un tableau avec Id/Nom/Description</p>
+<p>----------------------------------------------------------------------------------------------------------------------</p>
+<p>Liste des préférences avec un système d&rsquo;association : Voir avec le
+système de tree enfant/parent</p>
+<p>LES ressources :</p>
+<p><a href="https://youtu.be/kUwo3dTv75s">Tuto Java FX Les teachers du net</a></p>
+<p><a href="https://o7planning.org/fr/11533/ouvrir-une-nouvelle-fenetre-window-dans-javafx">Pas à pas Java
+FX</a></p>
+<p><a href="https://koor.fr/Java/TutorialJEE/jee_jpa_introduction.wp">Tutoriel JPA</a></p>
+<p>Permet de gérer : les utilisateurs et leurs logs, les administrateurs et
+leurs logs, les fonctionnalités du site, les images du site. En résumé
+tout ce qui concerne l&rsquo;architecture du site web.</p>
+<p>[]{#_Toc56694779 .anchor}<strong>Les API&rsquo;s</strong> :</p>
+<p>Ce sont elles qui vont nous permettre de faire le lien entre notre back
+(et ses méthodes) et notre front.</p>
+<p>Plusieurs particularités :</p>
+<p>Nous avons une double base de données et donc une répartition
+idiopathique de nos ressources. Nous voulons éviter au maximum la
+duplication de code.</p>
+<p><strong>Les Rest Controller</strong> :</p>
+<p>Nous avons été confronté à l&rsquo;aspect difficilement compréhensible du
+retour d&rsquo;erreur. Nous avons donc utilisé ce tuto afin d&rsquo;offrir une
+verbosité plus adaptée à nos retour d&rsquo;erreur.</p>
+<p><a href="https://www.toptal.com/java/spring-boot-rest-api-error-handling">https://www.toptal.com/java/spring-boot-rest-api-error-handling</a></p>
+<h3 id="front-end-nouveauté-">Front-end (nouveauté)  :<a href="#front-end-nouveauté-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Plusieurs choix : Déployer le site avec Symfony qui permet d&rsquo;accéder à
+des fonctionnalités complètes et avoir un site clef en main. Mais notre
+formation orientée vers la conception d&rsquo;applications, nous demande de
+pouvoir penser et créer un site de A à Z.</p>
+<p>Nous avons donc choisi de nous orienter vers Angular et [Spring]{.ul}
+Boot.</p>
+<p>Pour le choix d&rsquo;Angular, nous avons fait un vote car les frameworks JS
+sont nombreuses et amènent leurs lots d&rsquo;avantages et d&rsquo;inconvénients.</p>
+<p>Angular est un framework décrit comme solide et ayant une grande
+communauté. C&rsquo;est pour cela que nous l&rsquo;avons choisi. De plus son
+déploiement avec Spring Boot est parfaitement optimisé.</p>
+<p>Nous avons choisi de faire un : Site en SPA (Single Page), conception
+plus dynamique et moderne.</p>
+<p>[]{#_Toc56694781 .anchor}<strong>L&rsquo;architecture du front (nouveauté)</strong> :</p>
+<p>Un choix d&rsquo;architecture :</p>
+<p><img src="media/image4.png" alt="https://media.discordapp.net/attachments/768871458151333929/773842376812658688/unknown.png">{width=&ldquo;4.947916666666667in&rdquo;
+height=&ldquo;6.010416666666667in&rdquo;}</p>
+<p>LES ressources :</p>
+<p><a href="https://github.com/marco76/java-demo">Java et Angular Demo</a></p>
+<p><a href="https://gkemayo.developpez.com/tutoriels/java/tutoriel-sur-creation-application-web-avec-angular7-et-spring-boot-2/">tutoriel-sur-creation-application-web-avec-angular7-et-spring-boot-2/</a></p>
+<p><a href="https://www.javaguides.net/2019/06/spring-boot-angular-7-crud-example-tutorial.html?m=1">spring-boot-angular-7-crud-example-tutorial</a></p>
+<p>Spring est favorisé à NodeJS car pour l&rsquo;échange de fichiers multimédia
+il est plus adapté. Node n&rsquo;est pas fait pour les échanges de fichiers
+volumineux.</p>
+<p>De plus, Spring est plus fiable en termes de sécurité et bénéficie de
+librairies de sécurisation.</p>
+<p>LES ressources :</p>
+<p><a href="https://tiddlywiki.com/">Exemple de SPA Didactique</a></p>
+<p><a href="https://www.creative-tim.com/templates/angular-free">Qques templates
+gratuits</a></p>
+<p><a href="https://medium.com/akveo-engineering/top-9-free-admin-angular-9-and-bootstrap-4-dashboard-templates-2020-ff9f6d78428">D'autres</a></p>
+<p>Des gadgets bootstrap :</p>
+<p><a href="http://angular-ui.github.io/bootstrap/">Des outils utiles (gestion date/boutons
+etc...)</a></p>
+<p><a href="http://nakupanda.github.io/bootstrap3-dialog/">évènement en modal avec
+Bootstrap</a></p>
+<p><a href="http://ashleydw.github.io/lightbox/">Gestion des images/vidéos/inclusion image
+rs</a></p>
+<p><a href="http://bootstraptour.com/">Boostrap tour du siteWeb</a></p>
+<h3 id="les-api">Les API :<a href="#les-api" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>C&rsquo;est grâce à elle que notre site sera modulaire.</p>
+<p>LES ressources :</p>
+<p><a href="https://openclassrooms.com/fr/courses/3306901-creez-des-pages-web-interactives-avec-javascript/3722361-utilisez-des-api-web">Cours Intégration
+API</a></p>
+<p><a href="https://github.com/public-apis/public-apis">Liste d'API publique</a></p>
+<p><a href="https://z.musictools.live/">Exemple d'API OpenSource si intérêt
+musique</a></p>
+<p><a href="https://blog.bitsrc.io/vs-codes-rest-client-plugin-is-all-you-need-to-make-api-calls-e9e95fcfd85a">Pour aller plus loin :
+REST</a></p>
+<h1 id="planning">Planning :<a href="#planning" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Il serait intéressant de réfléchir à répartir certaines tâches en deux
+groupes. Cela nous permettrait de doubler notre temps de travail. Ces
+moments sont représentés par la notation (1) et (2) face aux tâches.</p>
+<p>[]{#_Toc56694784 .anchor}<strong>Avant le 9/11</strong> :</p>
+<p>Front-end (1) - Back-end (2) : Faire MCD &ndash; Diagramme de cas
+d&rsquo;utilisation : optionnel -</p>
+<p>Définition architecture du site</p>
+<p>[]{#_Toc56694785 .anchor}<strong>Semaine du 9</strong> :</p>
+<p>Diagramme de classe : essentiel (Retard. Elaboré le10/11)</p>
+<p>(1) Faire le back-end en Spring et Java FX.</p>
+<p>Le diagramme de classe aide à définir les actions demandées à
+l&rsquo;administration du site.</p>
+<p><em><strong>Point groupe</strong></em> : remise en question sur les choix concernant la
+génération des classes. De plus les validations n&rsquo;ont pas été faîtes
+correctement. Le MCD n&rsquo;a pas été validé, ce qui a entraîné du retard
+pour la génération du script de la base de données.</p>
+<p>Le diagramme de classe a été fait une première fois de manière bancale
+puisque le MCD n&rsquo;est pas finale.</p>
+<p>Le diagramme de classe a montré les faiblesses du MCD, des données
+importantes ne sont pas intégrées.</p>
+<p>(2) Choix du Bootstrap. Apprentissage Angular et Mongo DB.</p>
+<p><a href="https://www.ganatan.com/tutorials/bootstrap-avec-angular">Site de prototypage optionnel mais peut-être
+utile</a></p>
+<p>[]{#_Toc56694786 .anchor}<strong>Semaine du 16</strong> :</p>
+<p>(1) Apprentissage Angular et Mongo DB. Regard et modification sur
+l&rsquo;architecture du site</p>
+<p>(2) Listing des fonctionnalités de bases à implémenter. Apprentissage
+du socket Java pour le chat</p>
+<p>---</p>
+<p>Conception de la BDD Mongo DBB (pour les deux groupes)</p>
+<p>[]{#_Toc56694787 .anchor}<strong>Semaine du 23</strong> :</p>
+<p>- BDD Mongo DBB doit être fonctionnelle</p>
+<p>- Architecture du site doit être fixée</p>
+<p>- Répartition des pages à chacun</p>
+<p>[]{#_Toc56694788 .anchor}<strong>Semaine du 30</strong> :</p>
+<h3 id="du-30-au-2">Du 30 au 2 :<a href="#du-30-au-2" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Travail individuel sur ses pages attribuées.</p>
+<p>[]{#_Toc56694790 .anchor}<strong>Du 3 au 4</strong> :</p>
+<p>Mise en commun des pages. Résolutions des conflits (GIT et au
+déploiement).</p>
+<p>[]{#_Toc56694791 .anchor}<strong>Semaine du 7</strong> :</p>
+<h3 id="du-7-au-9">Du 7 au 9 :<a href="#du-7-au-9" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>La mise en commun de toutes les parties doit permettre d&rsquo;avoir un site
+fonctionnel. Conflits doivent être résolus.</p>
+<p>Génération de la Java Doc, plus conception d&rsquo;un index HTML stylisé avec
+CSS (nous pourrons nous servir de l&rsquo;architecture élaboré la semaine du
+9) .</p>
+<h3 id="10">10 :<a href="#10" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>(1) Fin de la résolution des conflits</p>
+<p>(2) Edition du PPT avec Prezi : <a href="https://prezi.com/i/create/slides">https://prezi.com/i/create/slides</a></p>
+<p>Tout le monde : doit préparer sa présentation orale.</p>
+<h3 id="11">11 :<a href="#11" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Réserver à la présentation du projet. Cette journée devra servir à faire
+un tour du site en groupe. Puis à faire une sorte d&rsquo;oral blanc.</p>
+<p>Pour la présentation, le temps se répartir de manière égale entre chaque
+participant. Durant cet oral blanc, nous établiront l&rsquo;ordre de passage,
+et la partie qui sera présentée.</p>
+
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2021 <a href="https://charlene19.github.io/secondBrain/">Charlène</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://charlene19.github.io/secondBrain/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://charlene19.github.io/secondBrain/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

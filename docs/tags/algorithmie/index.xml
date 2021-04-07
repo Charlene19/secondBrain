@@ -34,5 +34,17 @@ Définition de la notation Θ (grand thêta) : étant donnée une fonction f(
 En d&#39;autres mots : Θ(f(n))=Ω(f(n))∩O(f(n))</description>
     </item>
     
+    <item>
+      <title>Algorithmie cours</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/coursalgo/</link>
+      <pubDate>Fri, 01 Nov 2019 19:47:46 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/coursalgo/</guid>
+      <description>Quatre algorithme étudié :
+L&amp;rsquo;invariant de boucle : Invariant qui est vraie avant et après chaque répétition.
+Définition de la notation Θ (grand thêta) : étant donnée une fonction f(n), Θ(f(n)) est l&#39;ensemble des fonctions g(n) telles qu&#39;il existe une constante positive réelle c, une constante positive réelle d, et un entier non négatif N tel que pour tout n&amp;gt;N, c× f(n) ≤ g(n) ≤ d × f(n).
+En d&#39;autres mots : Θ(f(n))=Ω(f(n))∩O(f(n))</description>
+    </item>
+    
   </channel>
 </rss>

@@ -22,11 +22,35 @@ JavaScript actions decouple the GitHub Actions code from the environment allowin
     </item>
     
     <item>
+      <title>GitHub Action : Tuto GitLab</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/20210319095430-githubaction/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/20210319095430-githubaction/</guid>
+      <description>COurs sur les GitHub WorkFlow.
+Il y a deux types d&amp;rsquo;actions : Container actions ou Js Actions.
+ Docker container actions allow the environment to be packaged with the GitHub Actions code and can only execute in the GitHub-Hosted Linux environment.
+JavaScript actions decouple the GitHub Actions code from the environment allowing faster execution but accepting greater dependency management responsibility.
+  jobs: is the base component of a workflow run build: is the identifier we&amp;rsquo;re attaching to this job name: is the name of the job, this is displayed on GitHub when the workflow is running runs-on: defines the type of machine to run the job on.</description>
+    </item>
+    
+    <item>
       <title>Gist</title>
       <link>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</link>
       <pubDate>Tue, 16 Mar 2021 00:00:00 +0100</pubDate>
       
       <guid>https://charlene19.github.io/secondBrain/posts/20210317111323-gist/</guid>
+      <description>Création d&amp;rsquo;un gist.
+Il est possible de créer un gist public ou privé. Je vais laisser le scrapperPe en pv pour l&amp;rsquo;instant.
+Il suffit juste d&amp;rsquo;aller sur l&amp;rsquo;onglet Gist de sa page gh et copier-coller son snippets et c&amp;rsquo;est bon.</description>
+    </item>
+    
+    <item>
+      <title>Gist</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/20210317111323-gist/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/20210317111323-gist/</guid>
       <description>Création d&amp;rsquo;un gist.
 Il est possible de créer un gist public ou privé. Je vais laisser le scrapperPe en pv pour l&amp;rsquo;instant.
 Il suffit juste d&amp;rsquo;aller sur l&amp;rsquo;onglet Gist de sa page gh et copier-coller son snippets et c&amp;rsquo;est bon.</description>

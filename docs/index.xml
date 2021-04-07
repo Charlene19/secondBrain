@@ -39,6 +39,16 @@ Ma connaissance de ces deux technos vont me permettre de remanier ce programme q
     </item>
     
     <item>
+      <title>Sentiment Analysis</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/20210331151745-sentimentanalysis/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/20210331151745-sentimentanalysis/</guid>
+      <description>Je vais reprendre l&amp;rsquo;appli de Aboullaite Med. Le principe est de faire un analyseur de sentiments en s&amp;rsquo;appuyant sur standfordCore Nlp : Cette bibliothèque de nlp pour Java. L&amp;rsquo;appli est sur deux volets. Un back-end : Avec spring boot Un frontend : ReactJs
+Ma connaissance de ces deux technos vont me permettre de remanier ce programme qui est pour l&amp;rsquo;instant est fonctionnel. Mais qui contient plusieurs choses à améliorer : le front, l&amp;rsquo;analyse des sentiments n&amp;rsquo;est pas disponible en français avec la bibli.</description>
+    </item>
+    
+    <item>
       <title>Ash</title>
       <link>https://charlene19.github.io/secondBrain/neworleans/20210330091948-ash/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
@@ -56,6 +66,16 @@ Les articles d&amp;rsquo;Ash Morris ne sont vraiment pas consensuels. C&amp;rsqu
       <guid>https://charlene19.github.io/secondBrain/posts/20210330091948-ash/</guid>
       <description>Je vais commencer une série d&amp;rsquo;analyse à propos des écrits de Ashley Morris. Ash est un blogger des années 2000 qui vivaient à la Nouvelle-Orléans et qui s&amp;rsquo;est fait connaître pour ses célebres coup de gueule. Son personnage a été repris dans la série Treme.
 Les articles d&amp;rsquo;Ash Morris ne sont vraiment pas consensuels. C&amp;rsquo;est d&amp;rsquo;ailleurs pour ça, je pense, qu&amp;rsquo;il a eu un tel succès. Petu-être aussi à cause de la rareté des blogs à cette époque.</description>
+    </item>
+    
+    <item>
+      <title>Silvanus Thompson</title>
+      <link>https://charlene19.github.io/secondBrain/litterature/20210330093307-silvanusthompson/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/litterature/20210330093307-silvanusthompson/</guid>
+      <description>Thompson fait partie de ces découvertes qui rendent plaisante l&amp;rsquo;apprentissage des maths. Tout comme Mr Rouget ou Ivan Savov, je trouve cette pédagogie d&amp;rsquo;apprentissage très plaisante. Et efficace contrairement à wikiversité qui est vraiment mal foutue pour les maths.
+Calculus Made Easy est encore plus intéressant parce qu&amp;rsquo;il y a un aspect philosophique dans le méta-apprentissage. Mon propos n&amp;rsquo;est pas clair mais peut être illustrer par le prologue :</description>
     </item>
     
     <item>
@@ -79,37 +99,13 @@ Calculus Made Easy est encore plus intéressant parce qu&amp;rsquo;il y a un asp
     </item>
     
     <item>
-      <title>Stiegler</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</link>
-      <pubDate>Fri, 19 Mar 2021 00:00:00 +0100</pubDate>
+      <title>Premiere compétition Kaggle</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/20210322115253-premiere/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0100</pubDate>
       
-      <guid>https://charlene19.github.io/secondBrain/posts/20210320094405-stiegler/</guid>
-      <description>Suite à l&amp;rsquo;écoute des deux interviews de Stiegler chez Thinkerview, j&amp;rsquo;ai repéré deux choses. La première, j&amp;rsquo;aimerais me rapprocher de son institut de recherche scientifique. Je n&amp;rsquo;ai pas très bien compris ce qui s&amp;rsquo;y fait. Mais l&amp;rsquo;idée d&amp;rsquo;utilisation de datas pour redonner la place est intéressante. Il est possible que ça soit une coquille vide mais quand même.
-La deuxième chose est : Le ou les jardins de Pierre :</description>
-    </item>
-    
-    <item>
-      <title>GitHub Action : Tuto GitLab</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210319095430-githubaction/</guid>
-      <description>COurs sur les GitHub WorkFlow.
-Il y a deux types d&amp;rsquo;actions : Container actions ou Js Actions.
- Docker container actions allow the environment to be packaged with the GitHub Actions code and can only execute in the GitHub-Hosted Linux environment.
-JavaScript actions decouple the GitHub Actions code from the environment allowing faster execution but accepting greater dependency management responsibility.
-  jobs: is the base component of a workflow run build: is the identifier we&amp;rsquo;re attaching to this job name: is the name of the job, this is displayed on GitHub when the workflow is running runs-on: defines the type of machine to run the job on.</description>
-    </item>
-    
-    <item>
-      <title>Projet &#39;Recognizer emotional&#39;</title>
-      <link>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</link>
-      <pubDate>Wed, 17 Mar 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://charlene19.github.io/secondBrain/posts/20210317141628-projet/</guid>
-      <description>Projet construit à partir de cet article. Je ne sais pour l&amp;rsquo;instant pas quelle liberté je prendrais par rapport à lui. Les librairies : Librosa, SoundFile, NumPy, Scikit-Learn.
-En premier lieu, j&amp;rsquo;ai dû télécharger des samples de données, en l&amp;rsquo;occurence des voix sur kagle. Puis définir un dictionnaire de données dans mon fichier. Afin de tester et faire progresser au mieux mon programme, j&amp;rsquo;ai sélectionné 3 émotions.
-emotion_labels = { &#39;01&#39;: &#39;neutral&#39;, &#39;02&#39;: &#39;calm&#39;, &#39;03&#39;: &#39;happy&#39;, &#39;04&#39;: &#39;sad&#39;, &#39;05&#39;: &#39;angry&#39;, &#39;06&#39;: &#39;fearful&#39;, &#39;07&#39;: &#39;disgust&#39;, &#39;08&#39;: &#39;surprised&#39; } focused_emotion_labels = [&#39;happy&#39;, &#39;sad&#39;, &#39;angry&#39;] Extraction</description>
+      <guid>https://charlene19.github.io/secondBrain/programmation/20210322115253-premiere/</guid>
+      <description>Les consignes :
+ 1- Build a Random Forest model with all of your data (X and y). 2- Read in the &amp;ldquo;test&amp;rdquo; data, which doesn&amp;rsquo;t include values for the target. Predict home values in the test data with your Random Forest model. 3- Submit those predictions to the competition and see your score. 4- Optionally, come back to see if you can improve your model by adding features or changing your model.</description>
     </item>
     
   </channel>

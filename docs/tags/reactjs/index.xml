@@ -18,5 +18,15 @@
 Ma connaissance de ces deux technos vont me permettre de remanier ce programme qui est pour l&amp;rsquo;instant est fonctionnel. Mais qui contient plusieurs choses à améliorer : le front, l&amp;rsquo;analyse des sentiments n&amp;rsquo;est pas disponible en français avec la bibli.</description>
     </item>
     
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://charlene19.github.io/secondBrain/programmation/20210331151745-sentimentanalysis/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://charlene19.github.io/secondBrain/programmation/20210331151745-sentimentanalysis/</guid>
+      <description>Je vais reprendre l&amp;rsquo;appli de Aboullaite Med. Le principe est de faire un analyseur de sentiments en s&amp;rsquo;appuyant sur standfordCore Nlp : Cette bibliothèque de nlp pour Java. L&amp;rsquo;appli est sur deux volets. Un back-end : Avec spring boot Un frontend : ReactJs
+Ma connaissance de ces deux technos vont me permettre de remanier ce programme qui est pour l&amp;rsquo;instant est fonctionnel. Mais qui contient plusieurs choses à améliorer : le front, l&amp;rsquo;analyse des sentiments n&amp;rsquo;est pas disponible en français avec la bibli.</description>
+    </item>
+    
   </channel>
 </rss>

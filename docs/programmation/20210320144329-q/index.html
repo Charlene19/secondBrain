@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Q Learning">
+<meta itemprop="description" content="Technique d&rsquo;apprentissage qui ne nécessite aucun modèle initial de l&rsquo;environnement.
+ Un des points forts du {\displaystyle Q}Q-learning est qu&rsquo;il permet de comparer les récompenses probables de prendre les actions accessibles sans avoir de connaissance initiale de l’environnement. En d&rsquo;autres termes, bien que le système soit modélisé par un processus de décision markovien (fini), l&rsquo;agent qui apprend ne le connait pas et l&rsquo;algorithme du {\displaystyle Q}Q-learning ne l&rsquo;utilise pas.
+ Définition formelle :"><meta itemprop="datePublished" content="2020-03-21T00:00:00&#43;01:00" />
+<meta itemprop="dateModified" content="2020-03-21T00:00:00&#43;01:00" />
+<meta itemprop="wordCount" content="348">
+<meta itemprop="keywords" content="MachineLearning," /><meta property="og:title" content="Q Learning" />
+<meta property="og:description" content="Technique d&rsquo;apprentissage qui ne nécessite aucun modèle initial de l&rsquo;environnement.
+ Un des points forts du {\displaystyle Q}Q-learning est qu&rsquo;il permet de comparer les récompenses probables de prendre les actions accessibles sans avoir de connaissance initiale de l’environnement. En d&rsquo;autres termes, bien que le système soit modélisé par un processus de décision markovien (fini), l&rsquo;agent qui apprend ne le connait pas et l&rsquo;algorithme du {\displaystyle Q}Q-learning ne l&rsquo;utilise pas.
+ Définition formelle :" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://charlene19.github.io/secondBrain/programmation/20210320144329-q/" /><meta property="article:section" content="programmation" />
+<meta property="article:published_time" content="2020-03-21T00:00:00&#43;01:00" />
+<meta property="article:modified_time" content="2020-03-21T00:00:00&#43;01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Q Learning"/>
+<meta name="twitter:description" content="Technique d&rsquo;apprentissage qui ne nécessite aucun modèle initial de l&rsquo;environnement.
+ Un des points forts du {\displaystyle Q}Q-learning est qu&rsquo;il permet de comparer les récompenses probables de prendre les actions accessibles sans avoir de connaissance initiale de l’environnement. En d&rsquo;autres termes, bien que le système soit modélisé par un processus de décision markovien (fini), l&rsquo;agent qui apprend ne le connait pas et l&rsquo;algorithme du {\displaystyle Q}Q-learning ne l&rsquo;utilise pas.
+ Définition formelle :"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/secondBrain/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/secondBrain/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/secondBrain/favicon-16x16.png">
+	<link rel="manifest" href="/secondBrain/site.webmanifest">
+	<link rel="mask-icon" href="/secondBrain/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/secondBrain/favicon.ico">
+
+	<title>Q Learning</title>
+	<link rel="stylesheet" href="https://charlene19.github.io/secondBrain/css/style.min.f74778e3020c87c304fb5982e09b92ba63a5c7f202996d4c7283d6057acfe9c1.css" integrity="sha256-90d44wIMh8ME+1mC4JuSumOlx/ICmW1McoPWBXrP6cE=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://charlene19.github.io/secondBrain/">My Zettelkasten</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://charlene19.github.io/secondBrain/posts/">Posts</a>
+				<a href="https://charlene19.github.io/secondBrain/about-hugo/">About</a>
+				<a href="https://charlene19.github.io/secondBrain/programmation/">Programmation</a>
+				<a href="https://charlene19.github.io/secondBrain/sociologie/">Sociologie</a>
+				<a href="https://charlene19.github.io/secondBrain/litterature/">Litterature</a>
+				<a href="https://charlene19.github.io/secondBrain/neworleans/">New-Orleans</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://charlene19.github.io/" target="_blank" rel="noopener me" title="Website"><svg xmlns="http://www.w3.org/2000/svg" class="feather feather-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><a href="https://github.com/Charlene19/" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://charlene19.github.io/secondBrain/posts/">Posts</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/about-hugo/">About</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/programmation/">Programmation</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/sociologie/">Sociologie</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/litterature/">Litterature</a></li>
+			<li><a href="https://charlene19.github.io/secondBrain/neworleans/">New-Orleans</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>Q Learning</h1>
+		<div class="content">
+			<p>Technique d&rsquo;apprentissage qui ne nécessite aucun modèle initial de l&rsquo;environnement.</p>
+<blockquote>
+<p>Un des points forts du {\displaystyle Q}Q-learning est qu&rsquo;il permet de comparer les récompenses probables de prendre les actions accessibles sans avoir de connaissance initiale de l’environnement. En d&rsquo;autres termes, bien que le système soit modélisé par un processus de décision markovien (fini), l&rsquo;agent qui apprend ne le connait pas et l&rsquo;algorithme du {\displaystyle Q}Q-learning ne l&rsquo;utilise pas.</p>
+</blockquote>
+<p>Définition formelle :</p>
+<blockquote>
+<p>initialiser Q[s, a] pour tout état s, toute action a de façon arbitraire, mais Q(état terminal, a) = 0 pour tout action a</p>
+<p>répéter
+//début d&rsquo;un épisode
+initialiser l&rsquo;état s</p>
+<p>répéter
+//étape d&rsquo;un épisode
+choisir une action a depuis s en utilisant la politique spécifiée par Q (par exemple ε-greedy)
+exécuter l&rsquo;action a
+observer la récompense r et l&rsquo;état s'</p>
+<p>Q[s, a] := Q[s, a] + α[r + γ maxa' Q(s', a') - Q(s, a)]</p>
+<p>s := s'
+a := a'
+jusqu&rsquo;à ce que s soit l&rsquo;état terminal</p>
+</blockquote>
+<p>Il existe le double Q Learning</p>
+<blockquote>
+<p>Comme le Q-learning utilise l&rsquo;estimateur max, le Q-learning surestime la valeur des actions et de fait, dans des environnements bruités, l&rsquo;apprentissage est lent. Ce problème est résolu dans la variante appelée double Q-learning8 qui utilise deux fonctions d&rsquo;évaluation {\displaystyle Q<!-- raw HTML omitted -->A<!-- raw HTML omitted -->}{\displaystyle Q<!-- raw HTML omitted -->A<!-- raw HTML omitted -->}et {\displaystyle Q<!-- raw HTML omitted -->B<!-- raw HTML omitted -->}{\displaystyle Q<!-- raw HTML omitted -->B<!-- raw HTML omitted -->}apprises sur deux ensembles d&rsquo;expériences différents. La mise à jour se fait de façon croisée :</p>
+<p>{\displaystyle Q<!-- raw HTML omitted -->t+1<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)=Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)+α _{t}(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\left(r<!-- raw HTML omitted -->t<!-- raw HTML omitted -->+γ ~Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->\left(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,\mathop {\operatorname {arg~max} } _{a}Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,a)\right)-Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\right)}{\displaystyle Q<!-- raw HTML omitted -->t+1<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)=Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)+α _{t}(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\left(r<!-- raw HTML omitted -->t<!-- raw HTML omitted -->+γ ~Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->\left(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,\mathop {\operatorname {arg~max} } _{a}Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,a)\right)-Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\right)}, et
+{\displaystyle Q<!-- raw HTML omitted -->t+1<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)=Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)+α _{t}(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\left(r<!-- raw HTML omitted -->t<!-- raw HTML omitted -->+γ ~Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->\left(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,\mathop {\operatorname {arg~max} } _{a}Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,a)\right)-Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\right).}{\displaystyle Q<!-- raw HTML omitted -->t+1<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)=Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)+α _{t}(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\left(r<!-- raw HTML omitted -->t<!-- raw HTML omitted -->+γ ~Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->A<!-- raw HTML omitted -->\left(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,\mathop {\operatorname {arg~max} } _{a}Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t+1<!-- raw HTML omitted -->,a)\right)-Q<!-- raw HTML omitted -->t<!-- raw HTML omitted --><!-- raw HTML omitted -->B<!-- raw HTML omitted -->(s<!-- raw HTML omitted -->t<!-- raw HTML omitted -->,a<!-- raw HTML omitted -->t<!-- raw HTML omitted -->)\right).}
+Comme la valeur estimée est évaluée en utilisant une autre politique, le problème de la surestimation est résolu. L&rsquo;apprentissage de l&rsquo;algorithme à ensemble peut être effectué en utilisant des techniques d&rsquo;apprentissage profond, ce qui donne les réseaux DQN (deep Q-networks, réseaux profonds Q). On peut alors avoir le Double DQN, pour obtenir de meilleures performances qu&rsquo;avec l&rsquo;algorithme DQN original9.</p>
+</blockquote>
+<p>Notes :</p>
+<p>La balance du Q Learning oscille entre 0 et 1. À 0, l&rsquo;agent n&rsquo;apprend rien et à 1 (qui est la valeur optimale) l&rsquo;agent agit sans apprentissage des différents états. (à vérifier).</p>
+
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2021 <a href="https://charlene19.github.io/secondBrain/">Charlène</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://charlene19.github.io/secondBrain/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://charlene19.github.io/secondBrain/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>
